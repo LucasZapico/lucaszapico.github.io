@@ -1,0 +1,148 @@
+/**-------------------------------**\
+**
+**       # TYPOGRAPHY #
+**Description: This file consists of SASS typography settings
+**
+\**-------------------------------**/
+
+/**
+**    FONT IMPORTS
+**/
+@import '_font.scss';
+
+
+
+/**
+**    HEADING TYPOGRAPHY VARS
+**
+**/
+
+/**
+**HEADING FONTS
+**/
+$h1-font: 'Raleway', 'Lato', sans-serif;
+$h2-font: 'Raleway', 'Lato', sans-serif;
+$h3-font: 'Raleway', 'Lato', sans-serif;
+$h4-font: 'Raleway', 'Lato', sans-serif;
+$h5-font: 'Raleway', 'Lato', sans-serif;
+$h6-font: 'Raleway', 'Lato', sans-serif;
+
+/**
+**HEADING SIZE
+**/
+$h1-size: 36px;
+$h2-size: 34px;
+$h3-size: 32px;
+$h4-size: 30px;
+$h5-size: 28px;
+$h6-size: 26px;
+
+/**
+**HEADING COLOR VARS
+**/
+$h1-color: $storm-primary;
+$h2-color: $black;
+$h3-color: $black;
+$h4-color: $black;
+$h5-color: $black;
+$h6-color: $black;
+
+
+/**
+**    BODY TYPOGRAPHY VARS
+**
+**/
+
+/**
+**BODY FONTS
+**/
+$body-font-primary:  'Raleway', 'Lato', 'Helvetica' sans-serif;
+$body-font-seconday:  'Raleway', 'Lato', 'Helvetica' sans-serif;
+$body-font-tertiary: 'Raleway', 'Lato', 'Helvetica' sans-serif;
+
+/**
+**BODY FONTS
+**/
+$body-size-primary: 16px;
+$body-size-seconday: 18px;
+$body-size-tertiary: 14px;
+
+/**
+**BODY COLOR VARS
+**/
+$body-color-primary: $glacier-quaternary;
+$body-color-seconday: $storm-quaternary;
+$body-color-tertiary: $storm-quaternary;
+
+/**
+*
+* Main typography styles
+* body,h1,h2,h3,h4,h5
+*
+**/
+
+h1,
+.h1 {
+  font-family: $h1-font;
+  font-weight: lighter;
+  font-size: 36px;
+  letter-spacing: 4px;
+}
+
+h2,
+.h2 {
+  font-family: $h2-font;
+  font-weight: lighter;
+  font-size: 30px;
+  letter-spacing: 4px;
+}
+
+h3,
+.h3 {
+  font-family: $h3-font;
+  font-weight: lighter;
+  font-size: 24px;
+  letter-spacing: 4px;
+}
+
+h4,
+.h4 {
+  font-family: $h4-font;
+  font-weight: lighter;
+  font-size: 18px;
+  letter-spacing: 4px;
+}
+
+h5,
+.h5 {
+  font-family: $h4-font;
+  font-weight: lighter;
+  font-size: 16px;
+  letter-spacing: 4px;
+}
+
+h6,
+.h6 {
+  font-family: $h4-font;
+  font-weight: lighter;
+  font-size: 14px;
+  letter-spacing: 4px;
+}
+
+.quotes {
+  font-family: $body-font-seconday;
+  font-style: italic;
+  font-size: 16px;
+  width: 50%;
+  margin: auto;
+}
+
+body,
+.body {
+  font-family: $body-font-primary;
+  font-weight: lighter;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #333;
+  background-color: #fff;
+}
