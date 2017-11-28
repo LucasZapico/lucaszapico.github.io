@@ -1,0 +1,39 @@
+/**-------------------------------**\
+**
+**        # STYLING OF THE TYPOGRAPHY SECTION #
+**
+\**-------------------------------**/
+
+.typography-section {
+  margin: 2em;
+
+  p {
+    margin-left: 2em;
+    margin-right: 2em;
+  }
+}
+
+.font-details {
+  padding-left: 2em;
+
+}
+
+.heading-details {
+  display: flex;
+  justify-content: space-around;
+
+  ul {
+
+  }
+
+  li {
+    list-style-type: none;
+    list-style-position: inside;
+  }
+}
+
+
+
+.px {
+  text-transform: lowercase;
+}
