@@ -1,0 +1,46 @@
+/**
+**
+**    FORMATING FOUNDATION
+**
+**/
+@import 'base/_reset.scss';
+@import 'base/_base.scss';
+@import 'base/_accessibility.scss';
+@import 'base/_layout-base.scss';
+@import 'base/_nav-base.scss';
+
+/**
+**
+**    STYLING FOUNDATION
+**    color palette, font imports, typography styles
+**/
+@import 'color-type-font/_font.scss';
+@import 'color-type-font/_typography-base.scss';
+@import 'color-type-font/_typography.scss';
+@import 'color-type-font/_color-palette.scss';
+
+/**
+**
+**    LAYOUTS
+**
+**/
+//@import 'layout/_layout.scss';
+
+/**
+**  HEADINGS
+**/
+//@import 'layout/_headings.scss';
+
+/**
+**  SECTION
+**/
+/******** COLOR-PALLET_SECTION *******/
+// @import 'layout/section/_section-1.scss';
+// @import 'layout/section/_section-2.scss';
+
+
+/***********************************/
+@import '_catch.scss';
+
+@import 'mort/_masthead.scss';
+@import 'mort/_holy-grail.scss';
