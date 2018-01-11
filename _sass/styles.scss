@@ -20,10 +20,18 @@
 @import 'color-type-font/_color-palette.scss';
 
 /**
+**  COMPONENTS
+**/
+@import 'components/_nav.scss';
+@import 'components/_sidebar.scss';
+
+/**
 **
 **    LAYOUTS
 **
 **/
+@import 'layouts/_masthead.scss';
+@import 'layouts/_home-layout.scss';
 //@import 'layout/_layout.scss';
 
 /**
@@ -42,5 +50,5 @@
 /***********************************/
 @import '_catch.scss';
 
-@import 'mort/_masthead.scss';
+
 @import 'mort/_holy-grail.scss';

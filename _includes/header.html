@@ -8,13 +8,22 @@
 
     <div class="centered">
       <div class="site-branding">
-        <h1 class="site-title">Flexbox Demo: Holy Grail Layouts</h1>
+        <h1 class="site-title">{{site.title}}</h1>
+        <p class="title-caption">
+          {{ site.title_caption }}
+        </p>
       </div>
       <!-- .site-title -->
     </div>
     <!-- .centered -->
-    <nav class="main-menu">
-      The menu would go here
+    <nav class="nav-main menu">
+      <ul>
+        {% for link in site.data.menu %}
+          <li>
+            <a href="{{site.baseurl}}{{link.href}}">{{ link.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
     </nav>
   </header>
   <!-- .masthead -->

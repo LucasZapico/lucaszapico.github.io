@@ -5,33 +5,6 @@
 \**-------------------------------**/
 
 
-/**
-**    NAV TREE TEST
-**/
-.nav {
-
-
-}
-
-.nav ul {
-  display: flex;
-  list-style-type: circle;
-  list-style-position: inside;
-  li{
-    margin: 2%;
-  }
-}
-
-.nav-tree {
-  width: 100%
-}
-
-.tree-root {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  align-content: space-between;
-}
 
 
 

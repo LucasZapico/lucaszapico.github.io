@@ -1,0 +1,17 @@
+.home-wrapper {
+  max-width: 1000px;
+  margin: auto;
+  section {
+    margin: .5em
+
+  }
+
+  .main-profile {
+    height: 10em;
+    width: 10em;
+    border-radius: 50%;
+    margin: auto;
+    object-fit: contain;
+
+  }
+}
