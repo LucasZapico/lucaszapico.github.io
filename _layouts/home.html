@@ -4,17 +4,58 @@ layout: default
 <div class="home-wrapper">
   <section id="about" class="about-section">
     <h2>About</h2>
-    <img id="main-image" class="main-profile" src="{{site.baseurl}}{{site.profile_image}}"/>
+    <img id="main-image" class="main-profile-img" src="{{site.baseurl}}{{site.profile_image}}"/>
+    <div class="social-links">
+      <a href="mailto:{{site.email}}"><i class="fas fa-envelope fa-lg"></i></a>
+      <a href="{{site.github_link}}"><i class="fab fa-github fa-lg"></i></a>
+      <a href="{{site.codepen_link}}"><i class="fab fa-codepen fa-lg"></i></a>
+      <a href="{{site.linkedin_link}}"><i class="fab fa-linkedin fa-lg"></i></a>
+      <a href="{{site.facebook_link}}"><i class="fab fa-facebook fa-lg"></i></a>
+      <a href=""><i class="fab fa-instagram fa-lg"></i></a>
+      <!-- <a href="http://www.flickr.com/photos/zlucas/"></a><i class="fab fa-flickr fa-lg"></i></a> -->
+    </div>
     <p>
-      Nam facilisis, lorem id pulvinar dictum, ex quam volutpat dolor, non imperdiet neque purus id arcu. Aliquam dictum quam ac neque scelerisque, vel scelerisque felis hendrerit. Sed bibendum, tortor sed ullamcorper ultricies, metus nisi condimentum nibh, in mattis neque urna ut tellus. Fusce mollis fermentum ligula, ut interdum lorem elementum eu. Nulla efficitur vehicula rutrum. Pellentesque quis est quis leo pharetra tempus. Nunc vestibulum aliquam blandit. Aliquam vitae elit eu massa mollis commodo at sit amet nibh. Sed varius nec enim sit amet auctor. Integer elementum est a enim egestas lobortis. Nam interdum purus id eros condimentum, a tincidunt velit luctus. Fusce at leo commodo, venenatis lacus et, facilisis lorem. Etiam volutpat, magna et vehicula fringilla, eros justo dictum metus, ac ornare sapien nisi vitae nulla. Duis blandit consectetur neque id pharetra. Quisque dapibus justo ac neque rhoncus, nec ornare mauris accumsan.
+    Mission:
+    My missions is to develope tools, systems and products
+    - estheic
+    - maintainable
+    - efficient
+    - module
+      A module systme is imparative to the design process for the implications of a module system. A module systme supports flow in the sence the semi-self contained components are much easier to grasp mentally and by extention maintain. Modules allow for aspect of a system to be iterated on so as to meet the pressure of a changing enviroment, be it the needs of customers, the technological dependecies. Thereby increasing the longevity of a product, which inturn maintain tains value and the place holder of value a monetary tender.
+    - concise
+    - explicit
+
     </p>
   </section>
   <section id="projects" class="project-section">
   <h2>Projects</h2>
+  <div class="project-wrapper">
+    {% for project in site.data.projects %}
+    <article class="project-content">
+      <div class="top-tile-content">
+        <h3>{{ project.title }}</h3>
+        <img src="{{site.baseurl}}/{{ project.img }}"/>
+      </div>
+      <p class="project-res">
+        {{ project.responsibility }}
+      </p>
+      <p class="project-des">
+        {{ project.description }}
+      </p>
+    </article>
+    {% endfor %}
+  </div>
   </section>
-  <section id="contact" class="contact-section">
-  <h2>Contact</h2>
+
+  <!-- <section id="workshop" class="workshop-section">
+  <h2>WorkShop</h2>
   </section>
-  <section id="skils" class="skills-section">
+  <section id="skills" class="skills-section">
+    <h2>Skills</h2>
+
+    <script src="{{site.baseurl}}/assets/JS/skill.js"></script>
+  </section> -->
+  <!-- <section id="contact" class="contact-section">
+  <h2>Contact</h2> -->
   </section>
 </div>

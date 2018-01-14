@@ -1,0 +1,33 @@
+- title: FreeBird Rides
+  img: assets/img/project-img/icons/freebird-icon.png
+  responsibility: Quality assurance, onboarding, and branding
+  description:  Freebird Rides is a multi-dimential customer aquistion tool integrating an extensive array of technologies.
+
+- title: LifeLines
+  img: assets/img/project-img/icons/lifelines-icon.png
+  responsibilities: Account Management, User Interface mobile and web, User Experience Design, Web Design and Quality Assurence
+  description: The project was an MVP web application with mobile component.
+
+# - title: Fantelope
+#   img: assets/img/project-img/icons/fantelope.jpeg
+#   description: Sed varius nec enim sit amet auctor. Integer elementum est a enim egestas lobortis. Nam interdum purus id eros
+
+- title: JAFRA
+  img: assets/img/project-img/icons/jafra-icon.png
+  responsibility: Front end web design
+  description: The project consisted of the porting of photoshop files into html and css
+
+- title: MyLücke
+  img: assets/img/project-img/icons/mylucke-icon.png
+  responsibility: Web design, Quality Assurance, and project management
+  description: Sed varius nec enim sit amet auctor. Integer elementum est a enim egestas lobortis. Nam interdum purus id eros
+
+- title: DadApp
+  img: assets/img/project-img/icons/dadapp-icon.png
+  responsibility: User interface design, user experience design, project managment
+  description: Sed varius nec enim sit amet auctor. Integer elementum est a enim egestas lobortis. Nam interdum purus id eros
+
+- title: AAC
+  img: assets/img/project-img/icons/aac-icon.png
+  responsibility: Content Management, Web Design, Hosting and Domain Management
+  description: The project consisted of web desing and Branding for a military grade drone design
