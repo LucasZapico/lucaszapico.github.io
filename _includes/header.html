@@ -1,13 +1,31 @@
-<header>
-  <div class="container-header">
-    <div class="top-img">
-      <img src="{{site.baseurl}}/assets/img/samuel-ferrara-270946.jpg"/>
-    </div>
-    <div class="masthead">
-      <h1 class="site-title">Bang Bang</h1></h1>
-    </div>
-  </div>
+ {% include head.html %}
 
-  {% include nav.html class="top-nav" %}
+<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
 
-</header>
+<div class="outer-wrap">
+
+  <header class="masthead">
+
+    <div class="centered">
+      <div class="site-branding">
+        <h1 class="site-title">{{site.title}}</h1>
+        <p class="title-caption">
+          {{ site.title_caption }}
+        </p>
+      </div>
+      <!-- .site-title -->
+    </div>
+    <!-- .centered -->
+    <nav class="nav-main menu">
+      <ul>
+        {% for link in site.data.menu %}
+          <li>
+            <a href="{{site.baseurl}}{{link.href}}">{{ link.title }}</a>
+          </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </header>
+  <!-- .masthead -->
+  <div class="content">
+    <main class="main-area">

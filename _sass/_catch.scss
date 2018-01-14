@@ -1,52 +1,5 @@
 /**-------------------------------**\
 **
 **        # CATCH #
-**
+**    This is a catch for elements and styles that I have not sorted yet
 \**-------------------------------**/
-
-/**------------------Header ------------------------**/
-
-header {
-  width: 100%;
-
-}
-
-.container-header {
-
-}
-
-.top-img {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  height: 10em;
-  box-shadow: 1px 1px 10px;
-  display: block;
-
-  img {
-    object-fit: cover;
-    height: 10em;
-    width: 100%;
-  }
-
-}
-
-.masthead {
-
-}
-
-  .site-title {
-    color: $storm-tertiary;
-    text-align: center;
-    opacity: 1;
-    margin: 200px;
-  }
-
-  .container-title {
-    // display: inline-block;
-    margin-top: 20em;
-    width: 100%;
-    height: 100px;
-    background-color: $white;
-    opacity: 0.8;
-    }
