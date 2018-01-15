@@ -15,16 +15,7 @@ layout: default
       <!-- <a href="http://www.flickr.com/photos/zlucas/"></a><i class="fab fa-flickr fa-lg"></i></a> -->
     </div>
     <p>
-    Mission:
-    My missions is to develope tools, systems and products
-    - estheic
-    - maintainable
-    - efficient
-    - module
-      A module systme is imparative to the design process for the implications of a module system. A module systme supports flow in the sence the semi-self contained components are much easier to grasp mentally and by extention maintain. Modules allow for aspect of a system to be iterated on so as to meet the pressure of a changing enviroment, be it the needs of customers, the technological dependecies. Thereby increasing the longevity of a product, which inturn maintain tains value and the place holder of value a monetary tender.
-    - concise
-    - explicit
-
+      Fusce elit justo, elementum a aliquam eu, ullamcorper quis tellus. Aliquam pretium nulla a sagittis tristique. Fusce ligula massa, hendrerit ut posuere ut, placerat id dolor. In tellus magna, vulputate quis blandit imperdiet, sollicitudin at neque. Donec scelerisque tellus eros, eget auctor massa imperdiet nec. Cras accumsan ipsum sit amet dui condimentum ultricies. Fusce vitae iaculis ante.
     </p>
   </section>
   <section id="projects" class="project-section">
@@ -47,21 +38,23 @@ layout: default
   </div>
   </section>
 
-  <!-- <section id="workshop" class="workshop-section">
+  <section id="workshop" class="workshop-section">
   <h2>WorkShop</h2>
-  <div class="project-wrapper">
-    <article class="project-content">
-      <div class="top-tile-content">
-        <h3>Project</h3>
+  <div class="project-wrapper workshop">
+    {% for workshop in site.data.workshop %}
+    <article class="project-content workshop">
+      <div class="top-tile-content workshop">
+        <h3>Style Guide</h3>
         <img src="{{site.baseurl}}/{{ project.img }}"/>
       </div>
 
-      <p class="project-des">
-        ules allow for aspect of a system to be iterated on so as to meet the pressure of a changing enviroment, be it the needs of customers, the technological dependecies. Thereby increasing the longevity of a product, which inturn maintain tains value and the place holder of value a monetary
+      <p class="project-des workshop">
+
       </p>
     </article>
+    {% endfor %}
   </div>
-  </section> -->
+  </section>
   <!-- <section id="skills" class="skills-section">
     <h2>Skills</h2>
 
