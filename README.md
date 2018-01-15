@@ -1,6 +1,10 @@
 #Lucas's Living Resume
 
-https://lucaszapico.github.io/
+[Lucas's Living Resume](https://lucaszapico.github.io/)
+
+_Note: I am planning on making this an open source jekyll theme at some point_
+
+[Lucas's Living Resume Trello](https://trello.com/b/Dc2c7k2n)
 
 ##Stack knowledge
 
@@ -15,27 +19,22 @@ This theme is built using Jekyll and the associated frameworks. Therefore for th
 ### Further Suggested Resources
 
 #### For Jekyll
-(Jekyll Documentation:)[https://jekyllrb.com/]
+[Jekyll Documentation](https://jekyllrb.com/)
 
 ##### Suggested Tutorials
-AC Learn the Web
-- https://learn-the-web.algonquindesign.ca/topics/jekyll/
+[AC Learn the Web](https://learn-the-web.algonquindesign.ca/topics/jekyll/)
 
 #### For SASS
-SASS Documentation:
-- http://sass-lang.com/
+[SASS Documentation:](http://sass-lang.com/)
 
 #### For liquid
-liquid Documentation:
-- https://help.shopify.com/themes/liquid/basics
+[liquid Documentation:](https://help.shopify.com/themes/liquid/basics)
 
 #### For Markdown
 
-Wiki
-- https://en.wikipedia.org/wiki/Markdown
+(Markdown Wiki)(https://en.wikipedia.org/wiki/Markdown)
 
-Github Guides
-- [[https://guides.github.com/features/mastering-markdown/]]
+[Github Guides](https://guides.github.com/features/mastering-markdown/)
 
 ##### Tutorial
-- [[https://www.markdowntutorial.com/]]
+[Github Markdown Tutorial](https://www.markdowntutorial.com/)
