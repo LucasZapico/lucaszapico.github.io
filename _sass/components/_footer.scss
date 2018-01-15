@@ -5,10 +5,11 @@
   height: 5em;
   display: grid;
   grid-column: 3;
+  bottom: 0;
 
   .nav-bottom {
     grid-column-start: 1;
-  
+
     ul {
       flex-direction: column;
       box-shadow: none;

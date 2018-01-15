@@ -5,12 +5,19 @@
 \**-------------------------------**/
 
 body {
-  background: url(./background-1.0.png);
-  object-fit: fill;
+  // background: url(./background-1.0.png);
+  background-color: hsla(357, 1%, 30%, 0.08);
+  object-fit: cover;
   background-repeat: no-repeat;
 }
+.body-wrapper {
 
+}
 .outer-wrap {
+
+}
+
+.main-wrap {
   background-color: $white;
   width: 100%;
   max-width: 70em;
