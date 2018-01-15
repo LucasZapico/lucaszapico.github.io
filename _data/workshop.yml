@@ -1,7 +1,9 @@
 - title: Style Guide
-  img: assets/img/project-img/icons/freebird-icon.png
-  responsibility: Quality assurance, onboarding, and branding
-  description:  Freebird Rides is a multi-dimential customer aquistion tool integrating an extensive array of technologies.
+  link: https://lucaszapico.github.io/styleguide/
+  img:
+  version: Version 0
+  description: The goal of the styleguide project is to faciliate the base design aspects any project for both desinger and developers.
+  readme: {{}}
 
 - title: LifeLines
   img: assets/img/project-img/icons/lifelines-icon.png
