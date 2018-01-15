@@ -1,0 +1,9 @@
+<nav class="nav-main menu {{ include.navclass }}">
+  <ul>
+    {% for link in site.data.menu %}
+      <li>
+        <a href="{{site.baseurl}}{{link.href}}">{{ link.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</nav>

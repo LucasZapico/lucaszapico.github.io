@@ -2,13 +2,12 @@
 
 <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
 
-<div class="outer-wrap">
-
   <header class="masthead">
 
     <div class="centered">
       <div class="site-branding">
         <h1 class="site-title">{{site.title}}</h1>
+        <img class="logo" src="{{site.baseurl}}{{site.logo}}" />
         <p class="title-caption">
           {{ site.title_caption }}
         </p>
@@ -16,16 +15,9 @@
       <!-- .site-title -->
     </div>
     <!-- .centered -->
-    <nav class="nav-main menu">
-      <ul>
-        {% for link in site.data.menu %}
-          <li>
-            <a href="{{site.baseurl}}{{link.href}}">{{ link.title }}</a>
-          </li>
-        {% endfor %}
-      </ul>
-    </nav>
+    {% include nav.html navclass='nav-top' %}
   </header>
   <!-- .masthead -->
+  <div class="outer-wrap">
   <div class="content">
     <main class="main-area">
