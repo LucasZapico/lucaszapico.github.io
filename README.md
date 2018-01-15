@@ -4,7 +4,7 @@
 
 ##Stack knowledge
 
-This theme is build using Jekyll and the associated frameworks. Therefore for best expierience, aquaint throughly with the following is strongly suggested.
+This theme is built using Jekyll and the associated frameworks. Therefore for the best experience, acquaint thoroughly with the following is strongly suggested.
 - sass
 - liquid
 - markdown
