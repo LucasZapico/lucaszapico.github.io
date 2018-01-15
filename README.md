@@ -1,3 +1,3 @@
-#Welcome to my mind, or rather and attempt to put a little of my mind into the world.
+#Lucas's Living Resume
 
-##My Shout into the wind##
+[https://lucaszapico.github.io/]
