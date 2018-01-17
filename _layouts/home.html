@@ -20,12 +20,12 @@ layout: default
   </section>
   <section id="projects" class="project-section">
   <h2>Projects</h2>
-  <div class="project-wrapper">
+  <div class="project-wrap">
     {% for project in site.data.projects %}
     <article class="project-content">
       <div class="top-tile-content">
         <h3>{{ project.title }}</h3>
-        <img src="{{site.baseurl}}/{{ project.img }}"/>
+        <img class="project-img" src="{{site.baseurl}}/{{ project.img }}"/>
       </div>
       <p class="project-res">
         {{ project.responsibility }}
@@ -38,27 +38,35 @@ layout: default
   </div>
   </section>
 
-  <!-- <section id="workshop" class="workshop-section">
+  <section id="workshop" class="workshop-section">
   <h2>WorkShop</h2>
-  <div class="project-wrapper workshop">
+  <div class="project-wrap workshop">
     {% for workshop in site.data.workshop %}
     <article class="project-content workshop">
       <div class="top-tile-content workshop">
-        <h3>Style Guide</h3>
-        <img src="{{site.baseurl}}/{{ project.img }}"/>
+        <h3>{{ workshop.title }}</h3>
+        <img class="project-img workshop" src="{{site.baseurl}}{{ workshop.img }}"/>
+        <div class="workshop-links">
+          {% if workshop.repo != null %}
+            <a href="{{workshop.link}}"><i class="fab fa-github"></i></a>
+            <a href="{{workshop.repo}}"><i class="fas fa-link"></i></a>
+          {% endif %}
+        </div>
       </div>
-
       <p class="project-des workshop">
-
       </p>
     </article>
     {% endfor %}
+    <article class="workshop-des">
+      Fusce elit justo, elementum a aliquam eu, ullamcorper quis tellus. Aliquam pretium nulla a sagittis tristique. Fusce ligula massa, hendrerit ut posuere ut, placerat id dolor. In tellus magna, vulputate quis blandit imperdiet, sollicitudin at neque. Donec scelerisque tellus eros, eget auctor massa imperdiet nec. Cras accumsan ipsum sit amet dui condimentum ultricies. Fusce vitae iaculis ante.
+    </article>
   </div>
-  </section> -->
+
+  </section>
   <section id="skills" class="skills-section">
     <!-- <h2>Skills</h2> -->
 
-    <!-- <script src="{{site.baseurl}}/assets/JS/skill.js"></script> -->
+    <script src="{{site.baseurl}}/assets/JS/skill.js"></script>
   </section>
   <!-- <section id="contact" class="contact-section">
   <h2>Contact</h2>
