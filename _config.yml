@@ -14,14 +14,21 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Lucas's Living Resume
-title_caption: Status, In progress eternaly
+title_caption: Status, in progress eternally 
 email: zapicolucas@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
   Google search results) and in your feed.xml site description.
-baseurl: "/home" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+favicon: /assets/img/favicon32.png  #16x16 or 32x32
+
+# USER INFORMATION
+profile_image: assets/img/main-profile.jpg
+logo: /assets/img/cycle-1.svg
+
+
 twitter_username:
 github_username:  LucasZapico
 github_link: https://github.com/LucasZapico
@@ -53,19 +60,13 @@ plugins:
 # Welcome to Jekyll
 
 #BASIC WEBSITE SETTINGS
-title: Lucas's Living Resume
-logo: /assets/img/cycle-1.svg
+
+
 background_img: /static/assets/img/background-1.0.png
-description:
 keywords:
-baseurl:
-url:
 img_path:
 collections:
     output: false
-
-#MARKDOWN
-markdown: kramdown
 
 #LOCAL DEVELOPMENT
 host: 127.0.0.1
@@ -76,6 +77,3 @@ exclude:
 
 #DIGITAL ANALYTICS
 google_analytics:
-
-#CONTENT
-profile_image: assets/img/main-profile.jpg
