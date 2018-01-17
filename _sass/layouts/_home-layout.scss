@@ -80,20 +80,20 @@ background-color: $lightgray;
 
 
     }
-    .project-content:hover {
+    .project-content.proj:hover {
         height: 30em;
     }
   }
 
 
 //WORKSHOP SECTION
-.workshop-section {
-  display: flex;
+.project-wrap.workshop {
+  display: grid;
+  grid-template-columns: 50% 50%;
+
   .workshop {
 
-
-
-    .project-content{
+    .project-content.workshop{
       width: 15em;
     }
 
@@ -108,9 +108,15 @@ background-color: $lightgray;
       letter-spacing: 1em;
       padding: .5em;
     }
-    .project-content:hover {
-        height: 15em;
+    .project-content.workshop:hover {
+        transform: scale(1.05) translate3d(0,0,0);
+        border: 1px solid transparent;
+
     }
+  }
+
+  .workshop-des {
+      padding: 1em;
   }
 }
 
@@ -118,6 +124,6 @@ background-color: $lightgray;
 @media screen and (min-width: 50em) {
 
   .project-content {
-    max-width: 20em;
+    max-width: 30em;
   }
 }
