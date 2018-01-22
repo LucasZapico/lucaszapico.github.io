@@ -15,11 +15,16 @@ layout: default
       <!-- <a href="http://www.flickr.com/photos/zlucas/"></a><i class="fab fa-flickr fa-lg"></i></a> -->
     </div>
     <p>
-      Fusce elit justo, elementum a aliquam eu, ullamcorper quis tellus. Aliquam pretium nulla a sagittis tristique. Fusce ligula massa, hendrerit ut posuere ut, placerat id dolor. In tellus magna, vulputate quis blandit imperdiet, sollicitudin at neque. Donec scelerisque tellus eros, eget auctor massa imperdiet nec. Cras accumsan ipsum sit amet dui condimentum ultricies. Fusce vitae iaculis ante.
+      I amass and gather whatever skills are necessary for me to develop, systems, tools, and processes to produce products with the greatest radius of value for users and stakeholders alike.
     </p>
   </section>
   <section id="projects" class="project-section">
   <h2>Projects</h2>
+  <div class="description proj">
+    <p>
+      Section Description:  This is a showcase for past project
+    </p>
+  </div>
   <div class="project-wrap">
     {% for project in site.data.projects %}
     <article class="project-content proj">
@@ -40,6 +45,11 @@ layout: default
 
   <section id="workshop" class="workshop-section">
   <h2>WorkShop</h2>
+  <div class="description workshop">
+    <p>
+      Section Description:  This is a little showcase for some of other projects, please enjoy
+    </p>
+  </div>
   <div class="project-wrap workshop">
     <section class="workshop-projects">
       {% for workshop in site.data.workshop %}
@@ -47,12 +57,18 @@ layout: default
         <div class="top-tile-content workshop">
           <h3>{{ workshop.title }}</h3>
           <img class="project-img workshop" src="{{site.baseurl}}{{ workshop.img }}"/>
+          <p>
+            {{workshop.version}}
+          </p>
           <div class="workshop-links">
             {% if workshop.repo != null %}
-              <a href="{{workshop.link}}"><i class="fab fa-github"></i></a>
-              <a href="{{workshop.repo}}"><i class="fas fa-link"></i></a>
+              <a href="{{workshop.repo}}"><i class="fab fa-github"></i></a>
+              <a href="{{workshop.link}}"><i class="fas fa-link"></i></a>
             {% endif %}
           </div>
+          <!-- <p class="workshop-proj-link">
+            <a href="./style_guide/">See more of my process</a>
+          </p> -->
         </div>
         <p class="project-des workshop">
         </p>
@@ -61,7 +77,7 @@ layout: default
     </section>
 
     <section class="workshop-des">
-      Fusce elit justo, elementum a aliquam eu, ullamcorper quis tellus. Aliquam pretium nulla a sagittis tristique. Fusce ligula massa, hendrerit ut posuere ut, placerat id dolor. In tellus magna, vulputate quis blandit imperdiet, sollicitudin at neque. Donec scelerisque tellus eros, eget auctor massa imperdiet nec. Cras accumsan ipsum sit amet dui condimentum ultricies. Fusce vitae iaculis ante.
+      The projects in this section are some of my practice projects or brainchildren. They have been extremely helpful in my growth of understanding the development process
     </section>
   </div>
 

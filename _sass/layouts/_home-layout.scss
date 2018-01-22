@@ -41,6 +41,12 @@
 background-color: $lightgray;
   padding-bottom: 2em;
 
+  .description.proj{
+    text-align: center;
+    font-style: italic;
+  }
+
+
 }
   .project-wrap {
     display: flex;
@@ -79,6 +85,7 @@ background-color: $lightgray;
       }
 
 
+
     }
   }
   .project-content.proj:hover {
@@ -89,15 +96,32 @@ background-color: $lightgray;
   }
 
 
+
+
 //WORKSHOP SECTION
+.workshop-section {
+  .description{
+    text-align: center;
+    font-style: italic;
+  }
+}
+
 .project-wrap.workshop {
-  display: grid;
-  grid-template-columns: 50% 50%;
 
   .workshop {
 
     .project-content.workshop{
       width: 15em;
+    }
+    h3 {
+      margin: .3em;
+    }
+    p {
+      margin: .3em;
+
+    }
+    .workshop-proj-link {
+        font-style: italic;
     }
 
     img {
@@ -131,4 +155,11 @@ background-color: $lightgray;
   .project-content {
     max-width: 30em;
   }
+
+
+  .project-wrap.workshop {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
 }
