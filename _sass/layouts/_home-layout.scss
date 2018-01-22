@@ -67,9 +67,11 @@ background-color: $lightgray;
 
       .top-tile-content {
         height: 15em;
+        transition: all .3s ease-in;
 
         h3 {
           text-align: center;
+          transition: all .3s ease-in;
         }
 
         img {
@@ -77,11 +79,22 @@ background-color: $lightgray;
           margin: auto;
           width: 5em;
           height: 5em;
+          transition: all .3s ease-in;
         }
       }
 
       p {
+        position: relative;
         text-align: center;
+      }
+      .project-res {
+        font-style: italic;
+        font-size: .9em;
+        margin-bottom: .5em;
+      }
+      .project-des {
+        margin: .5em;
+
       }
 
 
@@ -89,10 +102,25 @@ background-color: $lightgray;
     }
   }
   .project-content.proj:hover {
-    transform: scale(1.05);
-    box-shadow: 10px 10px 10px 5px hsla(0, 0%, 31%, 0.7);
+    //transform: scale(1.05);
+    //box-shadow: 10px 10px 10px 5px hsla(0, 0%, 31%, 0.7);
     z-index: 0;
-    // transition: .3s;
+
+    .top-tile-content {
+      height: 5em;
+      h3{
+        margin: 0px;
+        padding: 0px;
+        font-size: 1.2em;
+      }
+      img{
+        width: 3em;
+        height: 3em;
+      }
+      p {
+        top: 0;
+      }
+    }
   }
 
 
