@@ -2,11 +2,15 @@
   link: https://lucaszapico.github.io/styleguide/
   img: /assets/img/themeicon.png
   repo: https://github.com/LucasZapico/styleguide
-  version: Version 0
+  version: Version 0 Stable
   description: The goal of the styleguide project is to faciliate the base design aspects any project for both desinger and developers.
   readme: {{}}
 
 - title: Jekyle Theme
   img: /assets/img/themeicon.png
-  responsibilities: Account Management, User Interface mobile and web, User Experience Design, Web Design and Quality Assurence
-  description: The project was an MVP web application with mobile component.
+  link: https://lucaszapico.github.io/styleguide/
+  img: /assets/img/themeicon.png
+  repo: https://github.com/LucasZapico/styleguide
+  version: Version 0-
+  description: The goal of the styleguide project is to faciliate the base design aspects any project for both desinger and developers.
+  readme: {{}}

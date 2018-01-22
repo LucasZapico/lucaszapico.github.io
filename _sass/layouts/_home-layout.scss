@@ -41,6 +41,12 @@
 background-color: $lightgray;
   padding-bottom: 2em;
 
+  .description.proj{
+    text-align: center;
+    font-style: italic;
+  }
+
+
 }
   .project-wrap {
     display: flex;
@@ -54,8 +60,8 @@ background-color: $lightgray;
       height: 15em;
       width: 100%;
       overflow: hidden;
-      transition: all 1s ease-out;
-      transition-delay: 1s;
+      transition: all .3s ease-in;
+      transition-delay: .2s;
       box-shadow: 0px 4px 10px hsla(357, 1%, 30%, 0.98);
       border-radius: 2%;
 
@@ -79,22 +85,43 @@ background-color: $lightgray;
       }
 
 
+
     }
-    .project-content.proj:hover {
-        height: 30em;
-    }
+  }
+  .project-content.proj:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 10px 10px 5px hsla(0, 0%, 31%, 0.7);
+    z-index: 0;
+    // transition: .3s;
   }
 
 
+
+
 //WORKSHOP SECTION
+.workshop-section {
+  .description{
+    text-align: center;
+    font-style: italic;
+  }
+}
+
 .project-wrap.workshop {
-  display: grid;
-  grid-template-columns: 50% 50%;
 
   .workshop {
 
     .project-content.workshop{
       width: 15em;
+    }
+    h3 {
+      margin: .3em;
+    }
+    p {
+      margin: .3em;
+
+    }
+    .workshop-proj-link {
+        font-style: italic;
     }
 
     img {
@@ -108,11 +135,13 @@ background-color: $lightgray;
       letter-spacing: 1em;
       padding: .5em;
     }
-    .project-content.workshop:hover {
-        transform: scale(1.05) translate3d(0,0,0);
-        border: 1px solid transparent;
+  }
 
-    }
+  .project-content.workshop:hover {
+    transform: scale(1.05);
+    box-shadow: 10px 10px 10px 5px hsla(0, 0%, 31%, 0.7);
+    z-index: 0;
+    transition: .3s;
   }
 
   .workshop-des {
@@ -126,4 +155,11 @@ background-color: $lightgray;
   .project-content {
     max-width: 30em;
   }
+
+
+  .project-wrap.workshop {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
 }
