@@ -15,8 +15,19 @@ layout: default
       <!-- <a href="http://www.flickr.com/photos/zlucas/"></a><i class="fab fa-flickr fa-lg"></i></a> -->
     </div>
     <p>
-      I amass and gather whatever skills are necessary for me to develop, systems, tools, and processes to produce products with the greatest radius of value for users and stakeholders alike.
+      I amass and gather whatever skills are necessary for me to develop, systems, tools, and processes to produce products with the greatest radius of value for users and stakeholders
     </p>
+  </section>
+  <section id="development-values" class="values">
+    <h2>Development Values</h2>
+    <div class="values-wrap">
+      {% for value in site.data.values %}
+      <h3>{{ value.title }}</h3>
+      <p>
+        {{ value.content }}
+      </p>
+      {% endfor %}
+    </div>
   </section>
   <section id="projects" class="project-section">
   <h2>Projects</h2>
@@ -80,7 +91,11 @@ layout: default
       The projects in this section are some of my practice projects or brainchildren. They have been extremely helpful in my growth of understanding the development process
     </section>
   </div>
-
+  </section>
+  <section id="small-confessions" >
+    <p>
+    
+    </p>
   </section>
   <section id="skills" class="skills-section">
     <!-- <h2>Skills</h2> -->
