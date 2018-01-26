@@ -27,4 +27,6 @@ First and foremost this space is mine. The objects are vary much curated for oth
 
 The fact that said object is going to be exposed to other therefore for respect for others and my belief in my own production potential I will ensure my exposed deliverable meets a given standard.
 
+
 The Lucas logical box. I have vision of a human being in my mental space that is the manifisation of all of my potential. For any given situation if I ask myself what would this meta entity do, if I do it I am for that instant the full manifisation of my potential. But, if I don't not I have to acknowledge that the image in my mind is a lie and then decide whether I am going to 1. continue to lie to myself. 2. change the image of the entity in my mind. 3. change the me in the physical space to align more with the entity in my mental space.
+
