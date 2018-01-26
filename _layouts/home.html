@@ -64,6 +64,7 @@ layout: default
   <div class="project-wrap workshop">
     <section class="workshop-projects">
       {% for workshop in site.data.workshop %}
+      <a href="{{workshop.link}}">
       <article class="project-content workshop">
         <div class="top-tile-content workshop">
           <h3>{{ workshop.title }}</h3>
@@ -84,6 +85,7 @@ layout: default
         <p class="project-des workshop">
         </p>
       </article>
+      </a>
       {% endfor %}
     </section>
 
@@ -94,7 +96,7 @@ layout: default
   </section>
   <section id="small-confessions" >
     <p>
-    
+
     </p>
   </section>
   <section id="skills" class="skills-section">
