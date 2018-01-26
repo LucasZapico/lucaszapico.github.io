@@ -1,11 +1,12 @@
 - title: FreeBird Rides
   img: assets/img/project-img/icons/freebird-icon.png
   responsibility: Quality assurance, onboarding, and branding
-  description:  Freebird Rides is a multi-dimensional customer acquisition tool integrating an extensive array of technologies.
+
+  description:  The Freebird product is a curated market that allows businesses to drive customers to their location via free Uber rides and thereby gathering direct ROI for their marketing dollar.
 
 - title: LifeLines
   img: assets/img/project-img/icons/lifelines-icon.png
-  responsibilities: Account Management, User Interface mobile and web, User Experience Design, Web Design and Quality Assurence
+  responsibility: Account management, user interface mobile and web, user experience design, web design and quality assurence
   description: The project was an MVP web application with mobile component.
 
 # - title: Fantelope
@@ -14,20 +15,20 @@
 
 - title: JAFRA
   img: assets/img/project-img/icons/jafra-icon.png
-  responsibility: Front end web design
+  responsibility: PSD to web
   description: The project consisted of the porting of photoshop files into html and css
 
 - title: MyLücke
   img: assets/img/project-img/icons/mylucke-icon.png
-  responsibility: Web design, Quality Assurance, and project management
+  responsibility: Web design, quality assurance, and project management
   description: Sed varius nec enim sit amet auctor. Integer elementum est a enim egestas lobortis. Nam interdum purus id eros
 
 - title: DadApp
   img: assets/img/project-img/icons/dadapp-icon.png
   responsibility: User interface design, user experience design, project managment
-  description: Sed varius nec enim sit amet auctor. Integer elementum est a enim egestas lobortis. Nam interdum purus id eros
+  description: The Dadapp was a small mobile application to schedule and track the various tasks a new father has to deal with.
 
 - title: AAC
   img: assets/img/project-img/icons/aac-icon.png
-  responsibility: Content Management, Web Design, Hosting and Domain Management
+  responsibility: Content management, web design, hosting and domain management
   description: The project consisted of web desing and Branding for a military grade drone design

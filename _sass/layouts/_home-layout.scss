@@ -2,34 +2,34 @@
   // width: 100%;
   // max-width: 70em;
   // margin: auto;
-
-
   section {
     margin: auto;
     padding: 1.5em;
-
-
-
   }
 
-  .main-profile-img {
-    display: block;
-    height: 10em;
-    width: 10em;
-    border-radius: 50%;
-    margin: auto;
-    object-fit: contain;
+  .about-section {
 
+    .main-profile-img {
+      display: block;
+      height: 10em;
+      width: 10em;
+      border-radius: 50%;
+      margin: auto;
+      object-fit: contain;
+    }
+
+    .social-links {
+      text-align: center;
+      letter-spacing: 1em;
+      padding: 0.5em 0.5em 1.5em;
+      height: 1em;
+    }
+
+    p{
+      width: 35em;
+      margin: auto;
+    }
   }
-  .social-links {
-    text-align: center;
-    letter-spacing: 1em;
-    padding: .5em;
-    padding-bottom: 1.5em;
-    height: 1em;
-
-  }
-
 }
 
 /**
@@ -85,7 +85,9 @@ background-color: $lightgray;
 
       p {
         position: relative;
+
         text-align: center;
+
       }
       .project-res {
         font-style: italic;
