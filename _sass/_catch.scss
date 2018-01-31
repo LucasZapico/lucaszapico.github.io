@@ -23,3 +23,49 @@ body {
   max-width: 70em;
   margin: auto;
 }
+.values-wrap {
+
+  h3 {
+
+    padding:.3em;
+    margin-top: .6em;
+    margin: 0;
+    text-align: center;
+  }
+  h6 {
+    padding-left:.3em;
+    margin: 0 auto;
+    width: 35em;
+    text-align: jusify;
+    // font-family: Merriweather;
+    text-transform: none;
+    text-align: center;
+    // height: 8em;
+    overflow: hidden;
+  }
+  hide {
+    height: 0;
+  }
+}
+
+.image-quote {
+  padding-top: 0;
+  margin: 0;
+
+  h4 {
+    padding: 0 .5em;
+    bottom: 250px;
+    text-align: center;
+    position: relative;
+    font-weight: bold;
+    z-index: 1;
+  }
+  img {
+    position: relative;
+      height: 20em;
+      object-fit: cover;
+      opacity: .5;
+  }
+
+
+}
