@@ -23,9 +23,9 @@ layout: default
     <div class="values-wrap">
       {% for value in site.data.values %}
       <h3>{{ value.title }}</h3>
-      <p>
+      <h6>
         {{ value.content }}
-      </p>
+      </h6>
       {% endfor %}
     </div>
   </section>
@@ -53,7 +53,12 @@ layout: default
     {% endfor %}
   </div><!-- project-wrap -->
   </section>
-
+  <div class="image-quote">
+    <img src="{{site.baseurl}}/assets/img/background-1.0.png" />
+    <h4>
+      My obsession is the study of the relationships between human comprehension and aesthetics forms of information. In particular within the design and data visualization
+    </h4>
+  </div>
   <section id="workshop" class="workshop-section">
   <h2>WorkShop</h2>
   <div class="description workshop">
@@ -64,6 +69,7 @@ layout: default
   <div class="project-wrap workshop">
     <section class="workshop-projects">
       {% for workshop in site.data.workshop %}
+      <a href="{{workshop.link}}">
       <article class="project-content workshop">
         <div class="top-tile-content workshop">
           <h3>{{ workshop.title }}</h3>
@@ -84,6 +90,7 @@ layout: default
         <p class="project-des workshop">
         </p>
       </article>
+      </a>
       {% endfor %}
     </section>
 
@@ -91,10 +98,21 @@ layout: default
       The projects in this section are some of my practice projects or brainchildren. They have been extremely helpful in my growth of understanding the development process
     </section>
   </div>
+  <section id="codepen-showcase" class="codepen-showcase">
+    <div class="pen-container">
+      <p data-height="265" data-theme-id="light" data-slug-hash="KZgzOR" data-default-tab="css,result" data-user="LucasZapico" data-embed-version="2" data-pen-title="Top Banner Transition" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/LucasZapico/pen/KZgzOR/">Top Banner Transition</a> by lucas Zapic (<a href="https://codepen.io/LucasZapico">@LucasZapico</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+  <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+    </div>
+    <div class="pen-container">
+  <p data-height="265" data-theme-id="light" data-slug-hash="vpVxRq" data-default-tab="css,result" data-user="LucasZapico" data-embed-version="2" data-pen-title="tile hover expand and drop shadow" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/LucasZapico/pen/vpVxRq/">tile hover expand and drop shadow</a> by lucas Zapic (<a href="https://codepen.io/LucasZapico">@LucasZapico</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+  <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+    </div>
   </section>
+  </section>
+
   <section id="small-confessions" >
     <p>
-    
+
     </p>
   </section>
   <section id="skills" class="skills-section">

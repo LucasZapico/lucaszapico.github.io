@@ -41,6 +41,9 @@
       background-color: $dark;
       color: $lightgray;
       transition: all .3s ease-out;
+      a {
+        color: $lightgray;
+      }
     }
     .btn:hover {
       border-radius: 10px;
