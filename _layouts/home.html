@@ -31,6 +31,7 @@ layout: default
   </section>
   <section id="projects" class="project-section">
   <h2>Projects</h2>
+  <hr width="30%" />
   <div class="description proj">
     <p>
       Section Description:  This is a showcase for past project
@@ -42,6 +43,7 @@ layout: default
       <div class="top-tile-content">
         <h3>{{ project.title }}</h3>
         <img class="project-img" src="{{site.baseurl}}/{{ project.img }}"/>
+          <!-- <a href="{{project.link}}">See Project</a> -->
       </div><!-- top-tite-content -->
       <p class="project-res">
         {{ project.responsibility }}
@@ -61,6 +63,7 @@ layout: default
   </div>
   <section id="workshop" class="workshop-section">
   <h2>WorkShop</h2>
+  <hr width="30%" />
   <div class="description workshop">
     <p>
       Section Description:  This is a little showcase for some of other projects, please enjoy
@@ -80,7 +83,7 @@ layout: default
           <div class="workshop-links">
             {% if workshop.repo != null %}
               <a href="{{workshop.repo}}"><i class="fab fa-github"></i></a>
-              <a href="{{workshop.link}}"><i class="fas fa-link"></i></a>
+              <!-- <a href="{{workshop.link}}"><i class="fas fa-link"></i></a> -->
             {% endif %}
           </div>
           <!-- <p class="workshop-proj-link">
@@ -118,6 +121,27 @@ layout: default
 
   </section>
   </section>
+  <section id="my-value" class="my-value">
+  <h2>My Value</h2>
+  <hr width="30%" />
+  <div class="value-wrap">
+    {% for value in site.data.value%}
+    <div class="value">
+      <h3>{{value.title}}</h3>
+      <div class="value-icon">
+        {{value.icon}}
+      </div>
+      <p>
+        {{value.highlight}}
+      </p>
+      <p>
+        {{value.description}}
+      </p>
+    </div>
+    {% endfor %}
+  </div>
+
+</section>
 
   <section id="small-confessions" >
     <p>
