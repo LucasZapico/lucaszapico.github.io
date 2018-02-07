@@ -18,7 +18,7 @@ layout: default
       I amass and gather whatever skills are necessary for me to develop, systems, tools, and processes to produce products with the greatest radius of value for users and stakeholders
     </p>
   </section>
-  <section id="development-values" class="values">
+  <section id="values" class="values">
     <h2>Development Values</h2>
     <div class="values-wrap">
       {% for value in site.data.values %}
@@ -31,6 +31,7 @@ layout: default
   </section>
   <section id="projects" class="project-section">
   <h2>Projects</h2>
+  <hr width="30%" />
   <div class="description proj">
     <p>
       Section Description:  This is a showcase for past project
@@ -42,6 +43,7 @@ layout: default
       <div class="top-tile-content">
         <h3>{{ project.title }}</h3>
         <img class="project-img" src="{{site.baseurl}}/{{ project.img }}"/>
+          <!-- <a href="{{project.link}}">See Project</a> -->
       </div><!-- top-tite-content -->
       <p class="project-res">
         {{ project.responsibility }}
@@ -61,6 +63,7 @@ layout: default
   </div>
   <section id="workshop" class="workshop-section">
   <h2>WorkShop</h2>
+  <hr width="30%" />
   <div class="description workshop">
     <p>
       Section Description:  This is a little showcase for some of other projects, please enjoy
@@ -80,7 +83,7 @@ layout: default
           <div class="workshop-links">
             {% if workshop.repo != null %}
               <a href="{{workshop.repo}}"><i class="fab fa-github"></i></a>
-              <a href="{{workshop.link}}"><i class="fas fa-link"></i></a>
+              <!-- <a href="{{workshop.link}}"><i class="fas fa-link"></i></a> -->
             {% endif %}
           </div>
           <!-- <p class="workshop-proj-link">
@@ -107,8 +110,38 @@ layout: default
   <p data-height="265" data-theme-id="light" data-slug-hash="vpVxRq" data-default-tab="css,result" data-user="LucasZapico" data-embed-version="2" data-pen-title="tile hover expand and drop shadow" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/LucasZapico/pen/vpVxRq/">tile hover expand and drop shadow</a> by lucas Zapic (<a href="https://codepen.io/LucasZapico">@LucasZapico</a>) on <a href="https://codepen.io">CodePen</a>.</p>
   <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
     </div>
+    <div class="pen-container">
+      <p data-height="265" data-theme-id="light" data-slug-hash="zROgLW" data-default-tab="css,result" data-user="LucasZapico" data-embed-version="2" data-pen-title="card flip pass one" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/LucasZapico/pen/zROgLW/">card flip pass one</a> by lucas Zapic (<a href="https://codepen.io/LucasZapico">@LucasZapico</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+      <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+    </div>
+    <div class="pen-container">
+      <p data-height="265" data-theme-id="light" data-slug-hash="GQKZVy" data-default-tab="css,result" data-user="LucasZapico" data-embed-version="2" data-pen-title="Alex's card flip style mock" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/LucasZapico/pen/GQKZVy/">Alex's card flip style mock</a> by lucas Zapic (<a href="https://codepen.io/LucasZapico">@LucasZapico</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
+    </div>
+
   </section>
   </section>
+  <section id="my-value" class="my-value">
+  <h2>My Value</h2>
+  <hr width="30%" />
+  <div class="value-wrap">
+    {% for value in site.data.value%}
+    <div class="value">
+      <h3>{{value.title}}</h3>
+      <div class="value-icon">
+        {{value.icon}}
+      </div>
+      <p>
+        {{value.highlight}}
+      </p>
+      <p>
+        {{value.description}}
+      </p>
+    </div>
+    {% endfor %}
+  </div>
+
+</section>
 
   <section id="small-confessions" >
     <p>

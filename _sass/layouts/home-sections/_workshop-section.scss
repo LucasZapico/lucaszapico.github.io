@@ -1,0 +1,93 @@
+
+
+//WORKSHOP SECTION
+.workshop-section {
+  .description{
+    text-align: center;
+    font-style: italic;
+  }
+}
+
+.project-wrap.workshop {
+
+  .workshop {
+
+    .project-content.workshop{
+      width: 15em;
+        color: $dark;
+    }
+    a:visited {
+        color: $dark;
+    }
+
+    h3 {
+      margin: .3em;
+    }
+    p {
+      margin: .3em;
+
+    }
+    .workshop-proj-link {
+        font-style: italic;
+    }
+
+    img {
+      display: block;
+      margin: auto;
+      object-fit: contain;
+      height: 5em;
+    }
+    .workshop-links{
+      text-align: center;
+      letter-spacing: 1em;
+      padding: .5em;
+    }
+
+  }
+
+  .project-content.workshop:hover {
+    transform: scale(1.05);
+    background-color: $dark;
+
+    box-shadow: 10px 10px 10px 5px hsla(0, 0%, 31%, 0.7);
+    z-index: 1;
+    transition: .3s;
+    a {
+        color: $light;
+    }
+  }
+  .project-content.workshop:focus {
+    transform: scale(1.05);
+    background-color: $dark;
+
+    box-shadow: 10px 10px 10px 5px hsla(0, 0%, 31%, 0.7);
+    z-index: 1;
+    transition: .3s;
+    a {
+        color: $light;
+    }
+  }
+
+  .workshop-des {
+      padding: 1em;
+  }
+}
+
+.codepen-showcase {
+  display: flex;
+  flex: wrap;
+  .pen-container {
+    max-width: 30em;
+  }
+}
+
+
+@media screen and (min-width: 50em) {
+
+
+  .project-wrap.workshop {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+}

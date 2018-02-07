@@ -3,6 +3,9 @@
   // max-width: 70em;
   // margin: auto;
   section {
+    h2 {
+      text-align: center;
+    }
     margin: auto;
     padding: 1.5em;
   }
@@ -32,174 +35,37 @@
   }
 }
 
-/**
-**  PROJECT SECTION
-**/
 
-.project-section {
-//background-color: $powder-rose;
-background-color: $lightgray;
-  padding-bottom: 2em;
-
-  .description.proj{
-    text-align: center;
-    font-style: italic;
-  }
-
-
-}
-  .project-wrap {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-
-    .project-content {
-      background-color: $white;
-      margin: .5em;
-      padding: .5em;
-      height: 15em;
-      width: 100%;
-      overflow: hidden;
-      transition: all .3s ease-in;
-      transition-delay: .2s;
-      box-shadow: 0px 4px 10px hsla(357, 1%, 30%, 0.98);
-      border-radius: 2%;
-
-      .top-tile-content {
-        height: 15em;
-        transition: all .3s ease-in;
-
-        h3 {
-          text-align: center;
-          transition: all .3s ease-in;
-        }
-
-        img {
-          display: block;
-          margin: auto;
-          width: 5em;
-          height: 5em;
-          transition: all .3s ease-in;
-        }
-      }
-
-      p {
-        position: relative;
-
+.my-value {
+  text-align: center;
+  .value-wrap {
+    .value {
+      .value-icon {
         text-align: center;
-
+        font-size: 3em;
+        padding: .5em;
       }
-      .project-res {
+      caption {
         font-style: italic;
-        font-size: .9em;
-        margin-bottom: .5em;
-      }
-      .project-des {
-        margin: .5em;
-
-      }
-
-
-
-    }
-  }
-  .project-content.proj:hover {
-    //transform: scale(1.05);
-    //box-shadow: 10px 10px 10px 5px hsla(0, 0%, 31%, 0.7);
-    z-index: 0;
-
-    .top-tile-content {
-      height: 5em;
-      h3{
-        margin: 0px;
-        padding: 0px;
-        font-size: 1.2em;
-      }
-      img{
-        width: 3em;
-        height: 3em;
       }
       p {
-        top: 0;
+        padding: .7em;
+        text-align: left;
       }
     }
-  }
 
-
-
-
-//WORKSHOP SECTION
-.workshop-section {
-  .description{
-    text-align: center;
-    font-style: italic;
   }
 }
 
-.project-wrap.workshop {
 
-  .workshop {
-
-    .project-content.workshop{
-      width: 15em;
-    }
-    h3 {
-      margin: .3em;
-    }
-    p {
-      margin: .3em;
-
-    }
-    .workshop-proj-link {
-        font-style: italic;
-    }
-
-    img {
-      display: block;
-      margin: auto;
-      object-fit: contain;
-      height: 5em;
-    }
-    .workshop-links{
-      text-align: center;
-      letter-spacing: 1em;
-      padding: .5em;
-    }
-
-  }
-
-  .project-content.workshop:hover {
-    transform: scale(1.05);
-    box-shadow: 10px 10px 10px 5px hsla(0, 0%, 31%, 0.7);
-    z-index: 0;
-    transition: .3s;
-  }
-
-  .workshop-des {
-      padding: 1em;
-  }
-}
-
-.codepen-showcase {
-  display: flex;
-  flex: wrap;
-  .pen-container {
-    max-width: 30em;
-  }
-}
 
 
 
 @media screen and (min-width: 50em) {
+.my-value {
+  .value-wrap {
+    display: flex;
 
-  .project-content {
-    max-width: 30em;
   }
-
-
-  .project-wrap.workshop {
-    display: grid;
-    grid-template-columns: 50% 50%;
-  }
-
+}
 }
