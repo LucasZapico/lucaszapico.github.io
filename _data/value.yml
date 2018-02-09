@@ -1,17 +1,18 @@
 - title: Communication
   icon:
-  highlight: Communication is paramount to any successful endeavor and as such, I continually devote myself to producing and developing said skills
-  description: I am comfortable in general and technical communication with clients, stakeholders, project managers, designers, and engineers. Also proficient in all current mediums of exchange such as verbal, slack, email, other messaging clients.
+  # highlight: Communication is paramount to any successful endeavor and as such, I continually devote myself to producing and developing said skills
+  description: I am comfortable in general and technical communication with clients, stakeholders, project managers, designers, and engineers.
 
 - title: Management
   icon:
-  highlight: In ut elementum neque, nec venenatis magna. Fusce imperdiet ante vitae porttitor porta
-  description: tor tempor vel. In sed orci quis sapien pellentesque porttitor vitae vitae turpis. Donec vehicula nisi vel nulla finibus, nec tincidunt nisl pellentesque. Etiam a porttitor purus.
+  #highlight:
+  description: I like many others, have had projects affected by feature creep and loosely defined scope. From these experiences, I have a deep appreciation for diligent and rigorous project management. I make it a key focus to evaluate and apply a management paradigm to my projects.
+
 
 - title: Design
   icon:
-  highlight: In ut elementum neque, nec venenatis magna. Fusce imperdiet ante vitae porttitor porta
-  description: tor tempor vel. In sed orci quis sapien pellentesque porttitor vitae vitae turpis. Donec vehicula nisi vel nulla finibus, nec tincidunt nisl pellentesque. Etiam a porttitor purus.
+  # highlight: In ut elementum neque, nec venenatis magna. Fusce imperdiet ante vitae porttitor porta
+  description: 
 
 - title: Development
   icon:

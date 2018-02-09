@@ -1,5 +1,5 @@
 - title: Style Guide
-  #link: https://lucaszapico.github.io/styleguide/
+  link: https://lucaszapico.github.io/styleguide/
   img: /assets/img/themeicon.png
   repo: https://github.com/LucasZapico/styleguide
   version: Version 0 Stable
@@ -8,7 +8,7 @@
 
 - title: Jekyle Resume Theme
   img: /assets/img/themeicon.png
-  # link: https://lucaszapico.github.io/jekyll_portfolio_theme/#home
+  link: https://lucaszapico.github.io/jekyll_portfolio_theme/#home
   img: /assets/img/themeicon.png
   repo: https://github.com/LucasZapico/jekyll_portfolio_theme
   version: Version 0 Stable
