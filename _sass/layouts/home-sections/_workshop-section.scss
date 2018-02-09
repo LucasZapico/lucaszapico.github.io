@@ -69,12 +69,28 @@
   }
 
   .workshop-des {
+    display: flex;
+    flex-direction: column;
+    padding: 1em;
+    margin-top: 2em;
+    p {
+      width: 100%;
       padding: 1em;
+    }
+
+    svg {
+      display: block;
+      font-size: 5em;
+      margin: 2em;
+      text-align: center;
+      opacity: .3;
+    }
   }
 }
 
 .codepen-showcase {
   display: flex;
+  flex-direction: column;
   flex: wrap;
   .pen-container {
     max-width: 30em;
@@ -88,6 +104,11 @@
   .project-wrap.workshop {
     display: grid;
     grid-template-columns: 50% 50%;
+  }
+  .codepen-showcase {
+    display: flex;
+    flex-direction: row;
+    flex: wrap;
   }
 
 }

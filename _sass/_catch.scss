@@ -35,7 +35,7 @@ body {
   h6 {
     padding-left:.3em;
     margin: 0 auto;
-    width: 35em;
+    max-width: 35em;
     text-align: jusify;
     // font-family: Merriweather;
     text-transform: none;
@@ -54,18 +54,29 @@ body {
 
   h4 {
     padding: 0 .5em;
-    bottom: 250px;
     text-align: center;
     position: relative;
     font-weight: bold;
     z-index: 1;
+    bottom: 430px;
   }
   img {
-    position: relative;
-      height: 20em;
+      height: 30em;
+      position: relative;
       object-fit: cover;
       opacity: .5;
   }
 
 
+}
+
+@media screen and ( min-width: 50em){
+  .image-quote {
+    h4 {
+      bottom: 250px;
+    }
+    img {
+        height: 20em;
+    }
+  }
 }
