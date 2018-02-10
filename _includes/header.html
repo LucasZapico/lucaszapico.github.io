@@ -3,7 +3,7 @@
 <a class="skip-link screen-reader-text" href="#content">Skip to content</a>
   <div class="outer-wrap">
   <header class="masthead">
-
+    {% include nav.html navclass='nav-sticky hide-nav' %}
     <div class="centered">
       <div class="site-branding">
         <h1 class="site-title">{{site.title}}</h1>
@@ -15,7 +15,7 @@
       <!-- .site-title -->
     </div>
     <!-- .centered -->
-    {% include nav.html navclass='nav-top' %}
+    {% include nav.html navclass='nav-static' %}
   </header>
   <!-- .masthead -->
   <div class="main-wrap">
