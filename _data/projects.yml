@@ -1,39 +1,44 @@
 - title: FreeBird Rides
-  img: assets/img/project-img/icons/freebird-icon.png
+  icon: assets/img/project-img/icons/freebird-icon.png
+  img: assets/img/project-img/freebird_splash.png
   link:
-  responsibility: Quality assurance, onboarding, and branding
-  description:  The Freebird product is a curated market that allows businesses to drive customers to their location via free Uber rides and thereby gathering direct ROI for their marketing dollar.
+  responsibility: Team onboarding, Quality Assurance, Brand Development and Content Creation
+  description:  Freebird Rides produces a curated market that allows businesses to drive customers to their location via Uber rides paid for by the businesses. Thereby creating a direct relation between a marketing budget to customer acquisition.
 
 - title: LifeLines
-  img: assets/img/project-img/icons/lifelines-icon.png
-  link:
-  responsibility: Account management, user interface mobile and web, user experience design, web design and quality assurence
-  description: The project was an MVP web application with mobile component.
+  icon: assets/img/project-img/icons/lifelines-icon.png
+  img: assets/img/project-img/lifelines_splash.jpg
+  # link: assets/img/project-img/icons/lifelines-icon.png
+  responsibility: Product Management, User Interface and Experience Design and Testing
+  description: Lifelines is an addiction recovery management meant to facilitate support and accountability in post facility treatment.  The tool was a proof of concept, MVP web application with a mobile component.
 
 # - title: Fantelope
-#   img: assets/img/project-img/icons/fantelope.jpeg
+#   icon: assets/img/project-img/icons/fantelope.jpeg
 #   description: Sed varius nec enim sit amet auctor. Integer elementum est a enim egestas lobortis. Nam interdum purus id eros
 
-- title: JAFRA
-  img: assets/img/project-img/icons/jafra-icon.png
-  link:
-  responsibility: PSD to web
-  description: The project consisted of the porting of photoshop files into html and css
+# - title: JAFRA
+#   icon: assets/img/project-img/icons/jafra-icon.png
+#   link:
+#   responsibility: PSD to web
+#   description: The project consisted of the porting of photoshop files into html and css
 
 - title: MyLücke
-  img: assets/img/project-img/icons/mylucke-icon.png
-  link:
-  responsibility: Web design, quality assurance, and project management
-  description: Sed varius nec enim sit amet auctor. Integer elementum est a enim egestas lobortis. Nam interdum purus id eros
+  icon: assets/img/project-img/icons/mylucke-icon.png
+  img: assets/img/project-img/mylucke_splash.jpg
+  link: https://docknow.com/
+  responsibility: Web design, Quality Assurance Testing, and Product Management
+  description: MyLucke is an on-demand parking marketplace allowing users to rent and reserve private parking in high congestion areas in the LA area.
 
 - title: DadApp
-  img: assets/img/project-img/icons/dadapp-icon.png
+  icon: assets/img/project-img/icons/dadapp-icon.png
+  img: assets/img/project-img/Dadapp_splash.jpg
   link:
-  responsibility: User interface design, user experience design, project managment
-  description: The Dadapp was a small mobile application to schedule and track the various tasks a new father has to deal with.
+  responsibility: User Interface and Experience Design, Testing and Product Management
+  description: The Dadapp was a small mobile application meant to schedule and track the various tasks a new father has to deal with.
 
 - title: AAC
-  img: assets/img/project-img/icons/aac-icon.png
-  link:
-  responsibility: Content management, web design, hosting and domain management
-  description: The project consisted of web desing and Branding for a military grade drone design
+  icon: assets/img/project-img/icons/aac-icon.png
+  img: assets/img/project-img/aac_splash.jpg
+  link: http://www.advancedaircraftcompany.com/
+  responsibility: Content Management, Web Design, Hosting
+  description: Advanced Aircraft Company develops and produces concept drones focused on optimizing airtime, weight, and durability
