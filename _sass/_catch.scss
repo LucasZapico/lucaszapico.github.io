@@ -51,18 +51,18 @@ body {
 .image-quote {
   padding-top: 0;
   margin: 0;
+  position: relative;
 
   h4 {
     padding: 0 .5em;
     text-align: center;
-    position: relative;
+    position: absolute;
     font-weight: bold;
     z-index: 1;
-    bottom: 430px;
+    bottom: 100px;
   }
   img {
       height: 30em;
-      position: relative;
       object-fit: cover;
       opacity: .5;
   }
@@ -73,7 +73,6 @@ body {
 @media screen and ( min-width: 50em){
   .image-quote {
     h4 {
-      bottom: 250px;
     }
     img {
         height: 20em;

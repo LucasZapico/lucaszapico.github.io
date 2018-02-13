@@ -1,9 +1,7 @@
 .home-wrapper {
-  // width: 100%;
-  // max-width: 70em;
-  // margin: auto;
   section {
     h2 {
+      padding-top: 1.8em;
       text-align: center;
     }
     margin: auto;
@@ -11,7 +9,6 @@
   }
 
   .about-section {
-
     .main-profile-img {
       display: block;
       height: 10em;
@@ -29,7 +26,7 @@
     }
 
     p{
-      width: 35em;
+      max-width: 35em;
       margin: auto;
     }
   }
@@ -41,6 +38,7 @@
   text-align: center;
   .value-wrap {
     .value {
+        flex: 1;
       .value-icon {
         text-align: center;
         font-size: 3em;
@@ -66,7 +64,8 @@
 .my-value {
   .value-wrap {
     display: flex;
-
+    flex: 1;
+    justify-content: space-between;
   }
 }
 }
