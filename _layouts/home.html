@@ -47,8 +47,6 @@ layout: default
         <div class="title-wrap">
           <h3 class="project-title">{{ project.title }}</h3>
         </div>
-
-        <!-- <a href="{{project.link}}">See Project</a> -->
       </div><!-- visual-content -->
       <div class="text-content">
         <p class="project-des">
@@ -61,7 +59,9 @@ layout: default
           <br>
           {{ project.responsibility }}
         </p>
-
+        {% if project.link != null %}
+        <a href="{{project.link}}">See Official Site</a>
+        {% endif %}
       </div><!-- .text-content -->
     </article><!-- project-content -->
     {% endfor %}
