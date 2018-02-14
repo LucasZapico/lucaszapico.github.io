@@ -8,7 +8,7 @@
 - title: LifeLines
   icon: assets/img/project-img/icons/lifelines-icon.png
   img: assets/img/project-img/lifelines_splash.jpg
-  # link: 
+  # link:
   responsibility: Product Management, User Interface and Experience Design and Testing
   description: Lifelines is an addiction recovery management meant to facilitate support and accountability in post facility treatment.  The tool was a proof of concept, MVP web application with a mobile component.
 
@@ -31,7 +31,7 @@
 
 - title: DadApp
   icon: assets/img/project-img/icons/dadapp-icon.png
-  img: assets/img/project-img/Dadapp_splash.jpg
+  img: assets/img/project-img/dadapp_splash.jpg
   # link:
   responsibility: User Interface and Experience Design, Testing and Product Management
   description: The Dadapp was a small mobile application meant to schedule and track the various tasks a new father has to deal with.
