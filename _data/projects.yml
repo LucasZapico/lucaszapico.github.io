@@ -2,14 +2,14 @@
   icon: assets/img/project-img/icons/freebird-icon.png
   img: assets/img/project-img/freebird_splash.png
   link: https://www.freebirdrides.com/
-  responsibility: Team onboarding, Quality Assurance, Brand Development and Content Creation
+  responsibility: Team onboarding, User Research, Brand Development, Ideation, Black Box Quality Assurance testing and Content Creation
   description:  Freebird Rides produces a curated market that allows businesses to drive customers to their location via Uber rides paid for by the businesses. Thereby creating a direct relation between a marketing budget to customer acquisition.
 
 - title: LifeLines
   icon: assets/img/project-img/icons/lifelines-icon.png
   img: assets/img/project-img/lifelines_splash.jpg
   # link:
-  responsibility: Product Management, User Interface and Experience Design and Testing
+  responsibility: Product Management, User Interface and Experience Design, Ideation, Testing
   description: Lifelines is an addiction recovery management meant to facilitate support and accountability in post facility treatment.  The tool was a proof of concept, MVP web application with a mobile component.
 
 # - title: Fantelope
