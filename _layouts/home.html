@@ -1,178 +1,50 @@
 ---
 layout: default
 ---
-<div class="home-wrapper">
-  <section id="about" class="about-section">
-    <h2>About</h2>
-    <img id="main-image" class="main-profile-img" src="{{site.baseurl}}{{site.profile_image}}"/>
-    <div class="social-links">
-      <a href="mailto:{{site.email}}"><i class="fas fa-envelope fa-lg"></i></a>
-      <a href="{{site.github_link}}"><i class="fab fa-github fa-lg"></i></a>
-      <a href="{{site.codepen_link}}"><i class="fab fa-codepen fa-lg"></i></a>
-      <a href="{{site.linkedin_link}}"><i class="fab fa-linkedin fa-lg"></i></a>
-      <a href="{{site.facebook_link}}"><i class="fab fa-facebook fa-lg"></i></a>
-      <a href=""><i class="fab fa-instagram fa-lg"></i></a>
-      <!-- <a href="http://www.flickr.com/photos/zlucas/"></a><i class="fab fa-flickr fa-lg"></i></a> -->
-    </div>
-    <p>
-      I amass and gather whatever skills are necessary for me to develop, systems, tools, and processes to produce products with the great value
-    </p>
-  </section>
-  <section id="values" class="values">
-      <hr width="30%" />
-    <h2>Development Values</h2>
-    <div class="values-wrap">
-      {% for value in site.data.values %}
-      <h3>{{ value.title }}</h3>
-      <h6>
-        {{ value.content }}
-      </h6>
-      {% endfor %}
-    </div>
-  </section>
-  <section id="projects" class="project-section">
-  <h2>Projects</h2>
-  <hr width="30%" />
-  <div class="description proj">
-    <!-- <p>
-      Section Description:  This is a showcase for past projects
-    </p> -->
-  </div>
-  <div class="project-wrap">
-    {% for project in site.data.projects %}
-    <article class="project">
-      <div class="visual-content">
-        <img class="project-img mask" src="{{site.baseurl}}/{{ project.img}}" />
-        <img class="project-icon" src="{{site.baseurl}}/{{ project.icon }}"/>
-        <div class="title-wrap">
-          <h3 class="project-title">{{ project.title }}</h3>
-        </div>
-      </div><!-- visual-content -->
-      <div class="text-content">
-        <p class="project-des">
-          <strong>What they do,</strong>
-          <br>
-          {{ project.description }}
-        </p>
-        <p class="project-res">
-          <strong>What I did for them,</strong>
-          <br>
-          {{ project.responsibility }}
-        </p>
-        {% if project.link != null %}
-        <a href="{{project.link}}">See Official Site</a>
-        {% endif %}
-      </div><!-- .text-content -->
-    </article><!-- project-content -->
-    {% endfor %}
-  </div><!-- project-wrap -->
-  </section>
-  <section id="workshop" class="workshop-section">
-  <h2>WorkShop</h2>
-  <hr width="30%" />
-  <div class="description workshop">
-    <!-- <p>
-      Section Description:  This is a little showcase for some other projects, please enjoy
-    </p> -->
+{% include header.html %}
 
-  </div>
-  <h3>Projects</h3>
-  <div class="project-wrap workshop">
-    <section class="workshop-projects">
-      {% for workshop in site.data.workshop %}
-      <a href="{{workshop.link}}">
-      <article class="project-content workshop">
-        <div class="top-tile-content workshop">
-          <h3>{{ workshop.title }}</h3>
-          <img class="project-img workshop" src="{{site.baseurl}}{{ workshop.img }}"/>
-          <p>
-            {{workshop.version}}
-          </p>
-          <div class="workshop-links">
-            {% if workshop.repo != null %}
-              <a href="{{workshop.repo}}"><i class="fab fa-github"></i></a>
-              <!-- <a href="{{workshop.link}}"><i class="fas fa-link"></i></a> -->
-            {% endif %}
+<div class="main">
+  <section class="projects">
+    <h3>Projects</h3>
+    <div class="row">
+      {% for projects in site.data.projects %}
+        {% if projects.status == "live" %}
+      <div class="col s12 m6 l4">
+        <div class="card light-grey darken-1">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="{{site.baseurl}}{{projects.img}}">
           </div>
-          <!-- <p class="workshop-proj-link">
-            <a href="./style_guide/">See more of my process</a>
-          </p> -->
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">{{ projects.title }}<i class="material-icons right">more_vert</i></span>
+            <!-- <div class="indigo-text">
+              <strong>
+          Tags:
+          {% for tag in projects.tags %}
+          <span class="tags">
+            {{ tag }}
+          </span>
+          {% endfor %}
+          </strong>
+            </div> -->
+
+            <!-- <p><a href="#">This is a link</a></p> -->
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">{{projects.title}}<i class="material-icons right">close</i></span>
+            <p>{{ projects.description | truncatewords: 20 }}<a href="{{site.baseurl}}{{projects.project-link}}">...more</a></p>
+          </div>
+
+          <div class="card-action">
+            {% if projects.offical-link != null %}
+            <a href="{{projects.offical-link}}" class="center">Offical Site</a> {% endif %} {% if projects.project-link != null %}
+            <a href="{{site.baseurl}}{{projects.project-link}}" class="center">Project Documentation</a> {% endif %}
+          </div>
         </div>
-        <p class="project-des workshop">
-        </p>
-      </article>
-      </a>
-      {% endfor %}
-    </section>
-
-    <section class="workshop-des">
-      <p>
-      The workshop is where I play around and develop the various skill required to produce digital products. This is a little snapshot into my development process. In that, I produce and iterate on modules as a drafting and reference repository to build out projects.  My workshop is broken into two sections. <br /><br /><strong>Section one</strong> contains projects. As defined as an object composed of modules that produces value and a clearly defined completions point.<br /><br /> <strong>Section two</strong> is a showcase of modules and playgrounds that I have built through Codepen during the development of a project.
-      </p>
-      <i class="fas fa-cogs"></i>
-    </section>
-  </div>
-  <h3>Modules</h3>
-  <section id="codepen-showcase" class="codepen-showcase">
-
-    <div class="pen-container">
-      <p data-height="265" data-theme-id="light" data-slug-hash="KZgzOR" data-default-tab="css,result" data-user="LucasZapico" data-embed-version="2" data-pen-title="Top Banner Transition" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/LucasZapico/pen/KZgzOR/">Top Banner Transition</a> by lucas Zapic (<a href="https://codepen.io/LucasZapico">@LucasZapico</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-  <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-    </div>
-    <div class="pen-container">
-  <p data-height="265" data-theme-id="light" data-slug-hash="vpVxRq" data-default-tab="css,result" data-user="LucasZapico" data-embed-version="2" data-pen-title="tile hover expand and drop shadow" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/LucasZapico/pen/vpVxRq/">tile hover expand and drop shadow</a> by lucas Zapic (<a href="https://codepen.io/LucasZapico">@LucasZapico</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-  <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-    </div>
-    <div class="pen-container">
-      <p data-height="265" data-theme-id="light" data-slug-hash="zROgLW" data-default-tab="css,result" data-user="LucasZapico" data-embed-version="2" data-pen-title="card flip pass one" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/LucasZapico/pen/zROgLW/">card flip pass one</a> by lucas Zapic (<a href="https://codepen.io/LucasZapico">@LucasZapico</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-      <script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-    </div>
-    <div class="pen-container">
-      <p data-height="265" data-theme-id="light" data-slug-hash="GQKZVy" data-default-tab="css,result" data-user="LucasZapico" data-embed-version="2" data-pen-title="Alex's card flip style mock" data-preview="true" class="codepen">See the Pen <a href="https://codepen.io/LucasZapico/pen/GQKZVy/">Alex's card flip style mock</a> by lucas Zapic (<a href="https://codepen.io/LucasZapico">@LucasZapico</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-<script async src="https://production-assets.codepen.io/assets/embed/ei.js"></script>
-    </div>
-
-  </section>
-  </section>
-  <div class="image-quote">
-    <img src="{{site.baseurl}}/assets/img/background-1.0.png" />
-    <h4>
-      My obsession is the study of the relationships between human comprehension and aesthetics forms of information. In particular within the design and data visualization spaces.
-    </h4>
-  </div>
-  <section id="my-value" class="my-value">
-  <h2>My Value</h2>
-  <hr width="30%" />
-  <div class="value-wrap">
-    {% for value in site.data.value%}
-    <div class="value">
-      <h3>{{value.title}}</h3>
-      <!-- <div class="value-icon">
-        {{value.icon}}
       </div>
-      <p>
-        {{value.highlight}}
-      </p> -->
-      <p>
-        {{value.description}}
-      </p>
+        {% endif %}
+      {% endfor %}
     </div>
-    {% endfor %}
-  </div>
-
-</section>
-
-  <section id="small-confessions" >
-    <p>
-
-    </p>
   </section>
-  <section id="skills" class="skills-section">
-    <!-- <h2>Skills</h2> -->
 
-    <script src="{{site.baseurl}}/assets/JS/skill.js"></script>
-  </section>
-  <!-- <section id="contact" class="contact-section">
-  <h2>Contact</h2>
-  </section>
 </div>
+<!-- main  -->

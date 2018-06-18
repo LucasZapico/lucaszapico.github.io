@@ -1,23 +1,5 @@
- {% include head.html %}
-
-<a class="skip-link screen-reader-text" href="#content">Skip to content</a>
-  <div class="outer-wrap">
-  <header class="masthead">
-    {% include nav.html navclass='nav-sticky hide-nav' %}
-    <div class="centered">
-      <div class="site-branding">
-        <h1 class="site-title">{{site.title}}</h1>
-        <img class="logo" src="{{site.baseurl}}{{site.logo}}" />
-        <p class="title-caption">
-          {{ site.title_caption }}
-        </p>
-      </div>
-      <!-- .site-title -->
-    </div>
-    <!-- .centered -->
-    {% include nav.html navclass='nav-static' %}
-  </header>
-  <!-- .masthead -->
-  <div class="main-wrap">
-    <div class="content">
-      <main class="main-area">
+{% include head.html %}
+<header>
+  {% include nav.html %}
+</header>
+<div class="container">

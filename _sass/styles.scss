@@ -4,36 +4,42 @@
 **
 **/
 @import 'base/_reset.scss';
-@import 'base/_base.scss';
 @import 'base/_accessibility.scss';
-@import 'base/_layout-base.scss';
-@import 'base/_nav-base.scss';
 
 /**
 **
-**    STYLING FOUNDATION
-**    color palette, font imports, typography styles
+**    MATERIAL
+**
 **/
-@import 'color-type-font/_font.scss';
-@import 'color-type-font/_typography-base.scss';
-@import 'color-type-font/_typography.scss';
-@import 'color-type-font/_color-palette.scss';
+@import 'material-sass/materialize.scss';
+@import 'base/_base.scss';
 
 /**
-**  COMPONENTS
+**
+**    COLOR TYPE
+**
 **/
-@import 'components/_nav.scss';
-@import 'components/_footer.scss';
+@import 'color-type/_project-colors.scss';
+@import 'color-type/_project-type.scss';
+
+/**
+**
+**    COMPONENTS
+**
+**/
+@import "components/project-summary-card.scss";
+@import  "components/footer.scss";
+@import  "components/nav.scss";
+@import "components/project-card.scss";
+
 
 /**
 **
 **    LAYOUTS
 **
 **/
-@import 'layouts/_masthead.scss';
-@import 'layouts/_home-layout.scss';
-@import 'layouts/home-sections/_project-section.scss';
-@import 'layouts/home-sections/_workshop-section.scss';
+@import "pages/_about.scss";
+
 
 /***********************************/
 @import '_catch.scss';

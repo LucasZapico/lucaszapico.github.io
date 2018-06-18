@@ -1,20 +1,20 @@
 - title: Communication
-  # icon:
+  icon: chat_bubble
   # highlight: Communication is paramount to any successful endeavor and as such, I continually devote myself to producing and developing said skills
   description: I am proficient comfortable with general and technical communication with clients, stakeholders, project managers, designers, and engineers.
 
 - title: Management
-  # icon:
+  icon: supervisor_account
   #highlight:
   description: I like many others, have had projects affected by feature creep and loosely defined scope. From these experiences, I have a deep appreciation for diligent and rigorous product management. I make it a key focus to at the very least be aware of and apply a management paradigm to any projects I am involved in.
 
 
 - title: Design
-  # icon:
+  icon: invert_colors
   # highlight: In ut elementum neque, nec venenatis magna. Fusce imperdiet ante vitae porttitor porta
   description: I can not stress enough the importance of design in any project. It is omnipresent and is the lubrication by which the machine runs.  In any role, I continue to develop, research and apply a design paradigm.
 
 - title: Development
-  # icon:
+  icon: chevron_leftchevron_right
   # highlight: In ut elementum neque, nec venenatis magna. Fusce imperdiet ante vitae porttitor porta
   description: While designing and managing various digital products. I found my deficit in understanding of the details of the development process was an opportunity to expand my knowledge of software production. To increase efficacy, over the past few months I have been developing my programming knowledge with a primary focus on web technologies.

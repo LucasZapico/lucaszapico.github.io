@@ -1,0 +1,27 @@
+.main {
+  .projects {
+    .card-content {
+    }
+    .card-action {
+      height: 5em;
+      a {
+        display: block;
+
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 50em ){
+  .main {
+    .projects {
+      .card-content {
+      }
+      .card-action {
+        a {
+          display: inline;
+        }
+      }
+    }
+  }
+}

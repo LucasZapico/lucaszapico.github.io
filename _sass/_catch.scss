@@ -1,81 +1,27 @@
-/**-------------------------------**\
-**
-**        # CATCH #
-**    This is a catch for elements and styles that I have not sorted yet
-\**-------------------------------**/
-
-body {
-  // background: url(./background-1.0.png);
-  background-color: hsla(357, 1%, 30%, 0.08);
-  object-fit: cover;
-  background-repeat: no-repeat;
-}
-.body-wrapper {
-
-}
-.outer-wrap {
-
-}
-
-.main-wrap {
-  background-color: $white;
-  width: 100%;
-  max-width: 70em;
-  margin: auto;
-}
-.values-wrap {
-
-  h3 {
-
-    padding:.3em;
-    margin-top: .6em;
-    margin: 0;
-    text-align: center;
-  }
-  h6 {
-    padding-left:.3em;
-    margin: 0 auto;
-    max-width: 35em;
-    text-align: jusify;
-    // font-family: Merriweather;
-    text-transform: none;
-    text-align: center;
-    // height: 8em;
-    overflow: hidden;
-  }
-  hide {
-    height: 0;
-  }
-}
-
-.image-quote {
-  padding-top: 0;
-  margin: 0;
-  position: relative;
-
-  h4 {
-    padding: 0 .5em;
-    text-align: center;
-    position: absolute;
-    font-weight: bold;
-    z-index: 1;
-    bottom: 100px;
-  }
-  img {
-      height: 30em;
-      object-fit: cover;
+// prepped for thicker top nav
+// nav.main {
+//   height: 6em;
+// }
+.hero-header {
+  // position: relative;
+  // .hero-title {
+  //   width: 100%;
+  //   position: absolute;
+  //   top: 10em;
+  // }
+  .hero-wrap {
+    .hero-img {
+      max-height: 800px;
       opacity: .5;
+      object-fit: cover;
+    }
   }
-
-
 }
 
-@media screen and ( min-width: 50em){
-  .image-quote {
-    h4 {
-    }
-    img {
-        height: 20em;
-    }
+
+.breadcrumb-nav {
+  box-shadow: none;
+  .breadcrumb {
+    padding-left: 0.5em;
   }
 }

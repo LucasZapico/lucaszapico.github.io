@@ -1,9 +1,12 @@
-<nav class="nav-main {{ include.navclass }}{{include.navId}}">
-  <ul>
-    {% for link in site.data.menu %}
-      <li>
-        <a href="{{site.baseurl}}{{link.href}}">{{ link.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-</nav>
+<div class="navbar-fixed">
+  <nav class="main">
+    <div class="nav-wrapper grey lighten-4 ">
+      <a href="{{site.baseurl}}/#" class="brand-logo grey-text text-darken-4">LUC.INC</a>
+      <ul class="right hide-on-med-and-down ">
+        {% for links in site.data.main-nav %}
+        <li><a href="{{site.baseurl}}{{links.href}}" class="grey-text text-darken-4">{{links.title}}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  </nav>
+</div>

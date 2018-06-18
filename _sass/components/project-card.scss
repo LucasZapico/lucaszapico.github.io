@@ -1,0 +1,32 @@
+.projects {
+
+  .card {
+    .card-image {
+      height: 100%;
+      img {
+        object-fit: cover;
+        height: 250px;
+      }
+    }
+    .card-content {
+      height: 8em;
+      // height: 10em;
+      .tags {
+        background-color: scale-color($primary-color, $lightness: 90%);
+        border-radius: 2px;
+        margin: 0px;
+        margin-top: 2px;
+        padding: .1em;
+        border: 1px solid;
+      }
+    }
+    .card-action {
+      a {
+        display: block;
+        font-size: 1em;
+      }
+    }
+  }
+}
+
+// @media

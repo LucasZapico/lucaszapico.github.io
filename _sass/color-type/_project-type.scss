@@ -1,0 +1,17 @@
+.text-body-lg {
+  font-size: 1.2em;
+}
+
+.text-body-sm {
+  font-size: .8em;
+}
+
+.caption {
+ font-size: .6em;
+}
+
+
+.placeholder {
+  font-style: italic;
+  color: lighten($input-border-color, 20%)
+}

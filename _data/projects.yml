@@ -1,44 +1,151 @@
+- title: Branding Content Automation
+  status: live
+  date: 2018
+  link:
+  categories: []
+  tags: ['design', 'branding', 'content-creation']
+  type: project
+  img: /pages/projects/branding-process-auto/branding-process-auto-assets/showcase-moodboards.jpg
+  # offical-link: https://lucaszapico.github.io/
+  project-link: /branding-process-auto/
+  description: This project leveraged workflows in sketch and web environments to develop semi-automated processes to produce high quality core brand content. Thereby facilating key branding documentation is expediantely and efficiently produced.
+
+- title: Today I learned
+  status: live
+  date: 2018
+  link:
+  categories: []
+  tags: ['design', 'frontend&#8209development', 'end&#8209to&#8209end']
+  type: project
+  img: /pages/projects/today-i-learned/til-assets/til-2@1x.jpg
+  # offical-link: https://lucaszapico.github.io/
+  project-link: /til/
+  description: This project facilated the refinedment of a frictionless symbolized sketch design system of core components, which was then developed into a sass variablized webkit. Thereby, expediting and ensuring consitency between design and development.
+
+- title: Portfolio
+  status: live
+  date: 2018
+  # link:
+  # categories: []
+  tags: ['design', 'development', 'full&#8209stack']
+  type: project
+  img: /pages/projects/luc.inc/luc.inc-assests/luc.inc-showcase-web.jpg
+  # offical-link: https://lucaszapico.github.io/
+  project-link: /styleguide/
+  description:
+
+- title: Cohen Group
+  status: live
+  date: 2018
+  link:
+  categories: []
+  tags: ['branding', 'design', 'digital&#8209presence']
+  type: project
+  img : /pages/projects/cohen-group/cohen-group-assets/cohen-group.jpg
+  # offical-link: https://lucaszapico.github.io/
+  project-link: /cohen-group-project/
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas enim nunc, blandit consequat ipsum eget, aliquet bibendum nibh. Mauris ac felis vitae arcu mollis sollicitudin eget nec est. Curabitur ut vulputate massa. Fusce quis magna commodo, mollis justo nec, tempor sapien. Duis eget euismod sem, et maximus neque. Mauris dictum luctus sapien, non lacinia mauris bibendum elementum. Sed et viverra risus, eu accumsan tellus.
+
+- title: Freed-om
+  status: draft
+  date: 2018
+  link:
+  categories: []
+  tags: ['web-design', 'frontend&#8209development', 'end&#8209to&#8209end', 'user&#8209experience']
+  type: project
+  # offical-link: https://lucaszapico.github.io/
+  project-link: /freed-om-project/
+  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas enim nunc, blandit consequat ipsum eget, aliquet bibendum nibh. Mauris ac felis vitae arcu mollis sollicitudin eget nec est. Curabitur ut vulputate massa. Fusce quis magna commodo, mollis justo nec, tempor sapien. Duis eget euismod sem, et maximus neque. Mauris dictum luctus sapien, non lacinia mauris bibendum elementum. Sed et viverra risus, eu accumsan tellus.
+
+- title: Style Guide
+  status: live
+  date: 2018
+  link:
+  categories: []
+  tags: ['design', 'frontend&#8209development']
+  type: project
+  img: /pages/projects/styleguide/styleguide-assets/v3.2.0/styleguide-d-v3.jpg
+  # offical-link: https://lucaszapico.github.io/
+  project-link: /styleguide-project/
+  description: 'Project: Develop semi-automated or systems to produce project content and design documentation for a project.'
+
 - title: FreeBird Rides
+  status: live
+  date: 2017
+  categories: []
+  tags: ['branding', 'design', 'user&#8209interface', 'user&#8209experience', 'quality&#8209assurance&#8209testing']
   icon: assets/img/project-img/icons/freebird-icon.png
-  img: assets/img/project-img/freebird_splash.png
-  link: https://www.freebirdrides.com/
-  responsibility: Team onboarding, User Research, Brand Development, Ideation, Black Box Quality Assurance testing and Content Creation
+  img: /pages/projects/freebird-rides/freebird-rides-assets/freebird-splash-web.jpg
+  offical-link: https://www.freebirdrides.com/
+  project-link: /freebird-rides-project/
+  responsibility: Team onboarding, Quality Assurance, Brand Development and Content Creation
   description:  Freebird Rides produces a curated market that allows businesses to drive customers to their location via Uber rides paid for by the businesses. Thereby creating a direct relation between a marketing budget to customer acquisition.
 
 - title: LifeLines
+  status: live
+  date: 2017
+  categories: []
+  tags: ['project&#8209management','user&#8209interface', 'user&#8209experience', 'frontend&#8209developemt']
   icon: assets/img/project-img/icons/lifelines-icon.png
-  img: assets/img/project-img/lifelines_splash.jpg
-  # link:
-  responsibility: Product Management, User Interface and Experience Design, Ideation, Testing
+  img: /pages/projects/lifelines/lifelines-assets/lifelines-office-mock.jpg
+  # offical-link: https://www.freebirdrides.com/
+  project-link: /lifelines-project/
+  responsibility: Product Management, User Interface and Experience Design and Testing
   description: Lifelines is an addiction recovery management meant to facilitate support and accountability in post facility treatment.  The tool was a proof of concept, MVP web application with a mobile component.
 
-# - title: Fantelope
-#   icon: assets/img/project-img/icons/fantelope.jpeg
-#   description: Sed varius nec enim sit amet auctor. Integer elementum est a enim egestas lobortis. Nam interdum purus id eros
-
-# - title: JAFRA
-#   icon: assets/img/project-img/icons/jafra-icon.png
-#   link:
-#   responsibility: PSD to web
-#   description: The project consisted of the porting of photoshop files into html and css
-
 - title: MyLücke
+  status: live
+  date: 2017
+  categories: []
+  tags: ['user&#8209interface']
   icon: assets/img/project-img/icons/mylucke-icon.png
-  img: assets/img/project-img/mylucke_splash.jpg
-  link: https://docknow.com/
+  img: /pages/projects/mylucke/mylucke-assets/cityTemplateSEO.jpg
+  offical-link: https://docknow.com/
+  project-link: /mylucke-project/
   responsibility: Web design, Quality Assurance Testing, and Product Management
   description: MyLucke is an on-demand parking marketplace allowing users to rent and reserve private parking in high congestion areas in the LA area.
 
 - title: DadApp
+  status: live
+  date: 2017
+  categories: []
+  tags: ['project&#8209management','user&#8209interface', 'user&#8209experience']
   icon: assets/img/project-img/icons/dadapp-icon.png
-  img: assets/img/project-img/dadapp_splash.jpg
-  # link:
+  img: pages/projects/dadapp/dadapp-assets/dadapp.jpg
+  # offical-link: https://www.freebirdrides.com/
+  project-link: /dadapp-project/
   responsibility: User Interface and Experience Design, Testing and Product Management
   description: The Dadapp was a small mobile application meant to schedule and track the various tasks a new father has to deal with.
 
 - title: AAC
+  status: live
+  date: 2017
+  categories: []
+  tags: ['web&#8209design', 'content&#8209creation']
   icon: assets/img/project-img/icons/aac-icon.png
-  img: assets/img/project-img/aac_splash.jpg
-  link: http://www.advancedaircraftcompany.com/
+  img: /pages/projects/aac/aac-assets/lifelines-showcase.jpg
+  offical-link: http://www.advancedaircraftcompany.com/
+  project-link: /aac-project/
   responsibility: Content Management, Web Design, Hosting
   description: Advanced Aircraft Company develops and produces concept drones focused on optimizing airtime, weight, and durability
+
+- title: Fantelope
+  status: draft
+  date: 2017
+  categories: []
+  tags: ['project-management','user-interface', 'user-experience']
+  icon: assets/img/project-img/icons/fantelope.jpeg
+  offical-link: http://www.advancedaircraftcompany.com/
+  project-link: /fantelope-project/
+  description: Sed varius nec enim sit amet auctor. Integer elementum est a enim egestas lobortis. Nam interdum purus id eros
+
+- title: JAFRA
+  status: draft
+  date: 2017
+  categories: []
+  tags: ['design','frontend&#8209development']
+  icon: assets/img/project-img/icons/jafra-icon.png
+  offical-link:
+  project-link: /jafra-project/
+  responsibility: PSD to web
+  description: The project consisted of the porting of photoshop files into html and css

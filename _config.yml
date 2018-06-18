@@ -1,20 +1,6 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Lucas's Living Resume
-title_caption: Status, in progress eternally 
+title: Lucas's Test Prot
+title_caption: Status, in progress eternally
 email: zapicolucas@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
@@ -23,57 +9,16 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 favicon: /assets/img/favicon32.png  #16x16 or 32x32
-
-# USER INFORMATION
-profile_image: assets/img/main-profile.jpg
-logo: /assets/img/cycle-1.svg
+profile_image: /assets/img/main-profile.jpg
 
 
-twitter_username:
-github_username:  LucasZapico
-github_link: https://github.com/LucasZapico
-facebook_link: https://www.facebook.com/lucas.zapico.7
-linkedin_link: https://www.linkedin.com/in/lucasmmzapico/
-pinterest_link:
-codepen_link: https://codepen.io/LucasZapico
-instagram_link: https://www.instagram.com/10zapico/
 
 # Build settings
 markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
 
 
-# Welcome to Jekyll
-
-#BASIC WEBSITE SETTINGS
-
-
-background_img: /static/assets/img/background-1.0.png
-keywords:
-img_path:
-collections:
-    output: false
-
-#LOCAL DEVELOPMENT
+# LOCAL DEVELOPMENT
 host: 127.0.0.1
-port: 4444
+port: 4466
 exclude:
-  - project/
   - .gitignore
-
-#DIGITAL ANALYTICS
-google_analytics:
