@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Branding Content and Resouce Automation Project
-permalink: /branding-process-auto/
+# permalink: /branding-process-auto/
 ---
 
 ####  *<center>This Documentation is in Progress</center>*
