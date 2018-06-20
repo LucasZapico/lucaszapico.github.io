@@ -6730,13 +6730,13 @@ body {
   background-color: rgba(72, 71, 71, 0.98); }
 
 .grey-m-2 {
-  background-color: rgba(118, 116, 116, 0.98); }
+  background-color: rgba(141, 139, 139, 0.98); }
 
 .grey-m-1 {
-  background-color: rgba(164, 162, 162, 0.98); }
+  background-color: rgba(198, 197, 197, 0.98); }
 
 .grey-l-2 {
-  background-color: rgba(221, 220, 220, 0.98); }
+  background-color: rgba(232, 232, 232, 0.98); }
 
 .grey-l-1 {
   background-color: rgba(244, 243, 243, 0.98); }
@@ -6775,10 +6775,8 @@ body {
 main {
   flex: 1 0 auto; }
 
-.page-footer {
-  margin-top: 5em; }
-  .page-footer a {
-    color: white; }
+.page-footer a {
+  color: white; }
 
 .social-links a {
   padding: .5em; }
@@ -6823,6 +6821,19 @@ main {
   padding: .5em; }
 .webkit .greyscale .scale div {
   padding: .5em; }
+
+.project section {
+  padding: 2em; }
+
+.cohen-group .comp-logo {
+  max-height: 400px; }
+  .cohen-group .comp-logo .col {
+    object-fit: contain;
+    border: 1px solid rgba(221, 220, 220, 0.98);
+    box-shadow: 10px 5px 30px rgba(221, 220, 220, 0.98);
+    height: 300px; }
+    .cohen-group .comp-logo .col img {
+      padding: 3em; }
 
 /***********************************/
 .hero-header .hero-wrap .hero-img {
