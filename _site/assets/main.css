@@ -6845,3 +6845,18 @@ main {
   box-shadow: none; }
   .breadcrumb-nav .breadcrumb {
     padding-left: 0.5em; }
+
+/****
+**
+** GET IN TOUCH
+**
+*****/
+.get-in-touch {
+  text-align: center;
+  padding: 1em;
+  margin: 3em;
+  box-shadow: 5px 3px 20px 2px rgba(26, 25, 25, 0.8); }
+  .get-in-touch #coffee-cup-icon {
+    height: 80px; }
+  .get-in-touch h6 {
+    padding: 1em; }

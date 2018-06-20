@@ -4,6 +4,9 @@ title: Today I learned
 permalink: /til/
 ---
 
+
+####  *<center>This Documentation is in Progress</center>*
+
 ## Core Benfits of this project
 - Work through design process implementing recently refined design processes
   - systemitized sketch design systems with robust assets libraries
@@ -24,3 +27,6 @@ permalink: /til/
 
 ### Summary
 This project facilitated the refinement of a frictionless symbolized sketch design system of core components, which was then developed into a sass variablized webkit. Thereby, expediting and ensuring consistency between design and development.
+
+
+{% include documentation-in-process.html %}

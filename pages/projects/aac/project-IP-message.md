@@ -7,8 +7,7 @@ permalink: /aac-project/
 ####  *<center>This Documentation is in Progress</center>*
 
 <div class="row">
-<div class="col s12 m8 l8 text-body-lg ">
-Thanks for stopping by and checking out my work. I hope they intrigued and or delivered some value. At this very moment, I am likely jamming away doing one of the following.
+<div class="col s12 m8 l8 text-body-lg ">Thanks for stopping by and checking out my work. I hope they intrigued and or delivered some value. At this very moment, I am likely jamming away doing one of the following.
 
 <ul class="browser-default">
   <li>Producing some graphic element</li>
@@ -26,3 +25,11 @@ Thanks for stopping by and checking out my work. I hope they intrigued and or de
 
 Needless to say, it is a full plate. It is a good thing I love this stuff. So pardon not having wonderfully robust project documentation available. I assure you I am working on it and one day it will be a sight to behold. So until then stay classy.</div>
 </div>
+
+----
+----
+
+
+## Summary
+
+<p class="text-body-lg">This project consisted of production of custom brand visual and copy content. Then integrating said content into a wordpress site. </p>
