@@ -6682,6 +6682,8 @@ body {
     body .container main {
       flex: 1 0 auto;
       padding: 1em; }
+    body .container .main {
+      padding-bottom: 2em; }
 
 /**
 **
@@ -6775,8 +6777,20 @@ body {
 main {
   flex: 1 0 auto; }
 
+.page-footer .brand-logo #house-icon {
+  height: 200px; }
 .page-footer a {
   color: white; }
+.page-footer .get-in-touch {
+  text-align: center;
+  padding: 1em;
+  margin: 0;
+  margin-top: 1em;
+  box-shadow: 0px 0px 0px 0px rgba(26, 25, 25, 0.8); }
+  .page-footer .get-in-touch #coffee-cup-icon {
+    height: 80px; }
+  .page-footer .get-in-touch h6 {
+    padding: 1em; }
 
 .social-links a {
   padding: .5em; }
@@ -6804,6 +6818,8 @@ main {
 **    LAYOUTS
 **
 **/
+.about-section section {
+  padding-bottom: 3em; }
 .about-section .main-profile-img {
   display: block;
   height: 10em;
@@ -6816,6 +6832,58 @@ main {
   letter-spacing: 1em;
   padding: 1em 0.5em 2em;
   height: 1em; }
+
+.skill-chart .skill-bars li {
+  height: 1em;
+  background: #ECE7E7; }
+  .skill-chart .skill-bars li .progress {
+    background: #7986cb;
+    position: relative;
+    height: 100%; }
+    .skill-chart .skill-bars li .progress span {
+      position: absolute;
+      right: 0;
+      top: -1.7em;
+      color: #FFF;
+      background-color: #7986cb;
+      padding: 0.3em;
+      border-radius: 2px;
+      font-size: 14px; }
+  .skill-chart .skill-bars li strong {
+    top: -3em;
+    line-height: 1.3em;
+    padding: 0.3em; }
+  .skill-chart .skill-bars li .percent95 {
+    width: 95%; }
+  .skill-chart .skill-bars li .percent90 {
+    width: 90%; }
+  .skill-chart .skill-bars li .percent85 {
+    width: 85%; }
+  .skill-chart .skill-bars li .percent80 {
+    width: 80%; }
+  .skill-chart .skill-bars li .percent75 {
+    width: 75%; }
+  .skill-chart .skill-bars li .percent70 {
+    width: 70%; }
+  .skill-chart .skill-bars li .percent65 {
+    width: 65%; }
+  .skill-chart .skill-bars li .percent60 {
+    width: 60%; }
+  .skill-chart .skill-bars li .percent55 {
+    width: 55%; }
+  .skill-chart .skill-bars li .percent50 {
+    width: 50%; }
+  .skill-chart .skill-bars li .percent45 {
+    width: 45%; }
+  .skill-chart .skill-bars li .percent40 {
+    width: 40%; }
+  .skill-chart .skill-bars li .percent35 {
+    width: 35%; }
+  .skill-chart .skill-bars li .percent30 {
+    width: 30%; }
+
+.skills .collapsible-header {
+  display: block; }
 
 .webkit .states .actions div {
   padding: .5em; }
@@ -6860,3 +6928,7 @@ main {
     height: 80px; }
   .get-in-touch h6 {
     padding: 1em; }
+
+#house-icon #icon-256X256 {
+  fill: #FFFFFF;
+  stroke: #303E9F; }

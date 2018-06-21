@@ -1,48 +1,187 @@
 ---
 layout: default
-title: webkit
+title: About
 permalink: /about/
 ---
 {% include header.html %}
+<main class="about-section">
 
-<main>
 
-
-<section id="about" class="about-section scrollspy">
-      <h2>About</h2>
-    <div class="row" >  <div class="col s12 m6 l6">
-      <p>
-       A little about me, I enjoy producing products and content while listening to jazz and dance music. Not together. 
-      </p>
-    </div><div class="col s12 m6 l6"><img id="main-image" class="main-profile-img circle" src="{{site.baseurl}}{{site.profile_image}}" />
-      <div class="social-links ">
-        <a href="mailto:{{site.email}}"><i class="fas fa-envelope fa-lg"></i></a>
-        <a href="{{site.github_link}}"><i class="fab fa-github fa-lg"></i></a>
-        <a href="{{site.codepen_link}}"><i class="fab fa-codepen fa-lg"></i></a>
-        <a href="{{site.linkedin_link}}"><i class="fab fa-linkedin fa-lg"></i></a>
-        <a href="{{site.facebook_link}}"><i class="fab fa-facebook fa-lg"></i></a>
-        <a href=""><i class="fab fa-instagram fa-lg"></i></a>
-        <!-- <a href="http://www.flickr.com/photos/zlucas/"></a><i class="fab fa-flickr fa-lg"></i></a> -->
+  <section id="about" class="scrollspy">
+    <h2>About</h2>
+    <div class="row">
+      <div class="col s12 m6 l6">
+        <p>
+          A little about me, I enjoy a little jazz a lot of coffee and then jamming away on my projects. I am all about being cross functional. I want to understand the roles and responsibilities of my teamsmates so I make their lives easier and we can focus on building something awesome.
+        </p>
+        <p class="text-body-lg">
+          Why do I invest in the skills I do?
+          Because I have a compulsion for everything I touch to be;
+          <ul class="text-body-lg">
+            <li>
+              Aesethic
+            </li>
+            <li>
+              Functional
+            </li>
+            <li>
+              Planned and executed like a dang fine watch
+            </li>
+          </ul>
+          This is why I devoure and train everything there is to know about design, development and planning and management...
+        </p>
       </div>
-      <h6>
-        I amass and gather whatever skills are necessary for me to develop, systems, tools, and processes to produce products with the great value
-      </h6></div></dic>
-    </section>
-    <div class="divider">
-
-    </div>
-      <section id="my-value" class="scrollspy">
-        <div class="row">
-          {% for value in site.data.value %}
-          <div class="col s12 m6 l3">
-            <div class="icon-block">
-              <h2 class="center"><i class="material-icons">{{value.icon}}</i></h2>
-              <h5 class="center">{{ value.title }}</h5>
-
-              <p class="light">{{value.description}}</p>
-            </div>
-          </div>
-          {% endfor %}
+      <div class="col s12 m6 l6"><img id="main-image" class="main-profile-img circle" src="{{site.baseurl}}{{site.profile_image}}" />
+        <div class="social-links ">
+          <a href="mailto:{{site.email}}"><i class="fas fa-envelope fa-lg"></i></a>
+          <a href="{{site.github_link}}"><i class="fab fa-github fa-lg"></i></a>
+          <a href="{{site.codepen_link}}"><i class="fab fa-codepen fa-lg"></i></a>
+          <a href="{{site.linkedin_link}}"><i class="fab fa-linkedin fa-lg"></i></a>
+          <a href="{{site.facebook_link}}"><i class="fab fa-facebook fa-lg"></i></a>
+          <a href=""><i class="fab fa-instagram fa-lg"></i></a>
+          <!-- <a href="http://www.flickr.com/photos/zlucas/"></a><i class="fab fa-flickr fa-lg"></i></a> -->
         </div>
-      </section>
+        <p class="text-body-lg">
+        I amass and gather whatever skills are necessary for me to develop, systems, tools, and processes to produce products with the great value
+      </p>
+      </div>
+    </div>
+  </section>
+  <div class="divider">
+
+  </div>
+
+  <section class="skills">
+    <h3>Skills</h3>
+    <p>
+        <h6>Skills that help my build</h6>
+    </p>
+    <ul class="collapsible">
+      <li>
+        <div class="collapsible-header">
+          <h5>Design: Blue Mage</h5>
+        </div>
+        <div class="collapsible-body"><span>
+         <div class="row">
+       <!--skill-scale -->
+       <div class="col s2 m2 l2">
+         <h6>Skill</h6>
+       </div>
+       <div class="col s2 m2 l1">
+         <h6 class="center">Acquainting</h6>
+       </div>
+       <div class="col s2 m2 l2">
+         <h6 class="center">Beginer</h6>
+       </div>
+       <div class="col s2 m2 l2">
+         <h6 class="center">Competent</h6>
+       </div>
+       <div class="col s2 m2 l2">
+         <h6 class="center">Proficient</h6>
+       </div>
+       <div class="col s2 m2 l2">
+         <h6 class="center">Expert</h6>
+       </div>
+       <div class="col s2 m2 l1">
+         <h6 class="center">Master</h6>
+       </div>
+      </div>
+      {% for skill in site.data.skills %}
+      {% if skill.type == "design" %}
+      <div class="row skill-chart">
+        <div class="skill-labels col s2 m2 l2">
+        <ul>
+          <li>
+            <strong>{{skill.title}}</strong>
+          </li>
+        </ul>
+        </div>
+          <div class="col m10 l10 ">
+            <ul class="skill-bars">
+              <li class="z-depth-2">
+                <div class="progress {{skill.level}}">
+                  <!-- <span>90%</span> -->
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+    {% endif %}
+    {% endfor %}
+
+
+    </span>
+    </div>
+    </li>
+    <li>
+      <div class="collapsible-header">
+        <h5>Development: Junior Ninja</h5>
+      </div>
+      <div class="collapsible-body"><span>
+       <div class="row">
+     <!--skill-scale -->
+     <div class="col s2 m2 l2">
+       <h6>Skill</h6>
+     </div>
+     <div class="col s2 m2 l2">
+       <h6 class="center">Beginer</h6>
+     </div>
+     <div class="col s2 m2 l2">
+       <h6 class="center">Competent</h6>
+     </div>
+     <div class="col s2 m2 l2">
+       <h6 class="center">Proficient</h6>
+     </div>
+     <div class="col s2 m2 l2">
+       <h6 class="center">Expert</h6>
+     </div>
+     <div class="col s2 m2 l2">
+       <h6 class="center">Master</h6>
+     </div>
+    </div>
+    {% for skill in site.data.skills %}
+    {% if skill.type == "development" %}
+    <div class="row skill-chart">
+      <div class="skill-labels col s2 m2 l2">
+      <ul>
+        <li>
+          <strong>{{skill.title}}</strong>
+        </li>
+      </ul>
+      </div>
+        <div class="col m10 l10 ">
+          <ul class="skill-bars">
+            <li class="z-depth-2">
+              <div class="progress {{skill.level}}">
+                <!-- <span>90%</span> -->
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+  {% endif %}
+  {% endfor %}
+
+     </span></div>
+    </li>
+
+    </ul>
+  </section>
+  <div class="divider"></div>
+  <section id="my-value" class="scrollspy">
+    <h3>Value Delivered</h3>
+    <div class="row">
+      {% for value in site.data.value %}
+      <div class="col s12 m6 l3">
+        <div class="icon-block">
+          <h2 class="center"><i class="material-icons">{{value.icon}}</i></h2>
+          <h5 class="center">{{ value.title }}</h5>
+
+          <p class="light">{{value.description}}</p>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+  {% include get-in-touch.html %}
 </main>
