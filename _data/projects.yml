@@ -7,16 +7,8 @@
   type: project
   img: /pages/projects/branding-process-auto/branding-process-auto-assets/showcase-moodboards.jpg
   # offical-link: https://lucaszapico.github.io/
-<<<<<<< Updated upstream
-  project-link: /branding-process-auto/
-  description: This project leveraged workflows in sketch and web environments to develop semi-automated processes to produce high quality core brand content. Thereby facilating key branding documentation is expediantely and efficiently produced.
-||||||| merged common ancestors
-  project-link: /branding-auto-project/
-  description: This project leveraged workflows in sketch and web environments to develop semi-automated processes to produce high quality core brand content. Thereby facilating key branding documentation is expediantely and efficiently produced.
-=======
   project-link: /branding-auto-project/
   description: This project leveraged workflows in sketch and web environments to develop low friction processes to produce high-quality core brand content. Thereby facilitating key branding documentation is expediently and efficiently produced.
->>>>>>> Stashed changes
 
 - title: Today I learned
   status: live

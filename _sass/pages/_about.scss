@@ -1,5 +1,8 @@
 
   .about-section {
+    section {
+      padding-bottom: 3em;
+    }
   .main-profile-img {
     display: block;
     height: 10em;
@@ -14,5 +17,107 @@
     letter-spacing: 1em;
     padding: 1em 0.5em 2em;
     height: 1em;
+  }
+}
+
+.skill-chart {
+  // padding: 2em;
+
+  .skill-labels {
+    li {
+      // margin-top: 1.5em;
+    }
+  }
+
+  .skill-bars {
+    li {
+      // margin: 2em;
+      height: 1em;
+      background: #ECE7E7;
+
+      .progress {
+        background: $secondary-color;
+        position: relative;
+        height: 100%;
+
+        span {
+          position: absolute;
+          right: 0;
+          top: -1.7em;
+          color: #FFF;
+          background-color: $secondary-color;
+          padding: 0.3em;
+          border-radius: 2px;
+          font-size: 14px;
+        }
+      }
+
+
+      strong {
+        top: -3em;
+        line-height: 1.3em;
+        padding: 0.3em;
+      }
+
+      .percent95 {
+        width: 95%;
+      }
+
+      .percent90 {
+        width: 90%;
+      }
+
+      .percent85 {
+        width: 85%;
+      }
+
+      .percent80 {
+        width: 80%;
+      }
+
+      .percent75 {
+        width: 75%;
+      }
+
+      .percent70 {
+        width: 70%;
+      }
+
+      .percent65 {
+        width: 65%;
+      }
+
+      .percent60 {
+        width: 60%;
+      }
+      .percent55 {
+        width: 55%;
+      }
+
+      .percent50 {
+        width: 50%;
+      }
+      .percent45 {
+        width: 45%;
+      }
+
+      .percent40 {
+        width: 40%;
+      }
+      .percent35 {
+        width: 35%;
+      }
+
+      .percent30 {
+        width: 30%;
+      }
+
+    }
+  }
+}
+
+.skills {
+  .collapsible-header {
+    display: block;
   }
 }

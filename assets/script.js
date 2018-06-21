@@ -27,3 +27,9 @@ function cycleSlide(){
 
 var elem = document.querySelector('.parallax');
  var parallax = M.Parallax.init(elem);
+
+// ABOUT PAGET COLLAPSIBLE
+ document.addEventListener('DOMContentLoaded', function(){
+   var collapsElms = document.querySelectorAll('.collapsible');
+   var instances = M.Collapsible.init(collapsElms);
+ });

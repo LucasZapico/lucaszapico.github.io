@@ -1,0 +1,29 @@
+
+.project {
+  section {
+    padding: 2em;
+  }
+}
+
+.cohen-group {
+
+  section {
+    // max-height: 400px;
+  }
+  .comp-logo {
+    max-height: 400px;
+    .col {
+      object-fit: contain;
+      border: 1px solid rgba(221, 220, 220, 0.98);
+      box-shadow: 10px 5px 30px rgba(221, 220, 220, 0.98);
+      height: 300px;
+      img {
+        padding: 3em;
+
+      }
+    }
+  }
+  .competition {
+    // height: 285px;
+  }
+}
