@@ -1,4 +1,4 @@
-- title: Branding Content Automation
+- title: Moodboard: Module
   status: live
   date: 2018
   link:
@@ -7,8 +7,16 @@
   type: project
   img: /pages/projects/branding-process-auto/branding-process-auto-assets/showcase-moodboards.jpg
   # offical-link: https://lucaszapico.github.io/
+<<<<<<< Updated upstream
   project-link: /branding-process-auto/
   description: This project leveraged workflows in sketch and web environments to develop semi-automated processes to produce high quality core brand content. Thereby facilating key branding documentation is expediantely and efficiently produced.
+||||||| merged common ancestors
+  project-link: /branding-auto-project/
+  description: This project leveraged workflows in sketch and web environments to develop semi-automated processes to produce high quality core brand content. Thereby facilating key branding documentation is expediantely and efficiently produced.
+=======
+  project-link: /branding-auto-project/
+  description: This project leveraged workflows in sketch and web environments to develop low friction processes to produce high-quality core brand content. Thereby facilitating key branding documentation is expediently and efficiently produced.
+>>>>>>> Stashed changes
 
 - title: Today I learned
   status: live
@@ -20,7 +28,7 @@
   img: /pages/projects/today-i-learned/til-assets/til-2@1x.jpg
   offical-link: https://lucaszapico.github.io/today-i-learned/
   project-link: /til/
-  description: This project facilated the refinedment of a frictionless symbolized sketch design system of core components, which was then developed into a sass variablized webkit. Thereby, expediting and ensuring consitency between design and development.
+  description: This project utilized the implementation of a symbolized sketch design system of core components, which was then developed into a sass variablized webkit. Thereby, expediting and ensuring consistency between design and development.
 
 - title: Portfolio
   status: live
@@ -32,7 +40,7 @@
   img: /pages/projects/luc.inc/luc.inc-assests/luc.inc-showcase-web.jpg
   # offical-link: https://lucaszapico.github.io/
   project-link: /digital-identity-project/
-  description:
+  description: This is an ongoing project to develop and refine Luc.inc digital presence. Including the asset pipelines and channel that need to be developed for a potent digital identity.
 
 - title: Cohen Group
   status: live
@@ -44,7 +52,7 @@
   img : /pages/projects/cohen-group/cohen-group-assets/cohen-group.jpg
   # offical-link: https://lucaszapico.github.io/
   project-link: /cohen-group-project/
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas enim nunc, blandit consequat ipsum eget, aliquet bibendum nibh. Mauris ac felis vitae arcu mollis sollicitudin eget nec est. Curabitur ut vulputate massa. Fusce quis magna commodo, mollis justo nec, tempor sapien. Duis eget euismod sem, et maximus neque. Mauris dictum luctus sapien, non lacinia mauris bibendum elementum. Sed et viverra risus, eu accumsan tellus.
+  description: The rebranding of the Cohen Group NW.
 
 - title: Freed-om
   status: draft
@@ -57,7 +65,7 @@
   project-link: /freed-om-project/
   description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas enim nunc, blandit consequat ipsum eget, aliquet bibendum nibh. Mauris ac felis vitae arcu mollis sollicitudin eget nec est. Curabitur ut vulputate massa. Fusce quis magna commodo, mollis justo nec, tempor sapien. Duis eget euismod sem, et maximus neque. Mauris dictum luctus sapien, non lacinia mauris bibendum elementum. Sed et viverra risus, eu accumsan tellus.
 
-- title: Style Guide
+- title: Style Guide: Module
   status: live
   date: 2018
   link:
@@ -79,7 +87,7 @@
   offical-link: https://www.freebirdrides.com/
   project-link: /freebird-rides-project/
   responsibility: Team onboarding, Quality Assurance, Brand Development and Content Creation
-  description:  Freebird Rides produces a curated market that allows businesses to drive customers to their location via Uber rides paid for by the businesses. Thereby creating a direct relation between a marketing budget to customer acquisition.
+  description: I was tasked with early-stage black box quality assurance testing. The creation and maintenance of core application UI assets and was a part of the initial branding team.
 
 - title: LifeLines
   status: live
@@ -91,7 +99,7 @@
   # offical-link: https://www.freebirdrides.com/
   project-link: /lifelines-project/
   responsibility: Product Management, User Interface and Experience Design and Testing
-  description: Lifelines is an addiction recovery management meant to facilitate support and accountability in post facility treatment.  The tool was a proof of concept, MVP web application with a mobile component.
+  description: I was tasked with the discovery, planning and development of a web and mobile application. This included developing core brand content, design kit, webkit and application architecture.
 
 - title: MyLücke
   status: live
@@ -103,7 +111,8 @@
   offical-link: https://docknow.com/
   project-link: /mylucke-project/
   responsibility: Web design, Quality Assurance Testing, and Product Management
-  description: MyLucke is an on-demand parking marketplace allowing users to rent and reserve private parking in high congestion areas in the LA area.
+  description: I was responsible for UI asset management for both web and mobile component libraries. The production of web application design and the quality assurance testing of the product.
+
 
 - title: DadApp
   status: live
@@ -115,7 +124,7 @@
   # offical-link: https://www.freebirdrides.com/
   project-link: /dadapp-project/
   responsibility: User Interface and Experience Design, Testing and Product Management
-  description: The Dadapp was a small mobile application meant to schedule and track the various tasks a new father has to deal with.
+  description: I was tasked with the design of the UI and feature set of a IOS mobile application
 
 - title: AAC
   status: live
@@ -127,7 +136,7 @@
   offical-link: http://www.advancedaircraftcompany.com/
   project-link: /aac-project/
   responsibility: Content Management, Web Design, Hosting
-  description: Advanced Aircraft Company develops and produces concept drones focused on optimizing airtime, weight, and durability
+  description: I was responsible for the curation, production brand assets and deployment of the wordpress website.
 
 - title: Fantelope
   status: draft
@@ -137,7 +146,7 @@
   icon: assets/img/project-img/icons/fantelope.jpeg
   offical-link: http://www.advancedaircraftcompany.com/
   project-link: /fantelope-project/
-  description: Sed varius nec enim sit amet auctor. Integer elementum est a enim egestas lobortis. Nam interdum purus id eros
+  description:  Tasked with the redesign of an IOS application. I produced renewed UI and application architecture.
 
 - title: JAFRA
   status: draft
