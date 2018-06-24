@@ -1,152 +1,152 @@
-- title: Moodboard: Module
-  status: live
-  date: 2018
+- title: 'Moodboard: Module'
+  status:         live
+  date:           2018
   link:
-  categories: []
-  tags: ['design', 'branding', 'content-creation']
-  type: project
-  img: /pages/projects/branding-process-auto/branding-process-auto-assets/showcase-moodboards.jpg
+  categories:     []
+  tags:           ['design', 'branding', 'content-creation']
+  type:           project
+  img:            /pages/projects/branding-process-auto/branding-process-auto-assets/showcase-moodboards.jpg
   # offical-link: https://lucaszapico.github.io/
-  project-link: /branding-auto-project/
-  description: This project leveraged workflows in sketch and web environments to develop low friction processes to produce high-quality core brand content. Thereby facilitating key branding documentation is expediently and efficiently produced.
+  project-link:   /branding-auto-project/
+  description:    This project leveraged workflows in sketch and web environments to develop low friction processes to produce high-quality core brand content. Thereby facilitating key branding documentation is expediently and efficiently produced.
 
-- title: Today I learned
-  status: live
-  date: 2018
+- title:          Today I learned
+  status:         live
+  date:           2018
   link:
-  categories: []
-  tags: ['design', 'frontend&#8209development', 'end&#8209to&#8209end']
-  type: project
-  img: /pages/projects/today-i-learned/til-assets/til-2@1x.jpg
-  offical-link: https://lucaszapico.github.io/today-i-learned/
-  project-link: /til/
-  description: This project utilized the implementation of a symbolized sketch design system of core components, which was then developed into a sass variablized webkit. Thereby, expediting and ensuring consistency between design and development.
+  categories:     []
+  tags:           ['design', 'frontend&#8209development', 'end&#8209to&#8209end']
+  type:           project
+  img:            /pages/projects/today-i-learned/til-assets/til-2@1x.jpg
+  offical-link:   https://lucaszapico.github.io/today-i-learned/
+  project-link:   /til/
+  description:    This project utilized the implementation of a symbolized sketch design system of core components, which was then developed into a sass variablized webkit. Thereby, expediting and ensuring consistency between design and development.
 
-- title: Portfolio
-  status: live
-  date: 2018
+- title:          Portfolio
+  status:         live
+  date:           2018
   # link:
-  # categories: []
-  tags: ['design', 'development', 'full&#8209stack']
-  type: project
-  img: /pages/projects/luc.inc/luc.inc-assests/luc.inc-showcase-web.jpg
-  # offical-link: https://lucaszapico.github.io/
-  project-link: /digital-identity-project/
-  description: This is an ongoing project to develop and refine Luc.inc digital presence. Including the asset pipelines and channel that need to be developed for a potent digital identity.
+  # categories:   []
+  tags:           ['design', 'development', 'full&#8209stack']
+  type:           project
+  img:            /pages/projects/luc.inc/luc.inc-assests/luc.inc-showcase-web.jpg
+  offical-link:   https://lucaszapico.github.io/
+  project-link:   /digital-identity-project/
+  description:    This is an ongoing project to develop and refine Luc.inc digital presence. Including the asset pipelines and channel that need to be developed for a potent digital identity.
 
-- title: Cohen Group
-  status: live
-  date: 2018
+- title:          Cohen Group
+  status:         live
+  date:           2018
   link:
-  categories: []
-  tags: ['branding', 'design', 'digital&#8209presence']
-  type: project
-  img : /pages/projects/cohen-group/cohen-group-assets/cohen-group.jpg
+  categories:     []
+  tags:           ['branding', 'design', 'digital&#8209presence']
+  type:           project
+  img :           /pages/projects/cohen-group/cohen-group-assets/cohen-group.jpg
   # offical-link: https://lucaszapico.github.io/
-  project-link: /cohen-group-project/
-  description: The rebranding of the Cohen Group NW.
+  project-link:   /cohen-group-project/
+  description:    The rebranding of the Cohen Group NW.
 
-- title: Freed-om
-  status: draft
-  date: 2018
+- title:          Freed-om
+  status:         draft
+  date:           2018
   link:
-  categories: []
-  tags: ['web-design', 'frontend&#8209development', 'end&#8209to&#8209end', 'user&#8209experience']
-  type: project
+  categories:     []
+  tags:           ['web-design', 'frontend&#8209development', 'end&#8209to&#8209end', 'user&#8209experience']
+  type:           project
   # offical-link: https://lucaszapico.github.io/
-  project-link: /freed-om-project/
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas enim nunc, blandit consequat ipsum eget, aliquet bibendum nibh. Mauris ac felis vitae arcu mollis sollicitudin eget nec est. Curabitur ut vulputate massa. Fusce quis magna commodo, mollis justo nec, tempor sapien. Duis eget euismod sem, et maximus neque. Mauris dictum luctus sapien, non lacinia mauris bibendum elementum. Sed et viverra risus, eu accumsan tellus.
+  project-link:   /freed-om-project/
+  description:    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas enim nunc, blandit consequat ipsum eget, aliquet bibendum nibh. Mauris ac felis vitae arcu mollis sollicitudin eget nec est. Curabitur ut vulputate massa. Fusce quis magna commodo, mollis justo nec, tempor sapien. Duis eget euismod sem, et maximus neque. Mauris dictum luctus sapien, non lacinia mauris bibendum elementum. Sed et viverra risus, eu accumsan tellus.
 
-- title: Style Guide: Module
-  status: live
-  date: 2018
+- title: 'Style Guide: Module'
+  status:         live
+  date:           2018
   link:
-  categories: []
-  tags: ['design', 'frontend&#8209development']
-  type: project
-  img: /pages/projects/styleguide/styleguide-assets/v3.2.0/styleguide-d-v3.jpg
+  categories:     []
+  tags:           ['design', 'frontend&#8209development']
+  type:           project
+  img:            /pages/projects/styleguide/styleguide-assets/v3.2.0/styleguide-d-v3.jpg
   # offical-link: https://lucaszapico.github.io/
-  project-link: /styleguide-project/
+  project-link:   /styleguide-project/
   description: 'Project: Develop semi-automated or systems to produce project content and design documentation for a project.'
 
-- title: FreeBird Rides
-  status: live
-  date: 2017
-  categories: []
-  tags: ['branding', 'design', 'user&#8209interface', 'user&#8209experience', 'quality&#8209assurance&#8209testing']
-  icon: assets/img/project-img/icons/freebird-icon.png
-  img: /pages/projects/freebird-rides/freebird-rides-assets/freebird-splash-web.jpg
-  offical-link: https://www.freebirdrides.com/
-  project-link: /freebird-rides-project/
+- title:          FreeBird Rides
+  status:         live
+  date:           2017
+  categories:     []
+  tags:           ['branding', 'design', 'user&#8209interface', 'user&#8209experience', 'quality&#8209assurance&#8209testing']
+  icon:           assets/img/project-img/icons/freebird-icon.png
+  img:            /pages/projects/freebird-rides/freebird-rides-assets/freebird-splash-web.jpg
+  offical-link:   https://www.freebirdrides.com/
+  project-link:   /freebird-rides-project/
   responsibility: Team onboarding, Quality Assurance, Brand Development and Content Creation
-  description: I was tasked with early-stage black box quality assurance testing. The creation and maintenance of core application UI assets and was a part of the initial branding team.
+  description:    I was tasked with early-stage black box quality assurance testing. The creation and maintenance of core application UI assets and was a part of the initial branding team.
 
-- title: LifeLines
-  status: live
-  date: 2017
-  categories: []
-  tags: ['project&#8209management','user&#8209interface', 'user&#8209experience', 'frontend&#8209developemt']
-  icon: assets/img/project-img/icons/lifelines-icon.png
-  img: /pages/projects/lifelines/lifelines-assets/lifelines-office-mock.jpg
+- title:          LifeLines
+  status:         live
+  date:           2017
+  categories:     []
+  tags:           ['project&#8209management','user&#8209interface', 'user&#8209experience', 'frontend&#8209developemt']
+  icon:           assets/img/project-img/icons/lifelines-icon.png
+  img:            /pages/projects/lifelines/lifelines-assets/lifelines-office-mock.jpg
   # offical-link: https://www.freebirdrides.com/
-  project-link: /lifelines-project/
+  project-link:   /lifelines-project/
   responsibility: Product Management, User Interface and Experience Design and Testing
-  description: I was tasked with the discovery, planning and development of a web and mobile application. This included developing core brand content, design kit, webkit and application architecture.
+  description:    I was tasked with the discovery, planning and development of a web and mobile application. This included developing core brand content, design kit, webkit and application architecture.
 
-- title: MyLücke
-  status: live
-  date: 2017
-  categories: []
-  tags: ['user&#8209interface']
-  icon: assets/img/project-img/icons/mylucke-icon.png
-  img: /pages/projects/mylucke/mylucke-assets/cityTemplateSEO.jpg
-  offical-link: https://docknow.com/
-  project-link: /mylucke-project/
+- title:          MyLücke
+  status:         live
+  date:           2017
+  categories:     []
+  tags:           ['user&#8209interface']
+  icon:           assets/img/project-img/icons/mylucke-icon.png
+  img:            /pages/projects/mylucke/mylucke-assets/cityTemplateSEO.jpg
+  offical-link:   https://docknow.com/
+  project-link:   /mylucke-project/
   responsibility: Web design, Quality Assurance Testing, and Product Management
-  description: I was responsible for UI asset management for both web and mobile component libraries. The production of web application design and the quality assurance testing of the product.
+  description:    I was responsible for UI asset management for both web and mobile component libraries. The production of web application design and the quality assurance testing of the product.
 
 
-- title: DadApp
-  status: live
-  date: 2017
-  categories: []
-  tags: ['project&#8209management','user&#8209interface', 'user&#8209experience']
-  icon: assets/img/project-img/icons/dadapp-icon.png
-  img: pages/projects/dadapp/dadapp-assets/dadapp.jpg
+- title:          DadApp
+  status:         live
+  date:           2017
+  categories:     []
+  tags:           ['project&#8209management','user&#8209interface', 'user&#8209experience']
+  icon:           assets/img/project-img/icons/dadapp-icon.png
+  img:            pages/projects/dadapp/dadapp-assets/dadapp.jpg
   # offical-link: https://www.freebirdrides.com/
-  project-link: /dadapp-project/
+  project-link:   /dadapp-project/
   responsibility: User Interface and Experience Design, Testing and Product Management
-  description: I was tasked with the design of the UI and feature set of a IOS mobile application
+  description:    I was tasked with the design of the UI and feature set of a IOS mobile application
 
-- title: AAC
-  status: live
-  date: 2017
-  categories: []
-  tags: ['web&#8209design', 'content&#8209creation']
-  icon: assets/img/project-img/icons/aac-icon.png
-  img: /pages/projects/aac/aac-assets/lifelines-showcase.jpg
-  offical-link: http://www.advancedaircraftcompany.com/
-  project-link: /aac-project/
+- title:          AAC
+  status:         live
+  date:           2017
+  categories:     []
+  tags:           ['web&#8209design', 'content&#8209creation']
+  icon:           assets/img/project-img/icons/aac-icon.png
+  img:            /pages/projects/aac/aac-assets/lifelines-showcase.jpg
+  offical-link:   http://www.advancedaircraftcompany.com/
+  project-link:   /aac-project/
   responsibility: Content Management, Web Design, Hosting
-  description: I was responsible for the curation, production brand assets and deployment of the wordpress website.
+  description:    I was responsible for the curation, production brand assets and deployment of the wordpress website.
 
-- title: Fantelope
-  status: draft
-  date: 2017
-  categories: []
-  tags: ['project-management','user-interface', 'user-experience']
-  icon: assets/img/project-img/icons/fantelope.jpeg
-  offical-link: http://www.advancedaircraftcompany.com/
-  project-link: /fantelope-project/
-  description:  Tasked with the redesign of an IOS application. I produced renewed UI and application architecture.
+- title:          Fantelope
+  status:         draft
+  date:           2017
+  categories:     []
+  tags:           ['project-management','user-interface', 'user-experience']
+  icon:           assets/img/project-img/icons/fantelope.jpeg
+  offical-link:   http://www.advancedaircraftcompany.com/
+  project-link:   /fantelope-project/
+  description:    Tasked with the redesign of an IOS application. I produced renewed UI and application architecture.
 
-- title: JAFRA
-  status: draft
-  date: 2017
-  categories: []
-  tags: ['design','frontend&#8209development']
-  icon: assets/img/project-img/icons/jafra-icon.png
+- title:          JAFRA
+  status:         draft
+  date:           2017
+  categories:     []
+  tags:           ['design','frontend&#8209development']
+  icon:           assets/img/project-img/icons/jafra-icon.png
   offical-link:
-  project-link: /jafra-project/
+  project-link:   /jafra-project/
   responsibility: PSD to web
-  description: The project consisted of the porting of photoshop files into html and css
+  description:    The project consisted of the porting of photoshop files into html and css
