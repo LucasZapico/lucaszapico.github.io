@@ -82,14 +82,14 @@ permalink: /about/
       {% for skill in site.data.skills %}
       {% if skill.type == "design" %}
       <div class="row skill-chart">
-        <div class="skill-labels col s2 m2 l2">
+        <div class="skill-labels col s12 m2 l2">
         <ul>
           <li>
             <strong>{{skill.title}}</strong>
           </li>
         </ul>
         </div>
-          <div class="col m10 l10 ">
+          <div class="col s12 m10 l10 ">
             <ul class="skill-bars">
               <li class="z-depth-2">
                 <div class="progress {{skill.level}}">
