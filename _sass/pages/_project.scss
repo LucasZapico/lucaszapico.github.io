@@ -4,11 +4,14 @@
     padding: 2em;
   }
 }
-
+// COHEN GROUP PAGE SPECIFIC SCSS
 .cohen-group {
-
-  section {
-    // max-height: 400px;
+  .hero-wrap {
+    .hero-img {
+      max-height: 600px;
+      opacity: .5;
+      object-fit: cover;
+    }
   }
   .comp-logo {
     max-height: 400px;
@@ -23,7 +26,32 @@
       }
     }
   }
-  .competition {
-    // height: 285px;
+}
+// END COHEN GROUP
+
+// TIL PAGE SPECIFIC SCSS
+.til,
+.project {
+  section {
+    padding: 0px;
+  }
+.btn {
+  margin-top: 1em;
+
+}
+}
+// END TIL
+
+
+@media screen and (min-width: 40em){
+  .til,
+  .project {
+    section {
+      padding: 5em;
+    }
+  .btn {
+    margin-top: 1em;
+
+  }
   }
 }

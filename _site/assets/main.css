@@ -3569,7 +3569,7 @@ em {
   font-style: italic; }
 
 strong {
-  font-weight: 600; }
+  font-weight: 700; }
 
 small {
   font-size: 75%; }
@@ -6756,6 +6756,12 @@ body {
   font-style: italic;
   color: #d1d1d1; }
 
+.font-primary-color {
+  color: #303f9f; }
+
+.font-secondary-color {
+  color: #303f9f; }
+
 /**
 **
 **    COMPONENTS
@@ -6896,6 +6902,10 @@ main {
 .project section {
   padding: 2em; }
 
+.cohen-group .hero-wrap .hero-img {
+  max-height: 600px;
+  opacity: .5;
+  object-fit: cover; }
 .cohen-group .comp-logo {
   max-height: 400px; }
   .cohen-group .comp-logo .col {
@@ -6906,10 +6916,27 @@ main {
     .cohen-group .comp-logo .col img {
       padding: 3em; }
 
+.til section,
+.project section {
+  padding: 0px; }
+.til .btn, .til .btn-large, .til .btn-small,
+.project .btn,
+.project .btn-large,
+.project .btn-small {
+  margin-top: 1em; }
+
+@media screen and (min-width: 40em) {
+  .til section,
+  .project section {
+    padding: 5em; }
+  .til .btn, .til .btn-large, .til .btn-small,
+  .project .btn,
+  .project .btn-large,
+  .project .btn-small {
+    margin-top: 1em; } }
 /***********************************/
 .hero-header .hero-wrap .hero-img {
   max-height: 600px;
-  opacity: .5;
   object-fit: cover; }
 
 .breadcrumb-nav {

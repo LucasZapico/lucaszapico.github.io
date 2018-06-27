@@ -15,3 +15,11 @@
   font-style: italic;
   color: lighten($input-border-color, 20%)
 }
+
+.font-primary-color {
+  color: $primary-color;
+}
+
+.font-secondary-color {
+  color: $primary-color;
+}
