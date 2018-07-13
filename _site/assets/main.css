@@ -6815,9 +6815,11 @@ main {
     margin-top: 2px;
     padding: .1em;
     border: 1px solid; }
-.projects .card .card-action a {
-  display: block;
-  font-size: 1em; }
+.projects .card .card-action {
+  height: 6em; }
+  .projects .card .card-action a {
+    display: block;
+    font-size: 1em; }
 
 /**
 **

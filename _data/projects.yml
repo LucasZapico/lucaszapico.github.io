@@ -19,7 +19,7 @@
   type:           project
   img:            /pages/projects/today-i-learned/til-assets/til-2@1x.jpg
   offical-link:   https://lucaszapico.github.io/today-i-learned/
-  project-link:   /til/
+  project-link:   /til-project/
   description:    This project utilized the implementation of a symbolized sketch design system of core components, which was then developed into a sass variablized webkit. Thereby, expediting and ensuring consistency between design and development.
 
 - title:          Portfolio
@@ -31,7 +31,7 @@
   type:           project
   img:            /pages/projects/luc.inc/luc.inc-assests/luc.inc-showcase-web.jpg
   offical-link:   https://lucaszapico.github.io/
-  project-link:   /digital-identity-project/
+  project-link:   /luc-inc-project/
   description:    This is an ongoing project to develop and refine Luc.inc digital presence. Including the asset pipelines and channel that need to be developed for a potent digital identity.
 
 - title:          Cohen Group
