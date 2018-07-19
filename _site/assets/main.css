@@ -6673,17 +6673,15 @@ input[type=range].focused:focus:not(.active)::-ms-thumb {
     text-align: center;
     margin-top: 1.2rem; } }
 body {
-  background-color: #fafafa;
+  background-color: #ffffff;
   display: flex;
   min-height: 100vh;
   flex-direction: column; }
-  body .container {
-    background-color: #fafafa; }
-    body .container main {
-      flex: 1 0 auto;
-      padding: 1em; }
-    body .container .main {
-      padding-bottom: 2em; }
+  body .container main {
+    flex: 1 0 auto;
+    padding: 1em; }
+  body .container .main {
+    padding-bottom: 2em; }
 
 /**
 **
