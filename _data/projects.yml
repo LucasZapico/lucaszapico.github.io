@@ -124,7 +124,7 @@
   categories:     []
   tags:           ['web&#8209design', 'content&#8209creation']
   icon:           assets/img/project-img/icons/aac-icon.png
-  img:            /pages/projects/aac/aac-assets/lifelines-showcase.jpg
+  img:            pages/projects/aac/aac-assets/aac-showcase.jpg
   offical-link:   http://www.advancedaircraftcompany.com/
   project-link:   /aac-project/
   responsibility: Content Management, Web Design, Hosting
