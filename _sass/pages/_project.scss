@@ -2,6 +2,7 @@
 .project {
   section {
     padding: 2em;
+    height: 50em;
   }
 }
 // COHEN GROUP PAGE SPECIFIC SCSS
@@ -42,16 +43,30 @@
 }
 // END TIL
 
+// AAC PAGE
+main.aac {
+  padding: 0px;
+}
+
 
 @media screen and (min-width: 40em){
   .til,
   .project {
     section {
       padding: 5em;
+
     }
   .btn {
     margin-top: 1em;
 
   }
+  }
+  .aac {
+    section {
+     height : 20em;
+     padding-bottom: 2em;
+     padding-top: 2em;
+     padding-left: 1em;
+    }
   }
 }
