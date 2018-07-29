@@ -1,3 +1,27 @@
+- title:          Cohen Group
+  status:         live
+  date:           2018
+  link:
+  categories:     []
+  tags:           ['branding', 'design', 'digital&#8209presence']
+  type:           project
+  img :           /pages/projects/cohen-group/cohen-group-assets/cohen-group.jpg
+  # offical-link: https://lucaszapico.github.io/
+  project-link:   /cohen-group-project/
+  description:    The brand updating of the Cohen Group NW.
+
+- title:          Claire Morency Real Estate
+  status:         live
+  date:           2018
+  link:
+  categories:     []
+  tags:           ['branding', 'design', 'digital&#8209presence']
+  type:           project
+  img :           /pages/projects/morency-real-estate/morency-real-estate-assets/card-morency-real-estate-img@2x.jpg
+  # offical-link: https://lucaszapico.github.io/
+  project-link:   /morency-real-estate-project/
+  description:    Print design of quarterly mailer.
+
 - title: 'Moodboard: Module'
   status:         live
   date:           2018
@@ -34,17 +58,6 @@
   project-link:   /luc-inc-project/
   description:    This is an ongoing project to develop and refine Luc.inc digital presence. Including the asset pipelines and channel that need to be developed for a potent digital identity.
 
-- title:          Cohen Group
-  status:         live
-  date:           2018
-  link:
-  categories:     []
-  tags:           ['branding', 'design', 'digital&#8209presence']
-  type:           project
-  img :           /pages/projects/cohen-group/cohen-group-assets/cohen-group.jpg
-  # offical-link: https://lucaszapico.github.io/
-  project-link:   /cohen-group-project/
-  description:    The rebranding of the Cohen Group NW.
 
 - title:          Freed-om
   status:         draft
@@ -99,7 +112,7 @@
   categories:     []
   tags:           ['user&#8209interface']
   icon:           assets/img/project-img/icons/mylucke-icon.png
-  img:            /pages/projects/mylucke/mylucke-assets/cityTemplateSEO.jpg
+  img:            /pages/projects/mylucke/mylucke-assets/mylucke-card-img.jpg
   offical-link:   https://docknow.com/
   project-link:   /mylucke-project/
   responsibility: Web design, Quality Assurance Testing, and Product Management
