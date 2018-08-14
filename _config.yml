@@ -10,6 +10,8 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 favicon: /assets/img/favicon32.png  #16x16 or 32x32
 profile_image: /assets/img/main-profile.jpg
+
+# OTHER MEDIA OUTLETS
 twitter_username: https://twitter.com/lucas_zapico_10
 github_username:  LucasZapico
 github_link: https://github.com/LucasZapico
