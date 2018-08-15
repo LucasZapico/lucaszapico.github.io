@@ -4,7 +4,26 @@ layout: default
 {% include header.html %}
 
 <div class="main">
-  <section class="projects">
+  <section id="home-hero">
+    <!-- <h2>Question</h2>
+    <h2>Analyze</h2>
+    <h2>Convey</h2> -->
+    <img src="{{site.baseurl}}/assets/img/main-hero/main-hero-dark@1x.jpg" />
+  </section>
+  <section>
+    <div class="row">
+      <div class="col s12 m6 l6">
+
+      </div>
+      <div class="col s12 m6 l6">
+          <h3>Luc.Inc is the economic derivative of Lucas Zapico</h3>
+          <p class="flow-text type-two">Driven to communicate value and information through inquisitive stories, potent visuals and efficient systems </p>
+      </div>
+
+    </div>
+
+  </section>
+  <section class="projects container">
     <h3>Projects</h3>
     <div class="row">
       {% for projects in site.data.projects %}

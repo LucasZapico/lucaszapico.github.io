@@ -18,6 +18,31 @@
   }
 }
 
+// HOME HERO START
+
+#home-hero {
+  text-align: center;
+    :nth-child(1) {
+      font-size: 5rem;
+      letter-spacing: 1rem;
+    }
+    :nth-child(2) {
+      font-size: 3em;
+    }
+    :nth-child(2) {
+      font-size: 3em;
+    }
+}
+// HOME HERO END
+
+// SECOND TYPE
+.type-two {
+  // font-family: 'Crimson Text', serif;
+  // font-family: 'Playfair Display', serif;
+}
+
+
+
 
 .breadcrumb-nav {
   box-shadow: none;
@@ -34,6 +59,9 @@
 .get-in-touch {
   #coffee-cup-icon {
     height: 80px;
+    fill: #FFFFFF;
+    stroke: #333030;
+
   }
   h6
   {
