@@ -18,6 +18,27 @@
   }
 }
 
+// HOME HERO START
+
+#home-hero {
+  text-align: center;
+    :nth-child(1) {
+      font-size: 5rem;
+      letter-spacing: 1rem;
+    }
+    :nth-child(2) {
+      font-size: 3em;
+    }
+    :nth-child(2) {
+      font-size: 3em;
+    }
+}
+
+// HOME HERO END
+
+
+
+
 
 .breadcrumb-nav {
   box-shadow: none;
