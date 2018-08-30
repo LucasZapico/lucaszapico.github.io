@@ -1,4 +1,15 @@
-// prepped for thicker top nav
+// SPACE BETWEEN row elm
+
+    .space {
+      .row {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+      }
+    }
+
+
+
+// THICK NAV BAR
 // nav.main {
 //   height: 6em;
 // }
@@ -34,15 +45,6 @@
     }
 }
 // HOME HERO END
-
-// SECOND TYPE
-.type-two {
-  // font-family: 'Crimson Text', serif;
-  // font-family: 'Playfair Display', serif;
-}
-
-
-
 
 .breadcrumb-nav {
   box-shadow: none;

@@ -1,8 +1,33 @@
 
 .project {
-  section {
-    padding: 2em;
-    min-height: 20em;
+
+}
+.arrows {
+  padding: 1rem;
+  overflow: hidden;
+  transition: all;
+  svg {
+    color: #bdbdbd;
+    font-size: 3rem;
+    transition: all .5s;
+  }
+
+  p {
+    text-transform: uppercase;
+    display: inline;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: #FFFFFF;
+    transition: all .5s;
+  }
+}
+.arrows:hover {
+  svg {
+    color: $dark;
+    font-size: 3rem;
+  }
+  p {
+    color: $dark;
   }
 }
 // COHEN GROUP PAGE SPECIFIC SCSS

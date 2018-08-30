@@ -5,10 +5,13 @@ permalink: /lifelines-project/
 hero: /pages/projects/lifelines/lifelines-assets/lifelines-hero@2x.jpg
 img2: /pages/projects/lifelines/lifelines-assets/lifelines-views-showcase@2x.jpg
 class: lifelines
+next:  /freebird-rides-project/
+previous:  /mylucke-project/
 ---
 
 
-<main class="{{page.class}} container flow-text">
+{% include project-arrows.html %}
+<main class="{{page.class}} container space flow-text">
 <section class="product " alt="situation">
   <div class="row ">
     <div class="col s12 m6 l6">
@@ -64,15 +67,30 @@ class: lifelines
 <section class="reflections" alt="results">
   <div class="row">
     <div class="col s12 m6 l6">
-
-    </div>
-    <div class="col s12 m6 l6">
       <h3>Result</h3>
       <p class="text-body-lg">
         The project resulted in the successful design and development of the lifelines frontend.
       </p>
     </div>
+    <div class="col s12 m6 l6">
+
+    <h4><em>Deliverables</em></h4>
+    <ul class="browser-default">
+      <li>
+        <p>Application Architecture</p>
+      </li>
+      <li>
+        <p>Design Direction</p>
+      </li>
+      <li>
+        <p>User Interface and Experience Design</p>
+      </li>
+      <li>
+        <p>Frontend Web Development</p>
+      </li>
+    </ul>
+  </div>
   </div>
 </section>
-{% include get-in-touch.html %}
 </main>
+{% include get-in-touch.html %}
