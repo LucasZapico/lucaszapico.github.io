@@ -5,8 +5,20 @@ permalink: /cohen-group-project/
 hero: /pages/projects/cohen-group/cohen-group-assets/cohen-group-hero.jpg
 img2: /pages/projects/cohen-group/cohen-group-assets/showcase-cohen-group-brand-identity@2x.jpg
 class: cohen-group
+previous: /morency-real-estate-project/
 ---
 
+<div class="row" style="position: sticky; top: 20rem; ">
+
+<a href="{{site.baseurl}}{{page.previous}}">
+<span class="valign-wrapper arrows" style="float: right; margin-right: 2rem; ">
+  <p class="">
+    Next Project
+  </p>
+  <i class="fas fa-angle-right"></i>
+</span>
+</a>
+</div>
 <main class="{{page.class}} project space flow-text container">
   <section class="product " alt="situation">
     <div class="row ">
@@ -100,5 +112,6 @@ class: cohen-group
       </div>
     </div>
   </section>
-  {% include get-in-touch.html %}
+
 </main>
+  {% include get-in-touch.html %}

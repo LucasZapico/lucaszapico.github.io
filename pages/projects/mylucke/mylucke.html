@@ -5,9 +5,10 @@ permalink: /mylucke-project/
 hero: /pages/projects/mylucke/mylucke-assets/mylucke-hero@1x.jpg
 img2: /pages/projects/mylucke/mylucke-assets/mylucke-portal@2x.jpg
 class: mylucke
+next:  /lifelines-project/
+previous: /dadapp-project/
 ---
-
-
+{% include project-arrows.html %}
 <main class="{{page.class}} container space flow-text">
   <section class="product " alt="situation">
     <div class="row ">
@@ -61,14 +62,27 @@ class: mylucke
   <section class="reflections" alt="results">
     <div class="row">
       <div class="col s12 m6 l6">
-        </div>
-      <div class="col s12 m6 l6">
         <h3>Result</h3>
         <p class="text-body-lg">
           The project resulted in the successful production of landing pages, the design, and ownership of renter onboarding wizard.
         </p>
       </div>
+      <div class="col s12 m6 l6">
+
+        <h4><em>Deliverables</em></h4>
+        <ul class="browser-default">
+          <li>
+            <p>Web Application User Interfaces</p>
+          </li>
+          <li>
+            <p>Web User Interface</p>
+          </li>
+          <li>
+            <p>Quality Assurance Testing</p>
+          </li>
+        </ul>
+      </div>
     </div>
   </section>
-  {% include get-in-touch.html %}
 </main>
+{% include get-in-touch.html %}

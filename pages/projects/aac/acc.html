@@ -5,8 +5,20 @@ permalink: /aac-project/
 hero: /pages/projects/aac/aac-assets/hero.jpg
 img2: /pages/projects/aac/aac-assets/acc-grease-lightning-png.png
 class: aac
+next:  /dadapp-project/
 ---
 
+<div class="row" style="position: sticky; top: 20rem; ">
+<a href="{{site.baseurl}}{{page.next}}">
+<span class="valign-wrapper arrows" style=" float: left; margin-left: 2rem;">
+  <i class="fas fa-angle-left"></i>
+  <p class="">
+    Previous Project
+  </p>
+</span>
+</a>
+
+</div>
 <main class="{{page.class}} space project flow-text container">
   <section class="product " alt="situation">
     <div class="row ">
@@ -23,6 +35,7 @@ class: aac
   <section class="project" alt="task">
     <div class="row">
       <div class="col s12 m6 l6">
+          <img src="{{site.baseurl}}{{page.img2}}" />
       </div>
       <div class="col s12 m6 l6">
         <h3>Project</h3>
@@ -32,6 +45,13 @@ class: aac
       </div>
     </div>
   </section>
+  <!-- <section>
+    <div class="row">
+      <div class="col s12 m12 l12">
+        <img src="{{site.baseurl}}{{page.img2}}" />
+      </div>
+    </div>
+  </section> -->
   <section class="process" alt="action">
     <div class="row ">
       <div class="col s12 m6 l6">
@@ -55,15 +75,31 @@ class: aac
   <section class="reflections" alt="results">
     <div class="row">
       <div class="col s12 m6 l6">
-        <img src="{{site.baseurl}}{{page.img2}}" />
-      </div>
-      <div class="col s12 m6 l6">
         <h3>Result</h3>
         <p class="text-body-lg">
         The project resulted in the successful development, production and deplyment of the AAC Site
         </p>
       </div>
+      <div class="col s12 m6 l6">
+
+        <h4><em>Deliverables</em></h4>
+        <ul class="browser-default">
+          <li>
+            <p>Design Direction</p>
+          </li>
+          <li>
+            <p>Content Creation</p>
+          </li>
+          <li>
+            <p>Web Design</p>
+          </li>
+          <li>
+            <p>Web Deployment and Hosting Set up</p>
+          </li>
+        </ul>
+      </div>
+    </div>
     </div>
   </section>
-  {% include get-in-touch.html %}
 </main>
+{% include get-in-touch.html %}
