@@ -2,34 +2,7 @@
 .project {
 
 }
-.arrows {
-  padding: 1rem;
-  overflow: hidden;
-  transition: all;
-  svg {
-    color: #bdbdbd;
-    font-size: 3rem;
-    transition: all .5s;
-  }
 
-  p {
-    text-transform: uppercase;
-    display: inline;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    color: #FFFFFF;
-    transition: all .5s;
-  }
-}
-.arrows:hover {
-  svg {
-    color: $dark;
-    font-size: 3rem;
-  }
-  p {
-    color: $dark;
-  }
-}
 // COHEN GROUP PAGE SPECIFIC SCSS
 // .cohen-group {
 //   .hero-wrap {
@@ -73,25 +46,66 @@ main.aac {
   padding: 0px;
 }
 
-
-@media screen and (min-width: 40em){
-  // .til,
-  // .project {
-  //   section {
-  //     padding: 5em;
-  //
-  //   }
-  // .btn {
-  //   margin-top: 1em;
-  //
-  // }
-  // }
-  .aac {
-    section {
-     // height : 20em;
-     padding-bottom: 2em;
-     padding-top: 2em;
-     padding-left: 1em;
-    }
+.arrows {
+  padding: .5rem;
+  overflow: hidden;
+     transition: all;
+  svg {
+    font-size: 2rem;
+    color: #bdbdbd;
   }
+  p {
+    padding: .5rem;
+    color: #bdbdbd;
+  }
+}
+.arrows:hover {
+  svg {
+    color: $dark;
+  }
+  p {
+    color: $dark;
+  }
+}
+
+@media screen and (min-width: 400px){
+  .arrows-wrap {
+    background-color: #fbfbfb;
+    position: sticky;
+    top: 4rem;
+  }
+}
+
+@media screen and (min-width: 700px){
+  .arrows-wrap {
+    background-color: none ;
+    position: sticky; top: 20rem;
+    .arrows {
+
+
+     svg {
+       color: #bdbdbd;
+       font-size: 3rem;
+       transition: all .5s;
+     }
+
+     p {
+       text-transform: uppercase;
+       display: inline;
+       padding-left: 1rem;
+       padding-right: 1rem;
+       color: #FFFFFF;
+       transition: all .5s;
+     }
+   }
+  }
+
+}
+
+@media screen and (min-width: 1024px){
+
+}
+
+@media screen and (min-width: 1440px){
+
 }
