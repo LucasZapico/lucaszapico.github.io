@@ -78,7 +78,7 @@ main.aac {
 
 @media screen and (min-width: 700px){
   .arrows-wrap {
-    background-color: none ;
+    background-color: transparent;
     position: sticky; top: 20rem;
     .arrows {
 
@@ -94,8 +94,16 @@ main.aac {
        display: inline;
        padding-left: 1rem;
        padding-right: 1rem;
-       color: #FFFFFF;
+       color: transparent;
        transition: all .5s;
+     }
+   }
+   .arrows:hover {
+     svg {
+       color: $dark;
+     }
+     p {
+       color: $dark;
      }
    }
   }
