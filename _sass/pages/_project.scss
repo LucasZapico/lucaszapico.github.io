@@ -2,96 +2,76 @@
 .project {
 
 }
-.arrows {
-  padding: 1rem;
-  overflow: hidden;
-  transition: all;
-  svg {
-    color: #bdbdbd;
-    font-size: 3rem;
-    transition: all .5s;
-  }
 
+.arrows {
+  padding: .5rem;
+  overflow: hidden;
+     transition: all;
+  svg {
+    font-size: 2rem;
+    color: #bdbdbd;
+  }
   p {
-    text-transform: uppercase;
-    display: inline;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    color: #FFFFFF;
-    transition: all .5s;
+    padding: .5rem;
+    color: #bdbdbd;
   }
 }
 .arrows:hover {
   svg {
     color: $dark;
-    font-size: 3rem;
   }
   p {
     color: $dark;
   }
 }
-// COHEN GROUP PAGE SPECIFIC SCSS
-// .cohen-group {
-//   .hero-wrap {
-//     .hero-img {
-//       max-height: 600px;
-//       opacity: .5;
-//       object-fit: cover;
-//     }
-//   }
-//   .comp-logo {
-//     max-height: 400px;
-//     .col {
-//       object-fit: contain;
-//       border: 1px solid rgba(221, 220, 220, 0.98);
-//       box-shadow: 10px 5px 30px rgba(221, 220, 220, 0.98);
-//       height: 300px;
-//       img {
-//         padding: 3em;
-//
-//       }
-//     }
-//   }
-// }
-// END COHEN GROUP
 
-// // TIL PAGE SPECIFIC SCSS
-// .til,
-// .project {
-//   section {
-//     padding: 0px;
-//   }
-// .btn {
-//   margin-top: 1em;
-//
-// }
-// }
-// // END TIL
 
-// AAC PAGE
-main.aac {
-  padding: 0px;
+@media screen and (min-width: 400px){
+  .arrows-wrap {
+    background-color: #fbfbfb;
+    position: sticky;
+    top: 4rem;
+  }
 }
 
+@media screen and (min-width: 700px){
+  .arrows-wrap {
+    background-color: transparent;
+    position: sticky; top: 20rem;
+    .arrows {
 
-@media screen and (min-width: 40em){
-  // .til,
-  // .project {
-  //   section {
-  //     padding: 5em;
-  //
-  //   }
-  // .btn {
-  //   margin-top: 1em;
-  //
-  // }
-  // }
-  .aac {
-    section {
-     // height : 20em;
-     padding-bottom: 2em;
-     padding-top: 2em;
-     padding-left: 1em;
-    }
+
+     svg {
+       color: #bdbdbd;
+       font-size: 3rem;
+       transition: all .5s;
+     }
+
+     p {
+       text-transform: uppercase;
+       display: inline;
+       padding-left: 1rem;
+       padding-right: 1rem;
+       color: transparent;
+       transition: all .5s;
+     }
+   }
+   .arrows:hover {
+     svg {
+       color: $dark;
+     }
+     p {
+       color: $dark;
+     }
+   }
   }
+
+}
+
+@media screen and (min-width: 1024px){
+
+}
+
+@media screen and (min-width: 1440px){
+
 }

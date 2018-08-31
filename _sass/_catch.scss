@@ -85,3 +85,25 @@
   }
 
 }
+#home-tag {
+  text-transform: none;
+}
+
+@media screen and (min-width: 400px){
+
+
+}
+
+@media screen and (min-width: 700px){
+  #home-tag {
+    text-transform: uppercase;
+  }
+}
+
+@media screen and (min-width: 1024px){
+
+}
+
+@media screen and (min-width: 1440px){
+
+}
