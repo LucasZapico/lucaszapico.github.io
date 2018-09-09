@@ -1,6 +1,7 @@
 .projects {
 
   .card {
+    margin-bottom: 7rem;
     .card-image {
       height: 100%;
       img {
@@ -9,22 +10,23 @@
       }
     }
     .card-content {
-      height: 8em;
-      // height: 10em;
+      // height: 4rem;
+      // height: 10rem;
       .tags {
         background-color: scale-color($primary-color, $lightness: 90%);
         border-radius: 2px;
         margin: 0px;
         margin-top: 2px;
-        padding: .1em;
+        padding: .1rem;
         border: 1px solid;
       }
     }
     .card-action {
-      height: 6em;
+       height: 6rem;
+
       a {
         display: block;
-        font-size: 1em;
+        font-size: 1.2rem;
 
       }
     }
