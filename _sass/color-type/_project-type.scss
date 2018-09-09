@@ -1,15 +1,8 @@
-.text-body-lg {
-  font-size: 1.2em;
-}
-
-.text-body-sm {
-  font-size: .8em;
-}
+$font-stack-secondary: 'Libre Baskerville', Baskerville, Cambria, serif;
 
 .caption {
  font-size: .6em;
 }
-
 
 .placeholder {
   font-style: italic;
@@ -23,6 +16,31 @@
 .font-secondary-color {
   color: $primary-color;
 }
+
+
+.type-two {
+  font-family: $font-stack-secondary;
+}
+
+a.link {
+  font-family: $font-stack-secondary;
+  text-transform: uppercase;
+  text-decoration: underline;
+  letter-spacing: .2rem;
+  font-style: italic;
+  // transition: all .2s linear;
+  .link-light {
+  }
+  .link-dark {
+
+  }
+}
+
+a.link-light:hover {
+ color:  color("amber", "darken-1");
+}
+
+
 
 
 
