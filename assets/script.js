@@ -23,13 +23,25 @@ function cycleSlide(){
       carousel.next();
   }
 }
+// SCROLLSPY
+document.addEventListener('DOMContentLoaded', function() {
+   var elems = document.querySelectorAll('.scrollspy');
+   var scrollspy = M.ScrollSpy.init(elems);
+ });
 
 
 var elem = document.querySelector('.parallax');
  var parallax = M.Parallax.init(elem);
 
-// ABOUT PAGET COLLAPSIBLE
- document.addEventListener('DOMContentLoaded', function(){
-   var collapsElms = document.querySelectorAll('.collapsible');
-   var instances = M.Collapsible.init(collapsElms);
- });
+// // ABOUT PAGET COLLAPSIBLE
+//  document.addEventListener('DOMContentLoaded', function(){
+//    var collapsElms = document.querySelectorAll('.collapsible');
+//    var instances = M.Collapsible.init(collapsElms);
+//  });
+
+// SIDENAV
+// var sidenav = M.Sidenav.getInstance(elem);
+{/* <ul id="slide-out" class="sidenav">
+     <li><a class="sidenav-close" href="#!">Clicking this will close Sidenav</a></li>
+ </ul>
+ <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a> */}
