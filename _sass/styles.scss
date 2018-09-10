@@ -6,6 +6,8 @@
 @import 'base/_reset.scss';
 @import 'base/_accessibility.scss';
 
+@import 'color-type/_project-color-variables.scss';
+
 /**
 **
 **    MATERIAL
@@ -19,7 +21,8 @@
 **    COLOR TYPE
 **
 **/
-@import 'color-type/_project-colors.scss';
+
+@import 'color-type/_project-color-utilities.scss';
 @import 'color-type/_project-type.scss';
 
 /**
