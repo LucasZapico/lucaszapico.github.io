@@ -1,0 +1,60 @@
+// SPACE BETWEEN row elm
+
+.space-left {
+  padding-left: 4rem !important;
+}
+
+.space-right {
+  padding-right: 4rem !important;
+}
+.space-bottom {
+  padding-bottom: 4rem;
+}
+
+.text-body-lg {
+  font-size: 1.2rem;
+}
+
+.text-body-sm {
+  font-size: .8rem;
+}
+
+
+
+
+@media screen and (min-width: 400px){
+  .space-row {
+    .row {
+      padding-top: 4rem;
+      padding-bottom: 4rem;
+    }
+  }
+
+  .space {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  .space-left {
+    padding-left: 4rem !important;
+  }
+
+  .space-right {
+    padding-right: 4rem !important;
+  }
+  .space-bottom {
+    padding-bottom: 4rem;
+  }
+
+}
+
+@media screen and (min-width: 700px){
+
+}
+
+@media screen and (min-width: 1024px){
+
+}
+
+@media screen and (min-width: 1440px){
+
+}

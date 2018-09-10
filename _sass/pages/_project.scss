@@ -1,6 +1,12 @@
 
-.project {
-
+main.project {
+  h3 {
+    padding-bottom: 4rem;
+    font-size: 4rem;
+  }
+  p {
+    font-family: $font-stack-secondary;
+  }
 }
 
 .arrows {
@@ -18,10 +24,10 @@
 }
 .arrows:hover {
   svg {
-    color: $dark;
+    color: $dark-2;
   }
   p {
-    color: $dark;
+    color: $dark-2;
   }
 }
 
@@ -58,10 +64,10 @@
    }
    .arrows:hover {
      svg {
-       color: $dark;
+       color: $dark-2;
      }
      p {
-       color: $dark;
+       color: $dark-2;
      }
    }
   }

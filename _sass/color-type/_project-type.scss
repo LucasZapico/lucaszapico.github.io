@@ -1,3 +1,9 @@
+$font-stack-secondary: 'Libre Baskerville',  Cambria, Georgia, serif;
+
+.type-two {
+  font-family: $font-stack-secondary;
+}
+
 .text-body-lg {
   font-size: 1.2em;
 }
@@ -40,4 +46,24 @@
 
 @media screen and (min-width: 1440px){
 
+}
+
+a.link {
+    font-family: $font-stack-secondary;
+    letter-spacing: .2rem;
+    line-height: normal;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-style: italic;
+  }
+.link-light {
+
+}
+
+.link-dark {
+
+}
+
+.link:hover {
+  color: adjust-color($color-palette-a, $lightness: 30%);
 }

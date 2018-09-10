@@ -5,30 +5,39 @@ layout: default
 
 <div class="main space">
   <section id="home-hero" class="hide-on-small-only">
-    <!-- <h2>Question</h2>
-    <h2>Analyze</h2>
-    <h2>Convey</h2> -->
-    <img src="{{site.baseurl}}/assets/img/main-hero/main-hero@1x.jpg" />
+    <div class="row hide-only-on-small space">
+      <div class="col s12 m6 l6">
+        <h2>Question</h2>
+        <h2>Analyze</h2>
+        <h2>Convey</h2>
+      </div>
+      <div class="col s12 m6 l6">
+
+      </div>
+
+    </div>
+    <!-- <img src="{{site.baseurl}}/assets/img/main-hero/main-hero@1x.jpg" /> -->
   </section>
-  <section class="container">
+  <section class="container grey lighten-5 space-row">
     <div class="row">
       <div class="col s12 m4 l4">
 
       </div>
       <div class="col s12 m8 l8">
-          <h3 id="home-tag">A lens into the objects designed, molded and produced by Lucas Zapico</h3>
-          <p class="flow-text type-two">Driven to communicate value and information through inquisitive stories, potent visuals and efficient systems.</p>
-          <a class='text-body-lg' href='{{site.baseurl}}/about/'>more about Lucas</a>
+          <h3 id="home-tag" class="space-bottom">A lens into the objects designed, molded and produced by Lucas Zapico</h3>
+          <p class="text-body-lg type-two">Driven to communicate value and information through inquisitive stories, potent visuals and efficient systems.</p>
+          <a class='text-body-lg link link-light' href='{{site.baseurl}}/about/'>more about Lucas</a>
       </div>
 
 
     </div>
 
   </section>
-  <section class="projects container">
-    <a name="projects"></a>
-    <h3>Projects</h3>
+  <section class="projects container space-row">
+
     <div class="row">
+      <a name="projects"></a>
+      <h3>Projects</h3>
       {% for projects in site.data.projects %}
         {% if projects.status == "live" %}
       <div class="col s12 m6 l4">
@@ -58,8 +67,8 @@ layout: default
 
           <div class="card-action">
             {% if projects.offical-link != null %}
-            <a href="{{projects.offical-link}}" class="center">Offical Site</a> {% endif %} {% if projects.project-link != null %}
-            <a href="{{site.baseurl}}{{projects.project-link}}" class="center">Project Summary</a> {% endif %}
+            <a href="{{projects.offical-link}}" class="center link">Offical Site</a> {% endif %} {% if projects.project-link != null %}
+            <a href="{{site.baseurl}}{{projects.project-link}}" class="link center">Project&#8209Summary</a> {% endif %}
           </div>
         </div>
       </div>
@@ -67,6 +76,12 @@ layout: default
       {% endfor %}
     </div>
   </section>
+  <!-- <section class="projects container space-row">
+    <div class="row">
+      <a name="pulse"></a>
+      <h3>Pulse</h3>
+    </div>
+  </section> -->
   {% include get-in-touch.html %}
 
 </div>
