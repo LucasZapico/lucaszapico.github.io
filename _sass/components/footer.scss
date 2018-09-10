@@ -21,7 +21,13 @@
 
   }
   a {
-    color: white;
+      color: $color-palette-a;
+  }
+  a:hover {
+    color: adjust-color($color-palette-a, $lightness: 30%);
+  }
+  a:active {
+    color: adjust-color($color-palette-a, $lightness: -30%);
   }
   .get-in-touch {
     #coffee-cup-icon {
@@ -48,5 +54,8 @@
   }
   a:hover {
     color: adjust-color($color-palette-a, $lightness: 30%)
+  }
+  a:active {
+    color: adjust-color($color-palette-a, $lightness: -30%);
   }
 }
