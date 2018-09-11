@@ -21,15 +21,32 @@ pinterest_link:
 codepen_link: https://codepen.io/LucasZapico
 instagram_link: https://www.instagram.com/10zapico/
 
-
-
-# Build settings
-markdown: kramdown
+# BUILD SETTING
+- markdown: kramdown
 
 
 # LOCAL DEVELOPMENT
+
 host: 127.0.0.1
 port: 4466
 exclude:
   - .gitignore
   - /public-assets
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - /bundle/
+  - /cache/
+  - /gems/
+  - /ruby/
+  - /pages/projects/wip/
+  - /pages/test
+
+# OPTIMIZATION
+sass:
+ style: compressed
+
+# # PLUGINS
+plugins:
+  # - jekyll-assets
+  - jekyll-sitemap
