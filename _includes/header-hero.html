@@ -5,7 +5,12 @@
       <center><h1>{{page.title}}</h1></center>
   </div> -->
   <div class="hero-wrap">
-    <img src="{{site.baseurl}}{{page.hero}}" class="hero-img" />
+    <img srcset="{{site.baseurl}}{{page.hero-1x}},
+                {{site.baseurl}}{{page.hero-2x}},
+                {{site.baseurl}}{{page.hero-3x}}
+                {{site.baseurl}}{{page.hero-4x}}"
+                alt="{{page.hero-alt}}"
+                class="hero-img" />
   </div>
 
 
