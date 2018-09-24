@@ -13,7 +13,20 @@
       }
   }
 }
-
+// PULSE
+.pulse {
+  .row {
+   padding-top: 2rem;
+   padding-bottom: 2rem; 
+  }
+  img {
+    height: 10rem;
+    width: 10rem;
+  }
+  .post
+   {
+  }
+}
 
 
 // THICK NAV BAR
@@ -79,23 +92,7 @@
   text-align: center;
   padding: 1em;
   margin: 3em;
-  // box-shadow: 5px 3px 20px 2px rgba(26, 25, 25, 0.80);
 }
-//
-// #house-icon {
-//   #icon-256X256 {
-//     fill: #FFFFFF;
-//     stroke: #303E9F;
-//   }
-//   g {
-//
-//   }
-//
-// }
-// #home-tag {
-//   text-transform: none;
-//   line-height: 1.3;
-// }
 
 @media screen and (min-width: 400px){
 

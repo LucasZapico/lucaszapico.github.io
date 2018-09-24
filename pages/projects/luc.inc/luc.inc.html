@@ -18,12 +18,12 @@ previous: /freebird-rides-project/
 
 {% include project-arrows.html %}
 <main class="{{page.class}} space project text-body-lg">
-  <section class="product container" alt="situation">
+  <section class="product container space" alt="situation">
     <div class="row ">
       <div class="col s12 m6 l6">
         <h3>Product</h3>
         <p class="text-body-lg ">
-          Luc.inc is a producer of infrastructure, strategy, and assets. It takes an ecosystem approach to modern business, driven by questions, analysis, and a mission ensuring products built with attention share that story to the world.
+        Luc.inc is a producer of infrastructure, strategy, and assets. Taking an ecosystem approach to modern business, carried by deliberate questions and analysis. Above all a mission to ensure products are built with attention and a drive to serve and add value.
         </p>
       </div>
       <div class="col s12 m6 l6">
@@ -37,7 +37,7 @@ previous: /freebird-rides-project/
       <div class="col s12 m6 l6">
         <h3>Project</h3>
         <p class="text-body-lg">
-            Build a digital story that showcases the value, mission, and production expectation of Luc.Inc.
+            Build a digital story that showcases the value, mission, and productions of Luc.Inc.
         </p>
       </div>
     </div>
@@ -85,6 +85,9 @@ previous: /freebird-rides-project/
         <p class="text-body-lg">
           The successful production of the Luc.inc portfolio website version 3.
         </p>
+        <p>
+
+        </p>
 
       </div>
       <div class="col s12 m6 l6">
@@ -111,6 +114,17 @@ previous: /freebird-rides-project/
       </div>
     </div>
     </div>
+  </section>
+  <section class="container">
+    {% for luc-log in site.data.luc-inc-project-log %}
+      <h4>{{luc-log.title }}</h4>
+      <p>
+        {{luc-log.tags}}
+      </p>
+      <p>
+        {{luc-log.summary}}
+      </p>
+    {% endfor %}
   </section>
   {% include get-in-touch.html %}
 </main>
