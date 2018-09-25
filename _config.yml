@@ -36,15 +36,18 @@ exclude:
   - /pages/projects/wip/
   - /pages/test
   - /pages/all-projects
-  - /assets/img/sitemap-img
+  - /assets/img/sitemap-imgi
+  - /assets/JS/material-js
 
 # OPTIMIZATION
 sass:
  style: compressed
+ sass_dir: _sass
+ sourcemap: true
 
 # # PLUGINS
 plugins:
-  # - jekyll-assets
+ - jekyll-assets
   # - jekyll-sitemap
 
 
@@ -57,3 +60,6 @@ linkedin_link: https://www.linkedin.com/in/lucasmmzapico/
 pinterest_link:
 codepen_link: https://codepen.io/LucasZapico
 instagram_link: https://www.instagram.com/10zapico/
+
+
+## ASSETS PIPELINE
