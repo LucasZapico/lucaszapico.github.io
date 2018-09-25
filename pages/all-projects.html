@@ -1,0 +1,56 @@
+---
+layout: page
+permalink: /all-projects/
+---
+
+<main>
+  <section class="projects container space-row">
+
+    <div class="row">
+      <a name="projects scrollspy"></a>
+      <h3>All Projects</h3>
+      {% for projects in site.data.projects %}
+        {% if projects.status == "live" %}
+      <div class="col s12 m6 l4">
+        <div class="card light-grey darken-1">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img srcset="{{site.baseurl}}{{projects.card-img-1x}},
+                        {{site.baseurl}}{{projects.card-img-2x}},
+                        {{site.baseurl}}{{projects.card-img-3x}}
+                        {{site.baseurl}}{{projects.card-img-4x}}"
+                        alt="{{projects.card-alt}}"
+                        class="activator" />
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">{{ projects.title }}<i class="material-icons right">more_vert</i></span>
+            <!-- <div class="">
+              <strong>
+          Tags:
+          {% for tag in projects.tags %}
+          <span class="tags">
+            {{ tag }}
+          </span>
+          {% endfor %}
+          </strong>
+            </div> -->
+
+            <!-- <p><a href="#">This is a link</a></p> -->
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">{{projects.title}}<i class="material-icons right">close</i></span>
+            <p>{{ projects.description | truncatewords: 20 }}<a href="{{site.baseurl}}{{projects.project-link}}">...more</a></p>
+          </div>
+
+          <div class="card-action">
+            <!-- {% if projects.offical-link != null %}
+            <a href="{{projects.offical-link}}" class="center link">Offical Site</a> {% endif %}  -->
+            {% if projects.project-link != null %}
+            <a href="{{site.baseurl}}{{projects.project-link}}" class="link center">Project&#8209Summary</a> {% endif %}
+          </div>
+        </div>
+      </div>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+</main>
