@@ -1,5 +1,7 @@
 ---
 layout: default
+title: "Luc.inc Productions"
+description: "Luc.Incs projects and value promise"
 ---
 {% include header.html %}
 
@@ -33,12 +35,12 @@ layout: default
     </div>
 
   </section>
-  <section class="projects container space-row">
+  <section class="projects scrollspy container space-row">
 
     <div class="row">
       <a name="projects"></a>
       <h3>Projects</h3>
-      {% for projects in site.data.projects %}
+      {% for projects in site.data.projects limit: 6 %}
         {% if projects.status == "live" %}
       <div class="col s12 m6 l4">
         <div class="card light-grey darken-1">
@@ -52,7 +54,7 @@ layout: default
           </div>
           <div class="card-content">
             <span class="card-title activator grey-text text-darken-4">{{ projects.title }}<i class="material-icons right">more_vert</i></span>
-            <!-- <div class="indigo-text">
+            <!-- <div class="">
               <strong>
           Tags:
           {% for tag in projects.tags %}
@@ -71,20 +73,22 @@ layout: default
           </div>
 
           <div class="card-action">
-            {% if projects.offical-link != null %}
-            <a href="{{projects.offical-link}}" class="center link">Offical Site</a> {% endif %} {% if projects.project-link != null %}
+            <!-- {% if projects.offical-link != null %}
+            <a href="{{projects.offical-link}}" class="center link">Offical Site</a> {% endif %}  -->
+            {% if projects.project-link != null %}
             <a href="{{site.baseurl}}{{projects.project-link}}" class="link center">Project&#8209Summary</a> {% endif %}
           </div>
         </div>
       </div>
         {% endif %}
       {% endfor %}
+      <a class="btn-large btn-flat" href="{{site.baseurl}}/all-projects/">See All Projects</a>
     </div>
   </section>
-  <section class="projects container space-row">
-    <div class="row pulse">
+  <section id="pulse" class="projects container scrollspy space-row">
+    <div class="row pulse ">
       <div class="col s12 m8 l8">
-        <a name="pulse"></a>
+        <a ></a>
         <h3>Pulse</h3>
         <h6 class="grey-text text-darken-1">A feed of drafts, productions, concept, and strategy</h6>
         {% for post in site.posts %}
@@ -93,7 +97,7 @@ layout: default
           <div class="row">
             <div class="col s6 m6 l6">
               <h5>{{ post.title }}</h5>
-              <em><h6>{{ post.caption }}</h6></em>
+              <em><h6 class="grey-text text-darken-2 type-two">{{ post.caption }}</h6></em>
             </div>
             <div class="s6 m6 l6">
               {% if post.card-img != null %}

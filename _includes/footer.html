@@ -14,22 +14,27 @@
             </p>
           </div>
           <div class="col s6 m4 l4">
-            <h6>LUC.INC</h6>
+            <h5 class="light">LUC.INC</h5>
             <ul>
-              <!-- <li><a href="{{site.baseurl}}/readme/">README</a></li> -->
+              <ul class=" ">
+                {% for links in site.data.main-nav %}
+                <li>
+                  <a href="{{site.baseurl}}{{links.href}}" class="link" style="padding-bottom: .4rem;">
+                    {{links.title}}
+                  </a>
+                </li>
+                {% endfor %}
+              </ul>
               <li>
-                <a href="{{site.baseurl}}/about/">About</a>
+                <a class="link" href="{{site.baseurl}}/webkit/">Webkit</a>
               </li>
-              <!-- <li>
-                <a href="{{site.baseurl}}/process/">Process</a>
-              </li> -->
               <li>
-                <a href="{{site.baseurl}}/webkit/">Webkit</a>
+                <a class="link" href="{{site.baseurl}}/sitemap/">SiteMap</a>
               </li>
             </ul>
           </div>
           <div class="col s6 m4 l4">
-            <h6>Connect</h6>
+            <h5 class="light">Connect</h5>
             <div class="social-links">
     <a href="mailto:{{site.email}}"><i class="fas fa-envelope fa-lg"></i></a>
     <a href="{{site.github_link}}"><i class="fab fa-github fa-lg"></i></a>

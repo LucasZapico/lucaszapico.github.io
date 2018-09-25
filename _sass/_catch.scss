@@ -17,16 +17,18 @@
 .pulse {
   .row {
    padding-top: 2rem;
-   padding-bottom: 2rem; 
+   padding-bottom: 2rem;
   }
   img {
-    height: 10rem;
-    width: 10rem;
+    height: 12rem;
+    width: 12rem;
+    object-fit: contain;
   }
   .post
    {
   }
 }
+
 
 
 // THICK NAV BAR
@@ -96,13 +98,13 @@
 
 @media screen and (min-width: 400px){
 
-
 }
 
 @media screen and (min-width: 700px){
   #home-tag {
     text-transform: uppercase;
   }
+
 }
 
 @media screen and (min-width: 1024px){
@@ -110,5 +112,5 @@
 }
 
 @media screen and (min-width: 1440px){
-
+  // SITEMAP
 }
