@@ -1,18 +1,18 @@
-- title:          Sunshine AZ
-  status:         live
-  date:           2018
-  link:
-  categories:     []
-  tags:           ['branding', 'design', 'digital&#8209presence']
-  type:           project
-  card-img-1x :
-  card-img-2x :
-  card-img-3x :
-  card-img-4x :
-  card-alt: "Cohen Group Project Card Image"
-  offical-link:   https://sunshinelifeaz.com/
-  project-link:   /sunshine-life-project/
-  description:    Branding and digital presence solution implementation
+# - title:          Sunshine AZ
+#   status:         live
+#   date:           2018
+#   link:
+#   categories:     []
+#   tags:           ['branding', 'design', 'digital&#8209presence']
+#   type:           project
+#   card-img-1x :
+#   card-img-2x :
+#   card-img-3x :
+#   card-img-4x :
+#   card-alt: "Cohen Group Project Card Image"
+#   offical-link:   https://sunshinelifeaz.com/
+#   project-link:   /sunshine-life-project/
+#   description:    Branding and digital presence solution implementation
 
 - title:          Cohen Group
   status:         live
