@@ -275,11 +275,15 @@ button.btn-floating {
   box-shadow: none;
   background-color: transparent;
   color: $button-flat-color;
+  border: solid 2px $color-palette-a;
   cursor: pointer;
-  transition: background-color .2s;
+  transition: all .2s;
   &:focus,
   &:hover {
     box-shadow: none;
+    border: solid 2px $color-primary;
+    color: $light-1;
+    background-color: $color-palette-a;
   }
   &:focus {
     background-color: rgba(0, 0, 0, .1);
@@ -292,7 +296,7 @@ button.btn-floating {
 }
 
 // Large button
-.btn-large {
+.btn-large  {
   @extend .btn;
   height: $button-large-height;
   line-height: $button-large-height;
