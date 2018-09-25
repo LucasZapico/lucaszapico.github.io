@@ -11,22 +11,16 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 favicon: /assets/img/mark/favicon/mark-v1.1.4-favicon-32@1x.png  #16x16 or 32x32
 profile_image: /assets/img/main-profile.jpg
 
-# OTHER MEDIA OUTLETS
-twitter_username: https://twitter.com/lucas_zapico_10
-github_username:  LucasZapico
-github_link: https://github.com/LucasZapico
-facebook_link: https://www.facebook.com/lucas.zapico.7
-linkedin_link: https://www.linkedin.com/in/lucasmmzapico/
-pinterest_link:
-codepen_link: https://codepen.io/LucasZapico
-instagram_link: https://www.instagram.com/10zapico/
 
 # BUILD SETTING
 markdown: kramdown
-
+defaults:
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
 
 # LOCAL DEVELOPMENT
-
 host: 127.0.0.1
 port: 4466
 exclude:
@@ -41,6 +35,8 @@ exclude:
   - /ruby/
   - /pages/projects/wip/
   - /pages/test
+  - /pages/all-projects
+  - /assets/img/sitemap-img
 
 # OPTIMIZATION
 sass:
@@ -49,4 +45,15 @@ sass:
 # # PLUGINS
 plugins:
   # - jekyll-assets
-  - jekyll-sitemap
+  # - jekyll-sitemap
+
+
+# OTHER MEDIA OUTLETS
+twitter_username: https://twitter.com/lucas_zapico_10
+github_username:  LucasZapico
+github_link: https://github.com/LucasZapico
+facebook_link: https://www.facebook.com/lucas.zapico.7
+linkedin_link: https://www.linkedin.com/in/lucasmmzapico/
+pinterest_link:
+codepen_link: https://codepen.io/LucasZapico
+instagram_link: https://www.instagram.com/10zapico/
