@@ -38,12 +38,25 @@ layout: default
     left: 0px;
     z-index: 0;
   }
+  @keyframes rock {
+
+  to {transform: rotate(3deg);}
+}
   #fox {
     position: absolute;
     height: 30rem;
     z-index: 3;
     top: 17rem;
     right: 22rem;
+    /*  */
+    animation-name: rock;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+animation-direction: alternate;
+animation-delay: 1s;
+  }
+  .rock {
+    transform: rotate(5deg);
   }
   .btn {
     padding: 1rem;
@@ -78,6 +91,7 @@ layout: default
     color: #c7b654;
     text-decoration: overline;
   }
+
 </style>
 
 <div class="wrap">
@@ -100,7 +114,7 @@ layout: default
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Desktop-HD-Copy-2" transform="translate(-916.000000, -302.000000)">
             <g id="Group-3" transform="translate(869.000000, 294.000000)">
-                <g id="fox" transform="translate(192.000000, 0.000000)">
+                <g transform="translate(192.000000, 0.000000)">
                     <path d="M134,175 L149,162.655753 C149,156.885251 151,151.905103 155,147.715308 C169,142 165,144 181,139 C188.508321,141.032125 190.897012,153.102988 184,160 C165.695901,167.333333 149.029234,176.333333 134,187 L134,175 Z" id="Path-2-Copy" fill="#D57140"></path>
                     <polygon id="Path-6-Copy" fill="#FBFBFB" points="142 167 143 185 130 193 127 179"></polygon>
                     <path d="M192.086957,60.1489362 C214.347826,90.8085106 227.333333,106.138298 231.043478,106.138298 C233.826087,98.7388451 229.188406,79.6927458 217.130435,49 C217.130435,49 218.521739,51.322695 221.304348,55.9680851 C225.014493,63.4007092 230.57971,80.5886525 238,107.531915 L192.086957,180 L142,167.457447 L192.086957,60.1489362 Z" id="Rectangle" fill="#CCCCCC"></path>
