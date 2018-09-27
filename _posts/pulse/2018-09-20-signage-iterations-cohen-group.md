@@ -3,7 +3,7 @@ layout: post
 title: "Cohen Group Signage Iterations - In Progress"
 caption:
 card-img: /assets/img/post-img/cohen-group-signage/24 x 30-v1.2.4-dark@2x.jpg
-img-1: /assets/img/post-img/cohen-group-signage/signage-cohen-group@1x.jpg
+img-1x: /assets/img/post-img/cohen-group-signage/signage-cohen-group@1x.jpg 1x
 permalink:
 type: pulse
 tag: [print-design]

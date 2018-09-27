@@ -15,11 +15,23 @@ layout: default
       </div>
     </div>
   </nav>
+  <div class="row">
 
- {{content}}
+    <div class="col s12 m8 l8">
+      {{ content }}
+    </div>
+    <div class="col m4 l4">
+
+    </div>
+
 </section>
 <div class="row space">
-<img alt="" src="{{site.baseurl}}{{page.img-1}}">
+<img srcset="{{site.baseurl}}{{page.img-1x}},
+              {{site.baseurl}}{{page.img-2x}},
+              {{site.baseurl}}{{page.img-3x}},
+              {{site.baseurl}}{{page.img-4x}}"
+              alt="{{projects.img-alt}}"
+              class="activator" />
 </div>
 </div>
 <section>
