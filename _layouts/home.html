@@ -76,7 +76,7 @@ description: "Luc.Incs projects and value promise"
             <!-- {% if projects.offical-link != null %}
             <a href="{{projects.offical-link}}" class="center link">Offical Site</a> {% endif %}  -->
             {% if projects.project-link != null %}
-            <a href="{{site.baseurl}}{{projects.project-link}}" class="link center">Project&#8209Summary</a> {% endif %}
+            <!-- <a href="{{site.baseurl}}{{projects.project-link}}" class="link center">Project&#8209Summary</a> {% endif %} -->
           </div>
         </div>
       </div>
@@ -85,12 +85,39 @@ description: "Luc.Incs projects and value promise"
       <!-- <a class="btn-large btn-flat" href="{{site.baseurl}}/all-projects/">See All Projects</a> -->
     </div>
   </section>
+  <section class="container">
+    <div class="row">
+    <h3>Workshop</h3>
+    <div class="col 12 m6 l6">
+      <h6 class="grey-text text-darken-1"><em>
+  Hop over to the <a class="link" href="https://codepen.io/dashboard/">codepen</a> to see inside the workshop. This is where Lucas tests and plays around before building in production.</em></h6>
+  <h6 class="grey-text text-darken-1"><em>It's just good practice to test in a simplified/controlled environment</em></h6>
+    </div>
+  </div>
+    <div class="row">
+      <div class="col s12 m4 l4">
+        <p data-height="265" data-theme-id="0" data-slug-hash="XZMLoJ" data-default-tab="result" data-user="LucasZapico" data-pen-title="module: portfolio project" class="codepen">See the Pen <a href="https://codepen.io/LucasZapico/pen/XZMLoJ/">module: portfolio project</a> by lucas Zapic (<a href="https://codepen.io/LucasZapico">@LucasZapico</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+  <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+      </div>
+      <div class="col s12 m4 l4">
+        <p data-height="265" data-theme-id="0" data-slug-hash="VGpmvE" data-default-tab="result" data-user="LucasZapico" data-pen-title="testimonial-card" class="codepen">See the Pen <a href="https://codepen.io/LucasZapico/pen/VGpmvE/">testimonial-card</a> by lucas Zapic (<a href="https://codepen.io/LucasZapico">@LucasZapico</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+    <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+      </div>
+      <div class="col s12 m4 m4">
+        <p data-height="265" data-theme-id="0" data-slug-hash="GQKZVy" data-default-tab="result" data-user="LucasZapico" data-pen-title="Alex's card flip style mock" class="codepen">See the Pen <a href="https://codepen.io/LucasZapico/pen/GQKZVy/">Alex's card flip style mock</a> by lucas Zapic (<a href="https://codepen.io/LucasZapico">@LucasZapico</a>) on <a href="https://codepen.io">CodePen</a>.</p>
+<script async src="https://static.codepen.io/assets/embed/ei.js"></script>
+      </div>
+
+    </div>
+    </div>
+
+  </section>
   <section id="pulse" class="projects container scrollspy space-row">
     <div class="row pulse ">
       <div class="col s12 m8 l8">
         <a ></a>
         <h3>Pulse</h3>
-        <h6 class="grey-text text-darken-1">A feed of drafts, productions, concept, and strategy</h6>
+        <h6 class="grey-text text-darken-1"><em>A feed of drafts, productions, concept, and strategy</em></h6>
         {% for post in site.posts %}
         <div class="post">
           <a href="{{ site.baseurl }}{{ post.url }}">
