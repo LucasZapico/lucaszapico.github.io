@@ -1,11 +1,12 @@
 $font-stack-secondary: 'Libre Baskerville',  Cambria, Georgia, serif;
 
-.type-two {
+.type-twos {
   font-family: $font-stack-secondary;
 }
 
 .text-body-lg {
-  font-size: 1.2em;
+  font-size: 1.2rem;
+  line-height: 2em;
 }
 
 .text-body-sm {
@@ -14,6 +15,11 @@ $font-stack-secondary: 'Libre Baskerville',  Cambria, Georgia, serif;
 
 .caption {
  font-size: .6em;
+}
+
+.blockquote-lg {
+  font-size: 1.7rem;
+  line-height: 2em;
 }
 
 
