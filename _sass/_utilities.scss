@@ -1,5 +1,21 @@
 // SPACE BETWEEN row elm
 
+.divider {
+  width: 50vw;
+  height: 3px;
+  background-color: $primary-color;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.space-vert {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+.space-hor {
+  padding-right: 4rem;
+  padding-left: 4rem;
+}
 .space-left {
   padding-left: 4rem !important;
 }
@@ -9,6 +25,9 @@
 }
 .space-bottom {
   padding-bottom: 4rem;
+}
+.space-top {
+  padding-top: 4rem;
 }
 
 

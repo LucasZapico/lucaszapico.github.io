@@ -1,42 +1,54 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
 
-  body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
-  }
+main {
+  flex: 1 0 auto;
+}
 
-  main {
-    flex: 1 0 auto;
-  }
 .page-footer {
+
   // margin-top: 5em;
   .brand-logo {
     svg {
       height: 6rem;
     }
+
     #house-icon {
-        height: 200px;
-
+      height: 200px;
     }
+  }
 
+  ul {
+    li {
+      margin-top: .8rem;
+    }
   }
+
   a {
-      color: $color-palette-a;
+
+    color: $color-palette-a;
   }
+
   a:hover {
     color: adjust-color($color-palette-a, $lightness: 30%);
   }
+
   a:active {
     color: adjust-color($color-palette-a, $lightness: -30%);
   }
+
   .get-in-touch {
     #coffee-cup-icon {
       height: 80px;
     }
-    h6
-    {
+
+    h6 {
       padding: 1em;
     }
+
     text-align: center;
     padding: 1em;
     margin: 0;
@@ -52,9 +64,11 @@
     color: $color-palette-a;
     padding: .5em;
   }
+
   a:hover {
     color: adjust-color($color-palette-a, $lightness: 30%)
   }
+
   a:active {
     color: adjust-color($color-palette-a, $lightness: -30%);
   }

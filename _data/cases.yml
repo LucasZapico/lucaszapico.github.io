@@ -14,22 +14,6 @@
 #   project-link:   /sunshine-life-project/
 #   description:    Branding and digital presence solution implementation
 
-- title:          Cohen Group
-  status:         live
-  date:           2018
-  link:
-  categories:     []
-  tags:           ['branding', 'design', 'digital&#8209presence']
-  type:           project
-  card-img-1x :           /pages/projects/cohen-group/cohen-group-assets/card/cohen-group-card-img-300.jpg 300w
-  card-img-2x : /pages/projects/cohen-group/cohen-group-assets/card/cohen-group-card-img-901.jpg 901w
-  card-img-3x : /pages/projects/cohen-group/cohen-group-assets/card/cohen-group-card-img-1309.jpg 1309w
-  card-img-4x : /pages/projects/cohen-group/cohen-group-assets/card/cohen-group-card-img-1650.jpg 1650w
-  card-alt: "Cohen Group Project Card Image"
-  offical-link:   https://www.livebellinghamnow.com/
-  project-link:   /cohen-group-project/
-  description:    Branding, Print Design
-
 - title:          CM Real Estate
   status:         live
   date:           2018
