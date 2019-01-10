@@ -1,12 +1,38 @@
 
 main.project {
+  .row {
+    margin-bottom: 0px;
+  }
+  .col {
+    padding: 0px;
+    margin: 0px;
+  }
   h3 {
-    padding-bottom: 4rem;
-    font-size: 4rem;
+    // padding-bottom: 4rem;
+    // font-size: 4rem;
   }
   p {
     font-family: $font-stack-secondary;
   }
+  .stack {
+    div{
+      p {
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+        margin-top: -10px;
+      }
+    }
+  img {
+      fill: $color-palette-b;
+      height: 6rem;
+      padding: 1rem;
+    }
+}
+.carousel {
+  height: 80vh;
+   
+}
 }
 
 .arrows {
@@ -45,11 +71,9 @@ main.project {
     background-color: transparent;
     position: sticky; top: 20rem;
     .arrows {
-
-
      svg {
        color: #bdbdbd;
-       font-size: 3rem;
+       font-size: 4rem;
        transition: all .5s;
      }
 
@@ -58,7 +82,7 @@ main.project {
        display: inline;
        padding-left: 1rem;
        padding-right: 1rem;
-       color: transparent;
+       color: $grey-l-1;
        transition: all .5s;
      }
    }

@@ -1,4 +1,4 @@
-const HOMECAROUSEL = document.querySelector('.carousel');
+const projectCarousel = document.querySelector('.carousel');
 const el = document.querySelector('.tabs');
 const HOMETOC = document.querySelector('.toc-wrapper');
 
@@ -7,8 +7,8 @@ var homeTOC = M.Pushpin.init(HOMETOC);
 //tab component intanciation
 var homeTabs = M.Tabs.init(el);
 
-// HOME CAROUSEL
-var carousel = M.Carousel.init(HOMECAROUSEL, {
+// Project CAROUSEL
+var carousel = M.Carousel.init(projectCarousel, {
   fullWidth: true,
   indicators: true,
   duration: 1000,

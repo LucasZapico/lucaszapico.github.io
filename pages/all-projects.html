@@ -6,10 +6,12 @@ permalink: /all-projects/
 
 <main>
   <section class="projects container space-row">
-
+      <h3 class="center-align">All Projects</h3>
+      <div class="divider"></div>
     <div class="row">
+        
       <a name="projects scrollspy"></a>
-      <h3>All Projects</h3>
+      
       {% for projects in site.data.projects %}
         {% if projects.status == "live" %}
       <div class="col s12 m6 l4">

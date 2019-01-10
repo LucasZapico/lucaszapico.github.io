@@ -1,7 +1,5 @@
 // DELIVERABLES
 .row {
-
-  // padding: 0;
   .col.table-of-contents {
       position: fixed;
       right: 0px;
@@ -13,35 +11,9 @@
       }
   }
 }
-// PULSE
-.pulse {
-  .row {
-   padding-top: 2rem;
-   padding-bottom: 2rem;
-  }
-  img {
-    height: 12rem;
-    width: 12rem;
-    object-fit: contain;
-  }
-  .post
-   {
-  }
-}
 
 
-
-// THICK NAV BAR
-// nav.main {
-//   height: 6em;
-// }
 .hero-header {
-  // position: relative;
-  // .hero-title {
-  //   width: 100%;
-  //   position: absolute;
-  //   top: 10em;
-  // }
   .hero-wrap {
     .hero-img {
       max-height: 600px;
@@ -51,35 +23,54 @@
   }
 }
 
-// HOME HERO START
+//*********************//
+// HOME PAGE
 
+
+// HOOME HERO
 #home-hero {
-    text-align: right;
-    :nth-child(1) {
-      font-size: 5rem;
-      letter-spacing: 1rem;
+  
+    .col:nth-child(1){
+      text-align: right;
+      h2{letter-spacing: 1rem;
+        font-size: 5rem;}
+      h2:nth-child(1) {
+       
+      }
+      h2:nth-child(2) {
+        font-size: 5rem;
+      }
+      h2:nth-child(3) {
+        font-size: 5rem;
+      }
     }
-    :nth-child(2) {
-      font-size: 5rem;
+    .col:nth-child(2){
+      text-align: left;
+      a {
+        margin-left: 0px;
+      }
     }
-    :nth-child(3) {
-      font-size: 5rem;
-    }
+  
 }
-// HOME HERO END
 
-.breadcrumb-nav {
-  box-shadow: none;
-  .breadcrumb {
-    padding-left: 0.5em;
+.icons  {
+  &.huge {
+    height: 8rem;
+  }
+  &.large {
+    height: 6rem;
+  }
+  &.medium {
+    height: 4rem;
+  }
+  &.small {
+    height: 3rem;
   }
 }
 
-/****
-**
-** GET IN TOUCH
-**
-*****/
+//*********************//
+// GET IN TOUCH COMPONENT
+
 .get-in-touch {
   #coffee-cup-icon {
     height: 80px;
@@ -102,7 +93,7 @@
 
 @media screen and (min-width: 700px){
   #home-tag {
-    text-transform: uppercase;
+    text-transform: none;
   }
 
 }

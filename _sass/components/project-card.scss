@@ -1,12 +1,15 @@
 .projects {
-
+  .row {display: flex;
+  flex-wrap: wrap;}
   .card {
     margin-bottom: 7rem;
     .card-image {
       height: 100%;
       img {
+        width: 100%;
         object-fit: cover;
-        height: 250px;
+        object-position: center;
+        // height: 250px;
       }
     }
     .card-content {
