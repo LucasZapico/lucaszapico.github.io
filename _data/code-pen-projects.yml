@@ -1,0 +1,93 @@
+- title: 'Split Color Text'
+  screenShot: "PXxVVB/image/small.png"
+  link: "PXxVVB"
+  date-created: "Jan2019"
+  tags: ["typography", "design-pattern", "color-play"]
+  summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+
+- title: "Horizontal Scroll"
+  screenShot: "JwbNmd/image/small.png"
+  link: "JwbNmd"
+  tags: ["functionality", "layout"]
+  summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+  
+- title: "Book of Tea Excerpt Layout"
+  screenShot: "maPoYd/image/small.png"
+  link: "maPoYd"
+  tags: ["layout"]
+  summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+
+- title: "Progress Bar"
+  screenShot: "yGXjVw/image/small.png"
+  link: "yGXjVw"
+  tags: ["functionality"]
+  summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+  
+
+- title: "Section Separator"
+  screenShot: "jXvwry/image/small.png"
+  link: "jXvwry"
+  tags: ["design-pattern", "color-play"]
+  summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+
+- title: "Gradient Slash"
+  screenShot: "PXyEOm/image/small.png"
+  link: "PXyEOm"
+  tags: ["layout", "design-pattern"]
+  summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+  
+- title: "Sun"
+  screenShot: "JwmyRQ/image/small.png"
+  link: "JwmyRQ"
+  tags: ["animation", "play", "pseudo-art", "color-play"]
+  summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+  
+- title: "Separator layout"
+  screenShot: "mazxEo/image/small.png"
+  link: "mazxEo"
+  tags: ["design-pattern", "layout", "typography", "color-play"]
+  summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+  
+- title: "Trudging Svg Animation"
+  screenShot: "BvajYa/image/small.png"
+  link: "BvajYa"
+  tags: ["animation", "svg"]
+  summary: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. "
+  
+- title: "Hamburger Hover Play"
+  screenShot: "mQLZRY/image/small.png"
+  link: "mQLZRY"
+  tags: ["animation", "design-pattern"]
+  summary: "bla bla bla"
+  
+  title: "404 Fox Svg"
+- screenShot: "eLqJvx/image/small.png"
+  link: "eLqJvx"
+  tags: ["animation", "svg", "pseudo-art"]
+  summary: "bla bla bla"
+
+- title: "404 Fox Svg"
+  screenShot: "rQPYvR/image/small.png"
+  link: "rQPYvR"
+  tags: ["animation", "svg", "pseudo-art"]
+  summary: "bla bla bla"
+
+
+- title: "Responsive Menu"
+  screenShot: "xaPWrr/image/small.png"
+  link: "xaPWrr"
+  tags: ["design-pattern", "svg", "color-play"]
+  summary: "bla bla bla"
+
+
+- title: "Hover Card"
+  screenShot: "rpPXQL/image/small.png"
+  link: "rpPXQL"
+  tags: ["design-pattern"]
+  summary: "bla bla bla"
+
+- title: "Scroll focus Section"
+  screenShot: "YeZrMy/image/small.png"
+  link: "YeZrMy"
+  tags: ["functionality", "color-play"]
+  summary: "bla bla bla"

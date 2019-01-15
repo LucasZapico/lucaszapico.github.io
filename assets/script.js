@@ -9,39 +9,88 @@ var homeTabs = M.Tabs.init(el);
 
 // Project CAROUSEL
 var carousel = M.Carousel.init(projectCarousel, {
-  fullWidth: true,
-  indicators: true,
-  duration: 1000,
-  onCycleTo: function(){
-    cycleSlide();
-  }
+    fullWidth: true,
+    indicators: true,
+    duration: 1000,
+    onCycleTo: function() {
+        cycleSlide();
+    }
 });
 // home carousel slide interval
-function cycleSlide(){
-  setTimeout(carTimer, 8000);
-  function carTimer() {
-      carousel.next();
-  }
+function cycleSlide() {
+    setTimeout(carTimer, 8000);
+
+    function carTimer() {
+        carousel.next();
+    }
 }
 // SCROLLSPY
 document.addEventListener('DOMContentLoaded', function() {
-   var elems = document.querySelectorAll('.scrollspy');
-   var scrollspy = M.ScrollSpy.init(elems);
- });
+    var elems = document.querySelectorAll('.scrollspy');
+    var scrollspy = M.ScrollSpy.init(elems);
+});
 
 
 var elem = document.querySelector('.parallax');
- var parallax = M.Parallax.init(elem);
+var parallax = M.Parallax.init(elem);
 
-// // ABOUT PAGET COLLAPSIBLE
-//  document.addEventListener('DOMContentLoaded', function(){
-//    var collapsElms = document.querySelectorAll('.collapsible');
-//    var instances = M.Collapsible.init(collapsElms);
-//  });
+//  WORKSHOP TAG SELECTIONS
 
-// SIDENAV
-// var sidenav = M.Sidenav.getInstance(elem);
-{/* <ul id="slide-out" class="sidenav">
-     <li><a class="sidenav-close" href="#!">Clicking this will close Sidenav</a></li>
- </ul>
- <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a> */}
+handleSelection();
+let tagArr = [];
+let selectedTags = [];
+
+
+// the selection action
+function handleSelection() {
+    const tags = document.querySelectorAll(".tag");
+    Array.from(tags).forEach(tag => {
+        tag.addEventListener("click", e => {
+            let action = "";
+            let tagName = tag.innerText;
+            if (tag.classList.contains("sel")) {
+                tag.classList.remove("sel");
+                action = "remove";
+            } else {
+                tag.classList.add("sel");
+                action = "add";
+            }
+            filtered(tagName, action);
+        });
+    });
+}
+
+// handle which elements are show or hidden
+
+function filtered(tag, action) {
+    let projects = document.querySelectorAll("[data-tags]");
+    projects = Array.from(projects);
+    if (action === "add") {
+        selectedTags.push(tag);
+    } else if (action === "remove") {
+        console.log("remove");
+        selectedTags = selectedTags.filter(t => {
+            return t !== tag;
+        });
+    }
+    console.log(selectedTags);
+    if (selectedTags.length > 0) {
+        projects.forEach(p => {
+            let pTags = p.getAttribute("data-tags").split(",");
+            if (
+                pTags.some(t => {
+                    return selectedTags.includes(t);
+                })
+            ) {
+                p.classList.remove("hide");
+            } else {
+                p.classList.add("hide");
+            }
+        });
+    } else {
+        console.log("test");
+        projects.forEach(p => {
+            p.classList.remove("hide");
+        });
+    }
+}
