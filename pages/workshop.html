@@ -5,7 +5,7 @@ permalink: /workshop/
 description: "Just a few of my tinkering and playing"
 ---
 {% include header.html %}
-<main class="">
+<main class="workshop">
   {% for project in site.data.code-pen-projects %}
     {% assign tagsArr = tagsArr | uniq | concat: project.tags %}
   {% endfor %}  
