@@ -1,0 +1,59 @@
+- test: test
+
+- foundation: 
+    title: Foundation for Health Care Quality"
+    status: live
+    year: 2018
+    quarter: winter
+   
+
+# projects
+
+## Project schema
+# project: 
+# - core-details:  
+#   title: 
+#   status: 
+#   year: 
+#   quarter: 
+#   link:
+#   permalink:
+#   description:
+#   categories: []
+#   tags: []
+#   type:
+#   tech-stack:
+#   # content 
+#   - projcet-summary :
+#     client: 
+#     challenge: 
+#     outcome: 
+#     deliverables: 
+#   - main-content:
+#     about:
+#     situation:
+#     challenge:
+#     solution:
+#     results:
+#     deliverables:
+#     refelections:
+  # - image-content:
+  #   hero-1x:
+  #   hero-2x:
+  #   hero-3x:
+  #   hero-alt:
+  #   img1-1x:
+  #   img1-2x:
+  #   img1-3x:
+  #   img1-alt:
+  #   img2-1x:
+  #   img2-2x:
+  #   img2-3x: 
+  #   img2-alt: 
+
+# projects
+
+# Project schema
+
+
+
