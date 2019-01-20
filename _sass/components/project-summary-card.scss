@@ -1,6 +1,7 @@
 .main {
   .projects {
-    .card-content {
+    & > .col {
+      
     }
     .card-action {
       height: 5em;

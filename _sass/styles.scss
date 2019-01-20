@@ -5,7 +5,6 @@
 **/
 @import 'base/_reset.scss';
 @import 'base/_accessibility.scss';
-
 @import 'color-type/_project-color-variables.scss';
 
 /**
@@ -21,7 +20,6 @@
 **    COLOR TYPE
 **
 **/
-
 @import 'color-type/_project-color-utilities.scss';
 @import 'color-type/_project-type.scss';
 
@@ -34,17 +32,19 @@
 @import  "components/footer.scss";
 @import  "components/nav.scss";
 @import "components/project-card.scss";
+@import "components/scroll-indicator.scss";
 
 
 /**
 **
-**    LAYOUTS
+**    PAGES & LAYOUTS 
 **
 **/
 @import "pages/_about.scss";
 @import "pages/_webkit.scss";
 @import "pages/_project.scss";
 @import "pages/_workshop.scss";
+@import "pages/_home.scss";
 
 /**
 **
