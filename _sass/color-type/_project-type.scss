@@ -53,7 +53,7 @@ p {
 }
 
 .font-secondary-color {
-  color: $primary-color;
+  color: $color-palette-a;
 }
 
 
@@ -81,6 +81,12 @@ a.link {
     text-decoration: underline;
     text-transform: uppercase;
     font-style: italic;
+    i {
+      padding-top: .3rem;
+    }
+  }
+  .link.em {
+
   }
 .link-light {
 

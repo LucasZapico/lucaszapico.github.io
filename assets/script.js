@@ -77,8 +77,12 @@ function filtered(tag, action) {
     if (selectedTags.length > 0) {
         projects.forEach(p => {
             let pTags = p.getAttribute("data-tags").split(",");
+            console.log(pTags);
+            pTags.forEach(t=>t.trim())
+            console.log(pTags);
             if (
                 pTags.some(t => {
+                    t.trim
                     return selectedTags.includes(t);
                 })
             ) {
