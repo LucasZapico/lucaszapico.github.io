@@ -23,12 +23,13 @@ description: "Just a few of my tinkering and playing"
   {% for project in site.data.code-pen-projects %}
     <div class="row" data-tags="{{project.tags | join: ","}}" data-link="{{project.link}}">
       <a href="https://codepen.io/LucasZapico/pen/{{project.link}}" target="_blank">
-        <div class="img card">
+        <div class="img ">
           <img src="https://codepen.io/LucasZapico/pen/{{project.screenShot}}">
         </div>
       </a>
       <div class="content">
-        
+        <h4>{{project.title}}</h4>
+        <p>{{project.summary}}</p>
       </div>
     </div>
   {% endfor %}

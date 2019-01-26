@@ -1,8 +1,12 @@
 .projects {
   .row {display: flex;
-  flex-wrap: wrap;}
+  flex-wrap: wrap;
+    .col {
+      padding: 2.5rem;
+      background: linear-gradient(hsla(0, 0%, 98%, 0.70), hsla(0, 0%, 98%, 0.70));
+    }
+}
   .card {
-    margin-bottom: 7rem;
     .card-image {
       height: 100%;
       img {
@@ -37,4 +41,4 @@
   }
 }
 
-// @media
+

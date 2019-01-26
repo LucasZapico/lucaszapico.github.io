@@ -2,6 +2,7 @@
   status:         live
   date:           2018
   link:
+  color:          "#189BB4" 
   categories:     []
   tags:           ['wordpress', 'development']
   type:           project
@@ -18,6 +19,7 @@
   status:         live
   date:           2018
   link:
+  color:          "#B84429"
   categories:     []
   tags:           ['branding', 'design', 'digital&#8209presence']
   type:           project
@@ -33,6 +35,7 @@
   status:         live
   date:           2018
   link:
+  color:          "#8B203A"  
   categories:     []
   tags:           ['branding', 'design', 'digital&#8209presence']
   type:           project
@@ -50,6 +53,7 @@
   date:           2018
   # link:
   # categories:   []
+  color:        "#C6B654"
   tags:           ['design', 'development', 'full&#8209stack']
   type:           project
   card-img-1x :   /pages/projects/luc.inc/luc.inc-assests/card-img-luc-inc/card-img-luc-inc-600.jpg 600w
@@ -64,6 +68,7 @@
 - title:          FreeBird Rides
   status:         live
   date:           2017
+  color:        "#18878B"
   categories:     []
   tags:           ['branding', 'design', 'user&#8209interface', 'user&#8209experience', 'quality&#8209assurance&#8209testing']
   icon:           assets/img/project-img/icons/freebird-icon.png
@@ -80,6 +85,7 @@
 - title:          LifeLines
   status:         live
   date:           2017
+  color:        "#0A8FC3"
   categories:     []
   tags:           ['project&#8209management','user&#8209interface', 'user&#8209experience', 'frontend&#8209developemt']
   icon:           assets/img/project-img/icons/lifelines-icon.png
@@ -95,6 +101,7 @@
 - title:          MyLücke
   status:         live
   date:           2017
+  color:        "#141E30"
   categories:     []
   tags:           ['user&#8209interface']
   icon:           assets/img/project-img/icons/mylucke-icon.png
@@ -111,6 +118,7 @@
 - title:          Fantelope
   status:         live
   date:           2017
+  color:          "#E27B56"
   categories:     []
   tags:           ['project-management','user-interface', 'user-experience']
   icon:           assets/img/project-img/icons/fantelope.jpeg
@@ -125,6 +133,7 @@
 - title:          DadApp
   status:         live
   date:           2017
+  color:          "#000000"
   categories:     []
   tags:           ['project&#8209management','user&#8209interface', 'user&#8209experience']
   icon:           assets/img/project-img/icons/dadapp-icon.png
@@ -140,6 +149,7 @@
 - title:          AAC
   status:         live
   date:           2017
+  color:          "#010080"
   categories:     []
   tags:           ['web&#8209design', 'content&#8209creation']
   icon:           assets/img/project-img/icons/aac-icon.png
