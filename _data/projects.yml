@@ -14,6 +14,10 @@
   offical-link:   https://sunshinelifeaz.com/
   project-link:   /quality-health-project/
   description:    Custom wordpress development
+  challenge: "Develop their redesigned UX and UI within the Wordpress platform"
+  outcome: "Custom theme built for Wordpress CMS via design specifications"
+  deliverables: "Custom Wordpress Development"
+
 
 - title:          Sunshine Az
   status:         live
@@ -30,6 +34,9 @@
   # offical-link: https://clairemorency.withwre.com/
   project-link:   /sunshine-project/
   description:    Web-Design, Branding
+  challenge: "Design and Develop a brand and website that informs and facilitates rental bookings"
+  outcome: "Design of a unique brand identity accompanied by a custom website with booking functionality"
+  deliverables: "Branding, Design Direction, Web Design, Hosting and Deplyment"
 
 - title:          CM Real Estate
   status:         live
@@ -47,6 +54,9 @@
   offical-link:   https://clairemorency.withwre.com/
   project-link:   /morency-real-estate-project/
   description:    Print design, Web-Design, Branding
+  challenge: "Redesign of the brand and development of a website that sells business value."
+  outcome: "Design of a unique brand identity. As well as a custom designed website."
+  deliverables: "Custom Web Design, Design Direction, UX Design, Branding"
 
 - title:          Portfolio
   status:         live
@@ -64,6 +74,9 @@
   offical-link:   https://lucaszapico.github.io/
   project-link:   /luc-inc-project/
   description:    This is an ongoing project to develop and refine Luc.inc digital presence. Including the asset pipelines and channel that need to be developed for a potent digital identity.
+  challenge: "Design and Develop a brand and website conveys business value, personality and process"
+  outcome: "Design of a brand identity a website, Codepen, CodeSandbox that reasonably expresses proficiencies"
+  deliverables: "Custom Branding, Design Direction, Web & UX Design, Development, Copywriting"
 
 - title:          FreeBird Rides
   status:         live
@@ -81,6 +94,9 @@
   project-link:   /freebird-rides-project/
   responsibility: Team onboarding, Quality Assurance, Brand Development and Content Creation
   description:    I was tasked with early-stage black box quality assurance testing. The creation and maintenance of core application UI assets and was a part of the initial branding team.
+  challenge: "Brand, pinpoint and detail the ideal user experience"
+  outcome: "Design of brand identity. Extensive research, diagraming, and, quality assurance testing of user experiences"
+  deliverables: "Print Design, User Experience Research, Quality Assurance Testing"
 
 - title:          LifeLines
   status:         live
@@ -97,6 +113,9 @@
   project-link:   /lifelines-project/
   responsibility: Product Management, User Interface and Experience Design and Testing
   description:    I was tasked with the discovery, planning and development of a web and mobile application. This included developing core brand content, design kit, webkit and application architecture.
+  challenge: "Design product that meets the desired feature set"
+  outcome: "Product design and development of frontend user interface"
+  deliverables: "Design Direction, Product Design, Frontend UI Development"
 
 - title:          MyLücke
   status:         live
@@ -114,6 +133,9 @@
   project-link:   /mylucke-project/
   responsibility: Web design, Quality Assurance Testing, and Product Management
   description:    I was responsible for UI asset management for both web and mobile component libraries. The production of web application design and the quality assurance testing of the product.
+  challenge: "Design mobile and web portal user interface and user experience"
+  outcome: "Design and development of multiple iterations of UI and UX"
+  deliverables: " Low and High Fidelity Mockups, UI and UX Design, and Prototypes"
 
 - title:          Fantelope
   status:         live
@@ -129,6 +151,9 @@
   offical-link:   http://www.advancedaircraftcompany.com/
   project-link:   /fantelope-project/
   description:    Tasked with the redesign of an IOS application. I produced renewed UI and application architecture.
+  challenge: "Redesign UX and UI for IOS"
+  outcome: "Designed User Experience and User Interface"
+  deliverables: "Wireframes, Low and High-fy mockups of IOS application"
 
 - title:          DadApp
   status:         live
@@ -145,6 +170,9 @@
   project-link:   /dadapp-project/
   responsibility: User Interface and Experience Design, Testing and Product Management
   description:    I was tasked with the design of the UI and feature set of a IOS mobile application
+  challenge: "Design the UI and UX"
+  outcome: "Designed, developed and deployed IOS application to the app store"
+  deliverables: "Custom product design"
 
 - title:          AAC
   status:         live
@@ -162,6 +190,9 @@
   project-link:   /aac-project/
   responsibility: Content Management, Web Design, Hosting
   description:    I was responsible for the curation, production brand assets and deployment of the wordpress website.
+  challenge: "Develop a page that generates interest and informs the unique value of AAC drones"
+  outcome: "Design of a Wordpress site"
+  deliverables: "Custom Wordpress Development"
 
 
 - title:          JAFRA
