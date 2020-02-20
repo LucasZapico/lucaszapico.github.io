@@ -1,4 +1,18 @@
-- title: 'Split Color Text'
+- title: "Reactjs Markdown App"
+  screenShot: "RwPRMeM/image/small.png"
+  link: "RwPRMeM"
+  date-created: "Feb2020"
+  tags: ["react", "markdown", "app"]
+  summary: "A fun markdown previewer made with react with a touch on 2020 neumorphism design trend"
+
+- title: "Neumorphism Study"
+  screenShot: "XWbKqza/image/small.png"
+  link: "XWbKqza"
+  date-created: "Feb2020"
+  tags: ["design-pattern", "scss", "design-trend"]
+  summary: "Study of the 2020 design trend of neumorphism to develop some reuable styles for future projects"
+
+- title: "Split Color Text"
   screenShot: "PXxVVB/image/small.png"
   link: "PXxVVB"
   date-created: "Jan2019"
@@ -10,7 +24,7 @@
   link: "JwbNmd"
   tags: ["functionality", "layout"]
   summary: "A studying into hijacking expected scroll functionality. I have seen the horizontal scroll implemented in very fresh and interesting ways."
-  
+
 - title: "Book of Tea Excerpt Layout"
   screenShot: "maPoYd/image/small.png"
   link: "maPoYd"
@@ -22,7 +36,6 @@
   link: "yGXjVw"
   tags: ["functionality"]
   summary: "Exploring the scroll progress and section word count display. <br><em>Note: I would like to come back around and add a progress by word count ui of some sort.</em>"
-  
 
 - title: "Section Separator"
   screenShot: "jXvwry/image/small.png"
@@ -35,31 +48,31 @@
   link: "PXyEOm"
   tags: ["layout", "design-pattern"]
   summary: "Layout play across the diagonal. <em>Note:  I should probably circle back to this and expand. </em>"
-  
+
 - title: "Sun"
   screenShot: "JwmyRQ/image/small.png"
   link: "JwmyRQ"
   tags: ["animation", "play", "pseudo-art", "color-play"]
   summary: " really enjoy this flat sun pseudo cloud visual. Thus, it was an obvious project to render it."
-  
+
 - title: "Separator layout"
   screenShot: "mazxEo/image/small.png"
   link: "mazxEo"
   tags: ["design-pattern", "layout", "typography", "color-play"]
   summary: "Continued play with separators with an exercise in strong color usages."
-  
+
 - title: "Trudging Svg Animation"
   screenShot: "BvajYa/image/small.png"
   link: "BvajYa"
   tags: ["animation", "svg"]
   summary: "An initial first push into some of the really amazing stuff that can be made with svg's."
-  
+
 - title: "Hamburger Hover Play"
   screenShot: "mQLZRY/image/small.png"
   link: "mQLZRY"
   tags: ["animation", "design-pattern"]
   summary: "Some hamburger menu animation. Fun little project."
-  
+
 - title: "404 Fox Svg"
   screenShot: "eLqJvx/image/small.png"
   link: "eLqJvx"
@@ -72,13 +85,11 @@
   tags: ["animation", "svg", "pseudo-art"]
   summary: "A study in border effects and loading animations. "
 
-
 - title: "Responsive Menu"
   screenShot: "xaPWrr/image/small.png"
   link: "xaPWrr"
   tags: ["design-pattern", "svg", "color-play"]
   summary: "Study of a responsive nav menu pattern. With toggle and hamburger menu animations function. "
-
 
 - title: "Hover Card"
   screenShot: "rpPXQL/image/small.png"
