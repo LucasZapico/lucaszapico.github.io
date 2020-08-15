@@ -4,6 +4,7 @@
   date-created: "Feb2020"
   tags: ["react", "markdown", "app"]
   summary: "A fun markdown previewer made with react with a touch on 2020 neumorphism design trend"
+  type: "code-pen"
 
 - title: "Neumorphism Study"
   screenShot: "XWbKqza/image/small.png"
@@ -11,6 +12,7 @@
   date-created: "Feb2020"
   tags: ["design-pattern", "scss", "design-trend"]
   summary: "Study of the 2020 design trend of neumorphism to develop some reuable styles for future projects"
+  type: "code-pen"
 
 - title: "Split Color Text"
   screenShot: "PXxVVB/image/small.png"
