@@ -1,6 +1,0 @@
----
-permalink: robots.txt
----
-User-agent: *
-Disallow: /morency-real-estate-project/deliverables/
-Disallow: /wip/
